@@ -11,7 +11,6 @@ REGION = "eu"  # eu | na | asia
 # =========================
 def get_clan_id(clan_name):
     """Fetch the clan ID using the clan name or tag."""
-    # Use 'clans' plural for the official WG API endpoint
     url = f"https://api.worldoftanks.{REGION}/wot/clans/list/"
     params = {
         "application_id": APP_ID,
@@ -25,7 +24,6 @@ def get_clan_id(clan_name):
     if not data:
         raise Exception(f"Clan '{clan_name}' not found")
 
-    # FIX: Corrected from 'account_id' to 'clan_id'
     return data[0]["clan_id"]
 
 
@@ -40,7 +38,6 @@ def get_clan_stats(clan_id):
     r = requests.get(url, params=params)
     r.raise_for_status()
     
-    # Accessing the specific clan data via the clan_id string key
     return r.json()["data"][str(clan_id)]
 
 
@@ -51,8 +48,6 @@ def fetch_and_display_stats(clan_name):
 
     print(f"\n--- Statistics for {stats['name']} [{stats['tag']}] ---")
 
-    # Clan stats are often nested under 'private' or calculated from members
-    # For general public info:
     members_count = stats.get("members_count", 0)
     created_at = stats.get("created_at", "N/A")
 
