@@ -3,7 +3,7 @@ import requests
 
 # ================= CONFIG =================
 TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-APP_ID = "02a11c34c34f9a3f73766e3646a1e21a"
+APP_ID = ""
 REGION = "eu"
 
 bot = telebot.TeleBot(TOKEN)

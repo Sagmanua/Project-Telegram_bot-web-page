@@ -5,7 +5,7 @@ from telebot import types
 
 # ================= CONFIG =================
 TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  
-APP_ID = "02a11c34c34f9a3f73766e3646a1e21a"
+APP_ID = ""
 REGION = "eu"
 ADMINS = {1083670850}
 

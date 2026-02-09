@@ -1,0 +1,12 @@
+{
+  "ebr105": {
+    "full_name": "Panhard EBR 105",
+    "damage": "Light (390 Alpha)",
+    "image": "https://picsum.photos/800/600"
+  },
+  "is7": {
+    "full_name": "IS-7",
+    "damage": "Heavy (490 Alpha)",
+    "url": "https://worldoftanks.eu/en/tankopedia/1025-R45_IS-7/"
+  }
+}

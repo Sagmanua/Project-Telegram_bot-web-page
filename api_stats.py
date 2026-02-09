@@ -3,7 +3,7 @@ import requests
 # =========================
 # CONFIG
 # =========================
-APP_ID = "02a11c34c34f9a3f73766e3646a1e21a"
+APP_ID = ""
 PLAYER = ""
 REGION = "eu"  # eu | na | asia
 
