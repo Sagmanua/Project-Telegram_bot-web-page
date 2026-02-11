@@ -1,0 +1,138 @@
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "373px",
+      "top": "238px",
+      "width": "",
+      "height": "",
+      "texto": "Databases"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "384px",
+      "top": "353px",
+      "width": "",
+      "height": "",
+      "texto": "Clan"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "entity",
+      "left": "363px",
+      "top": "439px",
+      "width": "",
+      "height": "",
+      "entityName": "Clan",
+      "properties": [
+        {
+          "id": "prop-1",
+          "name": "id"
+        },
+        {
+          "id": "prop-2",
+          "name": "player"
+        },
+        {
+          "id": "prop-3",
+          "name": "info more informacion from api"
+        }
+      ]
+    },
+    {
+      "id": "forma-5",
+      "tipo": "text",
+      "left": "369px",
+      "top": "420px",
+      "width": "",
+      "height": "",
+      "texto": "This informacion will be get from api when crete clan add each day use for conect player to caln "
+    },
+    {
+      "id": "forma-7",
+      "tipo": "entity",
+      "left": "660px",
+      "top": "440px",
+      "width": "",
+      "height": "",
+      "entityName": "Player",
+      "properties": [
+        {
+          "id": "prop-4",
+          "name": "id"
+        },
+        {
+          "id": "prop-5",
+          "name": "id_clan"
+        },
+        {
+          "id": "prop-6",
+          "name": "role"
+        },
+        {
+          "id": "prop-7",
+          "name": "some informacion from api"
+        },
+        {
+          "id": "prop-11",
+          "name": "id_telegram_user"
+        }
+      ]
+    },
+    {
+      "id": "forma-9",
+      "tipo": "entity",
+      "left": "126px",
+      "top": "445px",
+      "width": "",
+      "height": "",
+      "entityName": "Masage ",
+      "properties": [
+        {
+          "id": "prop-8",
+          "name": "id"
+        },
+        {
+          "id": "prop-9",
+          "name": "Clan_id"
+        },
+        {
+          "id": "prop-10",
+          "name": "context"
+        }
+      ]
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": "prop-1",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-7",
+        "propId": "prop-5",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": "prop-1",
+        "side": "left"
+      },
+      "hasta": {
+        "shapeId": "forma-9",
+        "propId": "prop-8",
+        "side": "right"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
