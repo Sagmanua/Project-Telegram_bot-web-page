@@ -1,0 +1,207 @@
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "552px",
+      "top": "172px",
+      "width": "",
+      "height": "",
+      "texto": "index.html"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "721px",
+      "top": "87px",
+      "width": "",
+      "height": "",
+      "texto": "stats.html"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "494px",
+      "top": "82px",
+      "width": "",
+      "height": "",
+      "texto": "equmpment.html"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "1039px",
+      "top": "206px",
+      "width": "",
+      "height": "",
+      "texto": "Admin panel"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "text",
+      "left": "555px",
+      "top": "141px",
+      "width": "",
+      "height": "",
+      "texto": "most off this pages will ve crete with Api Wot"
+    },
+    {
+      "id": "forma-7",
+      "tipo": "text",
+      "left": "1050px",
+      "top": "182px",
+      "width": "",
+      "height": "",
+      "texto": "this will be conect to DB "
+    },
+    {
+      "id": "forma-8",
+      "tipo": "text",
+      "left": "478px",
+      "top": "57px",
+      "width": "",
+      "height": "",
+      "texto": "will be foto with all eqpment"
+    },
+    {
+      "id": "forma-9",
+      "tipo": "text",
+      "left": "750px",
+      "top": "56px",
+      "width": "",
+      "height": "",
+      "texto": "find stats "
+    },
+    {
+      "id": "forma-10",
+      "tipo": "rectangle",
+      "left": "1040px",
+      "top": "506px",
+      "width": "",
+      "height": "",
+      "texto": "databsase"
+    },
+    {
+      "id": "forma-11",
+      "tipo": "rectangle",
+      "left": "647px",
+      "top": "639px",
+      "width": "",
+      "height": "",
+      "texto": "telegram bot"
+    },
+    {
+      "id": "forma-12",
+      "tipo": "rectangle",
+      "left": "185px",
+      "top": "463px",
+      "width": "",
+      "height": "",
+      "texto": "WG"
+    },
+    {
+      "id": "forma-13",
+      "tipo": "rectangle",
+      "left": "640px",
+      "top": "484px",
+      "width": "",
+      "height": "",
+      "texto": "conection(api)"
+    },
+    {
+      "id": "forma-14",
+      "tipo": "rectangle",
+      "left": "587px",
+      "top": "249px",
+      "width": "",
+      "height": "",
+      "texto": "Web page"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-12",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-13",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-13",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-11",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "doble",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-14",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-13",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-14",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-10",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-10",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-11",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "doble",
+      "estilo": "straight"
+    }
+  ]
+}
