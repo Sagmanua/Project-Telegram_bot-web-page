@@ -120,9 +120,9 @@
         }
     },
     {
-        "name": "Wz-111",
+        "name": "WZ-111",
         "nation": "china",
-        "tier": "8",
+        "tier": 8,
         "hp": "1240",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -147,6 +147,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.6
             }
+        },
+        "api_id": "817",
+        "tag": "Ch03_WZ-111",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.0,
+            "dpm": 1705
         }
     },
     {
@@ -392,7 +399,7 @@
     {
         "name": "110",
         "nation": "china",
-        "tier": "7",
+        "tier": 8,
         "hp": "1360",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -417,6 +424,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 2.8
             }
+        },
+        "api_id": "2865",
+        "tag": "Ch11_110",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.5,
+            "dpm": 1636
         }
     },
     {
@@ -572,7 +586,7 @@
     {
         "name": "WZ-131",
         "nation": "china",
-        "tier": "6",
+        "tier": 7,
         "hp": "800",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -597,6 +611,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "3377",
+        "tag": "Ch16_WZ_131",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 6.6,
+            "dpm": 1427
         }
     },
     {
@@ -690,9 +711,9 @@
         }
     },
     {
-        "name": "Wz-120",
+        "name": "WZ-120",
         "nation": "china",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -717,12 +738,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 3.68
             }
+        },
+        "api_id": "1841",
+        "tag": "Ch18_WZ-120",
+        "stats": {
+            "damage_avg": 219,
+            "reload_time": 5.3,
+            "dpm": 2479
         }
     },
     {
         "name": "121",
         "nation": "china",
-        "tier": "10",
+        "tier": 10,
         "hp": "1640",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -747,6 +775,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "4145",
+        "tag": "Ch19_121",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 9.4,
+            "dpm": 2457
         }
     },
     {
@@ -812,7 +847,7 @@
     {
         "name": "T34",
         "nation": "china",
-        "tier": "4",
+        "tier": 8,
         "hp": "520",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -837,12 +872,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 6.44
             }
+        },
+        "api_id": "2849",
+        "tag": "A13_T34_hvy",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 15.0,
+            "dpm": 1400
         }
     },
     {
         "name": "113",
         "nation": "china",
-        "tier": "10",
+        "tier": 10,
         "hp": "1840",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -867,6 +909,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "5425",
+        "tag": "Ch22_113",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 10.0,
+            "dpm": 2310
         }
     },
     {
@@ -902,7 +951,7 @@
     {
         "name": "113 Beijing Opera",
         "nation": "china",
-        "tier": "10",
+        "tier": 10,
         "hp": "1840",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -927,12 +976,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "62513",
+        "tag": "Ch22_113_Beijing_Opera",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 10.0,
+            "dpm": 2310
         }
     },
     {
         "name": "112",
         "nation": "china",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.23",
@@ -957,12 +1013,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 3.12
             }
+        },
+        "api_id": "64561",
+        "tag": "Ch23_112",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.6,
+            "dpm": 1623
         }
     },
     {
-        "name": "112 Fl",
+        "name": "112 FL",
         "nation": "china",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.23",
@@ -987,6 +1050,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 3.12
             }
+        },
+        "api_id": "61745",
+        "tag": "Ch23_112_FL",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.6,
+            "dpm": 1623
         }
     },
     {
@@ -1142,7 +1212,7 @@
     {
         "name": "WZ-132A",
         "nation": "china",
-        "tier": "8",
+        "tier": 9,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -1167,6 +1237,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "5681",
+        "tag": "Ch28_WZ_132A",
+        "stats": {
+            "damage_avg": 219,
+            "reload_time": 6.9,
+            "dpm": 1904
         }
     },
     {
@@ -1200,9 +1277,9 @@
         }
     },
     {
-        "name": "T-26G Ft",
+        "name": "T-26G FT",
         "nation": "china",
-        "tier": "2",
+        "tier": 2,
         "hp": "200",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -1227,12 +1304,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "6449",
+        "tag": "Ch30_T-26G_FT",
+        "stats": {
+            "damage_avg": 31,
+            "reload_time": 2.0,
+            "dpm": 930
         }
     },
     {
-        "name": "M3G Ft",
+        "name": "M3G FT",
         "nation": "china",
-        "tier": "2",
+        "tier": 3,
         "hp": "228",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -1257,12 +1341,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "6705",
+        "tag": "Ch31_M3G_FT",
+        "stats": {
+            "damage_avg": 74,
+            "reload_time": 3.3,
+            "dpm": 1345
         }
     },
     {
-        "name": "Su-76G Ft",
+        "name": "SU-76G FT",
         "nation": "china",
-        "tier": "3",
+        "tier": 4,
         "hp": "304",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -1287,12 +1378,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "6961",
+        "tag": "Ch32_SU-76G_FT",
+        "stats": {
+            "damage_avg": 74,
+            "reload_time": 2.8,
+            "dpm": 1585
         }
     },
     {
-        "name": "60G Ft",
+        "name": "60G FT",
         "nation": "china",
-        "tier": "4",
+        "tier": 5,
         "hp": "416",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -1317,6 +1415,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "7217",
+        "tag": "Ch33_60G_FT",
+        "stats": {
+            "damage_avg": 140,
+            "reload_time": 4.5,
+            "dpm": 1866
         }
     },
     {
@@ -1350,9 +1455,9 @@
         }
     },
     {
-        "name": "T-34-2G Ft",
+        "name": "T-34-2G FT",
         "nation": "china",
-        "tier": "6",
+        "tier": 7,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.21",
@@ -1377,6 +1482,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "7729",
+        "tag": "Ch35_T-34-2G_FT",
+        "stats": {
+            "damage_avg": 219,
+            "reload_time": 6.6,
+            "dpm": 1990
         }
     },
     {
@@ -1770,9 +1882,9 @@
         }
     },
     {
-        "name": "114 Sp2",
+        "name": "114 SP2",
         "nation": "china",
-        "tier": "10",
+        "tier": 10,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -1797,12 +1909,19 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 2.16
             }
+        },
+        "api_id": "60977",
+        "tag": "Ch44_114_SP2",
+        "stats": {
+            "damage_avg": 569,
+            "reload_time": 14.4,
+            "dpm": 2370
         }
     },
     {
         "name": "WZ-114",
         "nation": "china",
-        "tier": "9",
+        "tier": 9,
         "hp": "1840",
         "chassis_stats": {
             "movement_dispersion": "0.27",
@@ -1827,6 +1946,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "60465",
+        "tag": "Ch45_WZ_114",
+        "stats": {
+            "damage_avg": 464,
+            "reload_time": 20.0,
+            "dpm": 1392
         }
     },
     {
@@ -2372,7 +2498,7 @@
     {
         "name": "Yong Bing",
         "nation": "china",
-        "tier": "9",
+        "tier": 9,
         "hp": "1520",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -2397,6 +2523,13 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "66097",
+        "tag": "Ch63_Yong_Bing",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 12.5,
+            "dpm": 1848
         }
     },
     {
@@ -2672,7 +2805,7 @@
     {
         "name": "Kolohousenka",
         "nation": "czech",
-        "tier": "1",
+        "tier": 1,
         "hp": "188",
         "chassis_stats": {
             "movement_dispersion": "0.36",
@@ -2697,6 +2830,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.92
             }
+        },
+        "api_id": "113",
+        "tag": "Cz06_Kolohousenka",
+        "stats": {
+            "damage_avg": 35,
+            "reload_time": 3.3,
+            "dpm": 636
         }
     },
     {
@@ -3390,9 +3530,9 @@
         }
     },
     {
-        "name": "Tbt",
+        "name": "TBT",
         "nation": "czech",
-        "tier": "9",
+        "tier": 9,
         "hp": "1480",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -3417,6 +3557,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "52593",
+        "tag": "Cz30_TBT",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 34.0,
+            "dpm": 757
         }
     },
     {
@@ -3812,7 +3959,7 @@
     {
         "name": "D1",
         "nation": "france",
-        "tier": "1",
+        "tier": 2,
         "hp": "272",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -3837,12 +3984,19 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "1601",
+        "tag": "F02_D1",
+        "stats": {
+            "damage_avg": 7,
+            "reload_time": 5.0,
+            "dpm": 84
         }
     },
     {
         "name": "D2",
         "nation": "france",
-        "tier": "2",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -3867,12 +4021,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "321",
+        "tag": "F03_D2",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 2.5,
+            "dpm": 1056
         }
     },
     {
         "name": "B1",
         "nation": "france",
-        "tier": "3",
+        "tier": 4,
         "hp": "560",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -3897,6 +4058,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "1089",
+        "tag": "F04_B1",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 2.2,
+            "dpm": 1418
         }
     },
     {
@@ -3930,9 +4098,9 @@
         }
     },
     {
-        "name": "Arl 44",
+        "name": "ARL 44",
         "nation": "france",
-        "tier": "5",
+        "tier": 6,
         "hp": "800",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -3957,6 +4125,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 2.8
             }
+        },
+        "api_id": "2625",
+        "tag": "F06_ARL_44",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 8.0,
+            "dpm": 1575
         }
     },
     {
@@ -3990,9 +4165,9 @@
         }
     },
     {
-        "name": "Amx 50 100",
+        "name": "AMX 50 100",
         "nation": "france",
-        "tier": "7",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -4017,6 +4192,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "3137",
+        "tag": "F08_AMX_50_100",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 43.0,
+            "dpm": 341
         }
     },
     {
@@ -4050,9 +4232,9 @@
         }
     },
     {
-        "name": "Amx 50 120",
+        "name": "AMX 50 120",
         "nation": "france",
-        "tier": "8",
+        "tier": 9,
         "hp": "1480",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -4077,12 +4259,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "3905",
+        "tag": "F09_AMX_50_120",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 35.0,
+            "dpm": 449
         }
     },
     {
-        "name": "Panhard Ebr 90",
+        "name": "Panhard EBR 90",
         "nation": "france",
-        "tier": "8",
+        "tier": 9,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -4107,6 +4296,13 @@
                 "turret_traverse": 68.84,
                 "turret_bloom_max": 3.3
             }
+        },
+        "api_id": "18753",
+        "tag": "F100_Panhard_EBR_90",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 8.0,
+            "dpm": 1575
         }
     },
     {
@@ -4200,9 +4396,9 @@
         }
     },
     {
-        "name": "Hotchkiss Ebr",
+        "name": "Hotchkiss EBR",
         "nation": "france",
-        "tier": "6",
+        "tier": 7,
         "hp": "640",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -4227,12 +4423,19 @@
                 "turret_traverse": 57.36,
                 "turret_bloom_max": 6.6
             }
+        },
+        "api_id": "18241",
+        "tag": "F107_Hotchkiss_EBR",
+        "stats": {
+            "damage_avg": 149,
+            "reload_time": 6.6,
+            "dpm": 1354
         }
     },
     {
-        "name": "Panhard Ebr 105",
+        "name": "Panhard EBR 105",
         "nation": "france",
-        "tier": "10",
+        "tier": 10,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.09",
@@ -4257,6 +4460,13 @@
                 "turret_traverse": 68.84,
                 "turret_bloom_max": 3.3
             }
+        },
+        "api_id": "19009",
+        "tag": "F108_Panhard_EBR_105",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.0,
+            "dpm": 1705
         }
     },
     {
@@ -4470,9 +4680,9 @@
         }
     },
     {
-        "name": "M10 Rbfm",
+        "name": "M10 RBFM",
         "nation": "france",
-        "tier": "5",
+        "tier": 5,
         "hp": "376",
         "chassis_stats": {
             "movement_dispersion": "0.21",
@@ -4497,12 +4707,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.6
             }
+        },
+        "api_id": "61249",
+        "tag": "F112_M10_RBFM",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 3.1,
+            "dpm": 1935
         }
     },
     {
         "name": "Bretagne Panther",
         "nation": "france",
-        "tier": "6",
+        "tier": 6,
         "hp": "752",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -4527,6 +4744,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "60737",
+        "tag": "F113_Bretagne_Panther",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 4.2,
+            "dpm": 1685
         }
     },
     {
@@ -4742,7 +4966,7 @@
     {
         "name": "Char Murat",
         "nation": "france",
-        "tier": "9",
+        "tier": 9,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.23",
@@ -4767,6 +4991,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "32577",
+        "tag": "F119_Char_Murat",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 35.0,
+            "dpm": 584
         }
     },
     {
@@ -4802,7 +5033,7 @@
     {
         "name": "Projet Louis",
         "nation": "france",
-        "tier": "9",
+        "tier": 9,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.1",
@@ -4827,6 +5058,13 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 4.6
             }
+        },
+        "api_id": "59201",
+        "tag": "F120_Projet_Louis",
+        "stats": {
+            "damage_avg": 109,
+            "reload_time": 18.0,
+            "dpm": 363
         }
     },
     {
@@ -4860,9 +5098,9 @@
         }
     },
     {
-        "name": "Erac 105 Proto",
+        "name": "ERAC 105 Proto",
         "nation": "france",
-        "tier": "9",
+        "tier": 9,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -4887,6 +5125,13 @@
                 "turret_traverse": 43.81,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "32833",
+        "tag": "F123_ERAC_105_Proto",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 10.7,
+            "dpm": 1570
         }
     },
     {
@@ -4920,9 +5165,9 @@
         }
     },
     {
-        "name": "Amx Elc 901",
+        "name": "AMX ELC 901",
         "nation": "france",
-        "tier": "6",
+        "tier": 6,
         "hp": "440",
         "chassis_stats": {
             "movement_dispersion": "0.25",
@@ -4947,12 +5192,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 8.8
             }
+        },
+        "api_id": "57153",
+        "tag": "F127_AMX_ELC_901",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 11.9,
+            "dpm": 1058
         }
     },
     {
-        "name": "Sfac 105",
+        "name": "SFAC 105",
         "nation": "france",
-        "tier": "8",
+        "tier": 8,
         "hp": "880",
         "chassis_stats": {
             "movement_dispersion": "0.27",
@@ -4977,6 +5229,13 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 3.3
             }
+        },
+        "api_id": "65601",
+        "tag": "F128_SFAC_105",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 10.5,
+            "dpm": 1948
         }
     },
     {
@@ -5042,7 +5301,7 @@
     {
         "name": "Hotchkiss H35",
         "nation": "france",
-        "tier": "1",
+        "tier": 2,
         "hp": "256",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -5067,12 +5326,19 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "1345",
+        "tag": "F12_Hotchkiss_H35",
+        "stats": {
+            "damage_avg": 26,
+            "reload_time": 2.5,
+            "dpm": 624
         }
     },
     {
         "name": "Sentinelle",
         "nation": "france",
-        "tier": "9",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.17",
@@ -5097,12 +5363,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "66113",
+        "tag": "F130_Sentinelle",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 25.0,
+            "dpm": 818
         }
     },
     {
         "name": "Brennos",
         "nation": "france",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -5127,6 +5400,13 @@
                 "turret_traverse": 34.42,
                 "turret_bloom_max": 2.64
             }
+        },
+        "api_id": "66881",
+        "tag": "F131_Brennos",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 10.8,
+            "dpm": 1555
         }
     },
     {
@@ -5250,9 +5530,9 @@
         }
     },
     {
-        "name": "Amx 67 Imbattable",
+        "name": "AMX 67 Imbattable",
         "nation": "france",
-        "tier": "11",
+        "tier": 11,
         "hp": "1840",
         "chassis_stats": {
             "movement_dispersion": "0.17",
@@ -5277,6 +5557,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 3.8
             }
+        },
+        "api_id": "33345",
+        "tag": "F136_AMX_67_Imbattable",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 31.0,
+            "dpm": 694
         }
     },
     {
@@ -5520,9 +5807,9 @@
         }
     },
     {
-        "name": "Amx 13 75",
+        "name": "AMX 13 75",
         "nation": "france",
-        "tier": "6",
+        "tier": 7,
         "hp": "760",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -5547,12 +5834,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 4.6
             }
+        },
+        "api_id": "5185",
+        "tag": "F16_AMX_13_75",
+        "stats": {
+            "damage_avg": 109,
+            "reload_time": 13.4,
+            "dpm": 488
         }
     },
     {
-        "name": "Amx 13 90",
+        "name": "AMX 13 90",
         "nation": "france",
-        "tier": "8",
+        "tier": 9,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -5577,6 +5871,13 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 5.52
             }
+        },
+        "api_id": "4929",
+        "tag": "F17_AMX_13_90",
+        "stats": {
+            "damage_avg": 149,
+            "reload_time": 16.0,
+            "dpm": 558
         }
     },
     {
@@ -5970,9 +6271,9 @@
         }
     },
     {
-        "name": "105 Lefh18B2",
+        "name": "105 leFH18B2",
         "nation": "france",
-        "tier": "5",
+        "tier": 5,
         "hp": "272",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -5997,6 +6298,13 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "2113",
+        "tag": "F28_105_leFH18B2",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 9.3,
+            "dpm": 2316
         }
     },
     {
@@ -6060,9 +6368,9 @@
         }
     },
     {
-        "name": "Somua Sau 40",
+        "name": "Somua SAu 40",
         "nation": "france",
-        "tier": "3",
+        "tier": 4,
         "hp": "344",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -6087,6 +6395,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "9793",
+        "tag": "F32_Somua_Sau_40",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.6,
+            "dpm": 1600
         }
     },
     {
@@ -6150,9 +6465,9 @@
         }
     },
     {
-        "name": "Arl V39",
+        "name": "ARL V39",
         "nation": "france",
-        "tier": "5",
+        "tier": 6,
         "hp": "560",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -6177,6 +6492,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 3.12
             }
+        },
+        "api_id": "11585",
+        "tag": "F34_ARL_V39",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.0,
+            "dpm": 1800
         }
     },
     {
@@ -6390,9 +6712,9 @@
         }
     },
     {
-        "name": "Amr 35",
+        "name": "AMR 35",
         "nation": "france",
-        "tier": "2",
+        "tier": 2,
         "hp": "288",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -6417,6 +6739,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "43841",
+        "tag": "F42_AMR_35",
+        "stats": {
+            "damage_avg": 23,
+            "reload_time": 1.7,
+            "dpm": 811
         }
     },
     {
@@ -6482,7 +6811,7 @@
     {
         "name": "Somua S35",
         "nation": "france",
-        "tier": "2",
+        "tier": 3,
         "hp": "360",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -6507,6 +6836,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 5.6
             }
+        },
+        "api_id": "13121",
+        "tag": "F44_Somua_S35",
+        "stats": {
+            "damage_avg": 48,
+            "reload_time": 2.5,
+            "dpm": 1152
         }
     },
     {
@@ -7200,9 +7536,9 @@
         }
     },
     {
-        "name": "Fcm 2C",
+        "name": "FCM 2C",
         "nation": "france",
-        "tier": "3",
+        "tier": 3,
         "hp": "560",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -7227,6 +7563,13 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "58433",
+        "tag": "F77_FCM_2C",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 6.3,
+            "dpm": 914
         }
     },
     {
@@ -7380,9 +7723,9 @@
         }
     },
     {
-        "name": "Somua Sm",
+        "name": "Somua SM",
         "nation": "france",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -7407,6 +7750,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 3.64
             }
+        },
+        "api_id": "62273",
+        "tag": "F84_Somua_SM",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 37.0,
+            "dpm": 424
         }
     },
     {
@@ -7470,9 +7820,9 @@
         }
     },
     {
-        "name": "Amx 13 105",
+        "name": "AMX 13 105",
         "nation": "france",
-        "tier": "10",
+        "tier": 10,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -7497,6 +7847,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "17217",
+        "tag": "F88_AMX_13_105",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 27.0,
+            "dpm": 757
         }
     },
     {
@@ -7560,9 +7917,9 @@
         }
     },
     {
-        "name": "Elc Even 90",
+        "name": "ELC EVEN 90",
         "nation": "france",
-        "tier": "8",
+        "tier": 8,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.19",
@@ -7587,12 +7944,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 7.36
             }
+        },
+        "api_id": "61505",
+        "tag": "F97_ELC_EVEN_90",
+        "stats": {
+            "damage_avg": 192,
+            "reload_time": 30.0,
+            "dpm": 384
         }
     },
     {
-        "name": "Elc Even 90 Fl",
+        "name": "ELC EVEN 90 FL",
         "nation": "france",
-        "tier": "8",
+        "tier": 8,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.19",
@@ -7617,6 +7981,13 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 7.36
             }
+        },
+        "api_id": "59969",
+        "tag": "F97_ELC_EVEN_90_FL",
+        "stats": {
+            "damage_avg": 192,
+            "reload_time": 30.0,
+            "dpm": 384
         }
     },
     {
@@ -7832,7 +8203,7 @@
     {
         "name": "Hummel",
         "nation": "germany",
-        "tier": "5",
+        "tier": 6,
         "hp": "268",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -7857,6 +8228,13 @@
                 "turret_traverse": 10.43,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "273",
+        "tag": "G02_Hummel",
+        "stats": {
+            "damage_avg": 420,
+            "reload_time": 26.4,
+            "dpm": 954
         }
     },
     {
@@ -8940,9 +9318,9 @@
         }
     },
     {
-        "name": "Stug Iv",
+        "name": "StuG IV",
         "nation": "germany",
-        "tier": "5",
+        "tier": 5,
         "hp": "376",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -8967,6 +9345,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "60689",
+        "tag": "G104_Stug_IV",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.7,
+            "dpm": 1556
         }
     },
     {
@@ -9272,7 +9657,7 @@
     {
         "name": "Kanonenjagdpanzer",
         "nation": "germany",
-        "tier": "8",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -9297,12 +9682,19 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "61969",
+        "tag": "G112_KanonenJagdPanzer",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 6.3,
+            "dpm": 2000
         }
     },
     {
         "name": "Kanonenjagdpanzer 105",
         "nation": "germany",
-        "tier": "8",
+        "tier": 8,
         "hp": "840",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -9327,6 +9719,13 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 3.08
             }
+        },
+        "api_id": "48401",
+        "tag": "G112_KanonenJagdPanzer_105",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.0,
+            "dpm": 1705
         }
     },
     {
@@ -9900,9 +10299,9 @@
         }
     },
     {
-        "name": "Hwk 12",
+        "name": "HWK 12",
         "nation": "germany",
-        "tier": "7",
+        "tier": 8,
         "hp": "1000",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -9927,6 +10326,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 5.28
             }
+        },
+        "api_id": "20241",
+        "tag": "G126_HWK_12",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.8,
+            "dpm": 1615
         }
     },
     {
@@ -9992,7 +10398,7 @@
     {
         "name": "Tiger 131",
         "nation": "germany",
-        "tier": "6",
+        "tier": 6,
         "hp": "848",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -10017,6 +10423,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "49169",
+        "tag": "G136_Tiger_131",
+        "stats": {
+            "damage_avg": 192,
+            "reload_time": 7.0,
+            "dpm": 1645
         }
     },
     {
@@ -10110,9 +10523,9 @@
         }
     },
     {
-        "name": "Mka",
+        "name": "MKA",
         "nation": "germany",
-        "tier": "2",
+        "tier": 2,
         "hp": "320",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -10137,6 +10550,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 5.32
             }
+        },
+        "api_id": "47633",
+        "tag": "G139_MKA",
+        "stats": {
+            "damage_avg": 48,
+            "reload_time": 3.8,
+            "dpm": 757
         }
     },
     {
@@ -10170,9 +10590,9 @@
         }
     },
     {
-        "name": "Hwk 30",
+        "name": "HWK 30",
         "nation": "germany",
-        "tier": "8",
+        "tier": 8,
         "hp": "920",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -10197,6 +10617,13 @@
                 "turret_traverse": 43.81,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "47377",
+        "tag": "G140_HWK_30",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.2,
+            "dpm": 1750
         }
     },
     {
@@ -10322,7 +10749,7 @@
     {
         "name": "Kunze Panzer",
         "nation": "germany",
-        "tier": "9",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -10347,6 +10774,13 @@
                 "turret_traverse": 38.59,
                 "turret_bloom_max": 2.96
             }
+        },
+        "api_id": "46353",
+        "tag": "G147_Kunze_Panzer",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 9.3,
+            "dpm": 2200
         }
     },
     {
@@ -11252,7 +11686,7 @@
     {
         "name": "Rheinmetall Begleitwagen",
         "nation": "germany",
-        "tier": "3",
+        "tier": 3,
         "hp": "480",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -11277,6 +11711,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.04
             }
+        },
+        "api_id": "29457",
+        "tag": "G175_Rheinmetall_Begleitwagen",
+        "stats": {
+            "damage_avg": 74,
+            "reload_time": 3.4,
+            "dpm": 1305
         }
     },
     {
@@ -11492,7 +11933,7 @@
     {
         "name": "Windhund",
         "nation": "germany",
-        "tier": "8",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -11517,6 +11958,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "30993",
+        "tag": "G184_Windhund",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 7.9,
+            "dpm": 2126
         }
     },
     {
@@ -11552,7 +12000,7 @@
     {
         "name": "Leopard 120 Verbessert",
         "nation": "germany",
-        "tier": "11",
+        "tier": 11,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.19",
@@ -11577,12 +12025,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "41489",
+        "tag": "G185_Leopard_120_Verbessert",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 9.3,
+            "dpm": 2483
         }
     },
     {
         "name": "Schwertwal",
         "nation": "germany",
-        "tier": "10",
+        "tier": 10,
         "hp": "2000",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -11607,12 +12062,19 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 2.0
             }
+        },
+        "api_id": "31249",
+        "tag": "G186_Schwertwal",
+        "stats": {
+            "damage_avg": 612,
+            "reload_time": 16.8,
+            "dpm": 2185
         }
     },
     {
         "name": "Taschenratte",
         "nation": "germany",
-        "tier": "11",
+        "tier": 11,
         "hp": "2640",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -11637,6 +12099,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 0.8
             }
+        },
+        "api_id": "41745",
+        "tag": "G187_Taschenratte",
+        "stats": {
+            "damage_avg": 446,
+            "reload_time": 13.8,
+            "dpm": 1939
         }
     },
     {
@@ -11702,7 +12171,7 @@
     {
         "name": "Jagdpanther",
         "nation": "germany",
-        "tier": "6",
+        "tier": 7,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -11727,12 +12196,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "3857",
+        "tag": "G18_JagdPanther",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 6.1,
+            "dpm": 2065
         }
     },
     {
         "name": "Wespe",
         "nation": "germany",
-        "tier": "2",
+        "tier": 3,
         "hp": "184",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -11757,12 +12233,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 8.32
             }
+        },
+        "api_id": "5905",
+        "tag": "G19_Wespe",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 20.0,
+            "dpm": 1077
         }
     },
     {
-        "name": "Marder Ii",
+        "name": "Marder II",
         "nation": "germany",
-        "tier": "2",
+        "tier": 3,
         "hp": "236",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -11787,6 +12270,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 5.2
             }
+        },
+        "api_id": "6673",
+        "tag": "G20_Marder_II",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 5.0,
+            "dpm": 1200
         }
     },
     {
@@ -11820,9 +12310,9 @@
         }
     },
     {
-        "name": "Sturmpanzer Ii",
+        "name": "Sturmpanzer II",
         "nation": "germany",
-        "tier": "3",
+        "tier": 4,
         "hp": "232",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -11847,12 +12337,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 7.68
             }
+        },
+        "api_id": "4625",
+        "tag": "G22_Sturmpanzer_II",
+        "stats": {
+            "damage_avg": 306,
+            "reload_time": 17.4,
+            "dpm": 1055
         }
     },
     {
         "name": "Grille",
         "nation": "germany",
-        "tier": "4",
+        "tier": 5,
         "hp": "252",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -11877,6 +12374,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 6.72
             }
+        },
+        "api_id": "5649",
+        "tag": "G23_Grille",
+        "stats": {
+            "damage_avg": 332,
+            "reload_time": 16.0,
+            "dpm": 1245
         }
     },
     {
@@ -12332,7 +12836,7 @@
     {
         "name": "Ferdinand",
         "nation": "germany",
-        "tier": "7",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -12357,12 +12861,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "7697",
+        "tag": "G37_Ferdinand",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 6.0,
+            "dpm": 2450
         }
     },
     {
-        "name": "Ferdinand Fl",
+        "name": "Ferdinand FL",
         "nation": "germany",
-        "tier": "8",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -12387,6 +12898,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "55825",
+        "tag": "G37_Ferdinand_FL",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 11.7,
+            "dpm": 2200
         }
     },
     {
@@ -12452,7 +12970,7 @@
     {
         "name": "Nashorn",
         "nation": "germany",
-        "tier": "5",
+        "tier": 6,
         "hp": "536",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -12477,6 +12995,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "11793",
+        "tag": "G40_Nashorn",
+        "stats": {
+            "damage_avg": 192,
+            "reload_time": 5.6,
+            "dpm": 2057
         }
     },
     {
@@ -12542,7 +13067,7 @@
     {
         "name": "Maus",
         "nation": "germany",
-        "tier": "10",
+        "tier": 10,
         "hp": "2400",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -12567,6 +13092,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 0.8
             }
+        },
+        "api_id": "6929",
+        "tag": "G42_Maus",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 13.3,
+            "dpm": 1935
         }
     },
     {
@@ -12632,7 +13164,7 @@
     {
         "name": "Sturer Emil",
         "nation": "germany",
-        "tier": "6",
+        "tier": 7,
         "hp": "760",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -12657,12 +13189,19 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "11025",
+        "tag": "G43_Sturer_Emil",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 7.8,
+            "dpm": 2015
         }
     },
     {
         "name": "Jagdtiger",
         "nation": "germany",
-        "tier": "8",
+        "tier": 9,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -12687,6 +13226,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "7953",
+        "tag": "G44_JagdTiger",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 10.5,
+            "dpm": 2451
         }
     },
     {
@@ -12720,9 +13266,9 @@
         }
     },
     {
-        "name": "Jagdtiger Fl",
+        "name": "Jagdtiger FL",
         "nation": "germany",
-        "tier": "9",
+        "tier": 9,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -12747,6 +13293,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "56337",
+        "tag": "G44_JagdTiger_FL",
+        "stats": {
+            "damage_avg": 490,
+            "reload_time": 11.4,
+            "dpm": 2578
         }
     },
     {
@@ -13320,9 +13873,9 @@
         }
     },
     {
-        "name": "Panther Ii",
+        "name": "Panther II",
         "nation": "germany",
-        "tier": "7",
+        "tier": 8,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -13347,6 +13900,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "8465",
+        "tag": "G64_Panther_II",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 3.2,
+            "dpm": 2212
         }
     },
     {
@@ -14642,7 +15202,7 @@
     {
         "name": "Fiat 3000",
         "nation": "italy",
-        "tier": "1",
+        "tier": 1,
         "hp": "208",
         "chassis_stats": {
             "movement_dispersion": "0.38",
@@ -14667,6 +15227,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 5.44
             }
+        },
+        "api_id": "161",
+        "tag": "It04_Fiat_3000",
+        "stats": {
+            "damage_avg": 26,
+            "reload_time": 2.2,
+            "dpm": 709
         }
     },
     {
@@ -14912,7 +15479,7 @@
     {
         "name": "Prototipo Standard B",
         "nation": "italy",
-        "tier": "8",
+        "tier": 9,
         "hp": "1400",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -14937,6 +15504,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "2465",
+        "tag": "It12_Prototipo_Standard_B",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 10.4,
+            "dpm": 1211
         }
     },
     {
@@ -15032,7 +15606,7 @@
     {
         "name": "Rinoceronte",
         "nation": "italy",
-        "tier": "10",
+        "tier": 10,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -15057,6 +15631,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 3.5
             }
+        },
+        "api_id": "2977",
+        "tag": "It15_Rinoceronte",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 17.0,
+            "dpm": 1514
         }
     },
     {
@@ -15212,7 +15793,7 @@
     {
         "name": "Lion",
         "nation": "italy",
-        "tier": "10",
+        "tier": 10,
         "hp": "1480",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -15237,6 +15818,13 @@
                 "turret_traverse": 54.24,
                 "turret_bloom_max": 6.24
             }
+        },
+        "api_id": "50593",
+        "tag": "It21_Lion",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 17.0,
+            "dpm": 1295
         }
     },
     {
@@ -15512,7 +16100,7 @@
     {
         "name": "Prototipo 6",
         "nation": "italy",
-        "tier": "8",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -15537,12 +16125,19 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 4.9
             }
+        },
+        "api_id": "53409",
+        "tag": "It33_Prototipo_6",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 10.0,
+            "dpm": 1572
         }
     },
     {
         "name": "Toro",
         "nation": "italy",
-        "tier": "9",
+        "tier": 9,
         "hp": "1360",
         "chassis_stats": {
             "movement_dispersion": "0.25",
@@ -15567,12 +16162,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "53153",
+        "tag": "It34_Toro",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 17.0,
+            "dpm": 1111
         }
     },
     {
         "name": "Felice",
         "nation": "italy",
-        "tier": "9",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -15597,6 +16199,13 @@
                 "turret_traverse": 34.42,
                 "turret_bloom_max": 1.32
             }
+        },
+        "api_id": "6049",
+        "tag": "It35_Felice",
+        "stats": {
+            "damage_avg": 420,
+            "reload_time": 14.8,
+            "dpm": 1702
         }
     },
     {
@@ -15692,7 +16301,7 @@
     {
         "name": "Coccodrillo",
         "nation": "italy",
-        "tier": "10",
+        "tier": 10,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -15717,6 +16326,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "6305",
+        "tag": "It39_Coccodrillo",
+        "stats": {
+            "damage_avg": 411,
+            "reload_time": 12.0,
+            "dpm": 2055
         }
     },
     {
@@ -16172,7 +16788,7 @@
     {
         "name": "Type 61",
         "nation": "japan",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -16197,6 +16813,13 @@
                 "turret_traverse": 43.81,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "3425",
+        "tag": "J14_Type_61",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 5.5,
+            "dpm": 2290
         }
     },
     {
@@ -17102,7 +17725,7 @@
     {
         "name": "Type 57",
         "nation": "japan",
-        "tier": "7",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17127,12 +17750,19 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 2.2
             }
+        },
+        "api_id": "9313",
+        "tag": "J39_Type_57",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 9.6,
+            "dpm": 1750
         }
     },
     {
         "name": "Type 71",
         "nation": "japan",
-        "tier": "10",
+        "tier": 10,
         "hp": "1760",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -17157,6 +17787,13 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 3.5
             }
+        },
+        "api_id": "8545",
+        "tag": "J40_Type_71",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 8.8,
+            "dpm": 2386
         }
     },
     {
@@ -17252,7 +17889,7 @@
     {
         "name": "Type 68",
         "nation": "japan",
-        "tier": "8",
+        "tier": 9,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17277,6 +17914,13 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 2.8
             }
+        },
+        "api_id": "8801",
+        "tag": "J41_Type_68",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 8.5,
+            "dpm": 2223
         }
     },
     {
@@ -17372,7 +18016,7 @@
     {
         "name": "Type 4 Ju-To",
         "nation": "japan",
-        "tier": "6",
+        "tier": 7,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17397,6 +18041,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "9057",
+        "tag": "J43_Type_4_Ju-To",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 9.3,
+            "dpm": 1580
         }
     },
     {
@@ -17432,7 +18083,7 @@
     {
         "name": "Mitsu 108",
         "nation": "japan",
-        "tier": "4",
+        "tier": 5,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17457,6 +18108,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "8033",
+        "tag": "J45_Mitsu_108",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 4.7,
+            "dpm": 1506
         }
     },
     {
@@ -17582,7 +18240,7 @@
     {
         "name": "Ashigaru",
         "nation": "japan",
-        "tier": "10",
+        "tier": 10,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -17607,6 +18265,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "55905",
+        "tag": "J51_Ashigaru",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 6.8,
+            "dpm": 3008
         }
     },
     {
@@ -17730,9 +18395,9 @@
         }
     },
     {
-        "name": "50Tp Tyszkiewicza",
+        "name": "50TP Tyszkiewicza",
         "nation": "poland",
-        "tier": "8",
+        "tier": 9,
         "hp": "1680",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17757,12 +18422,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.6
             }
+        },
+        "api_id": "3217",
+        "tag": "Pl05_50TP_Tyszkiewicza",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 12.0,
+            "dpm": 1835
         }
     },
     {
-        "name": "10Tp",
+        "name": "10TP",
         "nation": "poland",
-        "tier": "2",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17787,12 +18459,19 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "1681",
+        "tag": "Pl06_10TP",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 2.7,
+            "dpm": 977
         }
     },
     {
-        "name": "14Tp",
+        "name": "14TP",
         "nation": "poland",
-        "tier": "3",
+        "tier": 4,
         "hp": "440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17817,12 +18496,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 3.8
             }
+        },
+        "api_id": "1937",
+        "tag": "Pl07_14TP",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 3.0,
+            "dpm": 1300
         }
     },
     {
-        "name": "50Tp Prototyp",
+        "name": "50TP prototyp",
         "nation": "poland",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -17847,6 +18533,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "913",
+        "tag": "Pl08_50TP_prototyp",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 14.2,
+            "dpm": 1626
         }
     },
     {
@@ -17880,9 +18573,9 @@
         }
     },
     {
-        "name": "7Tp",
+        "name": "7TP",
         "nation": "poland",
-        "tier": "1",
+        "tier": 2,
         "hp": "304",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17907,12 +18600,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "1425",
+        "tag": "Pl09_7TP",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 3.0,
+            "dpm": 880
         }
     },
     {
-        "name": "40Tp Habicha",
+        "name": "40TP Habicha",
         "nation": "poland",
-        "tier": "5",
+        "tier": 6,
         "hp": "736",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17937,12 +18637,19 @@
                 "turret_traverse": 34.42,
                 "turret_bloom_max": 3.96
             }
+        },
+        "api_id": "2449",
+        "tag": "Pl10_40TP_Habicha",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 4.5,
+            "dpm": 1573
         }
     },
     {
-        "name": "45Tp Habicha",
+        "name": "45TP Habicha",
         "nation": "poland",
-        "tier": "6",
+        "tier": 7,
         "hp": "1080",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17967,12 +18674,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 5.32
             }
+        },
+        "api_id": "2705",
+        "tag": "Pl11_45TP_Habicha",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.8,
+            "dpm": 1615
         }
     },
     {
-        "name": "25Tp Ksust Ii",
+        "name": "25TP KSUST II",
         "nation": "poland",
-        "tier": "4",
+        "tier": 5,
         "hp": "528",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -17997,12 +18711,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 5.52
             }
+        },
+        "api_id": "2193",
+        "tag": "Pl12_25TP_KSUST_II",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 8.0,
+            "dpm": 330
         }
     },
     {
-        "name": "53Tp Markowskiego",
+        "name": "53TP Markowskiego",
         "nation": "poland",
-        "tier": "7",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -18027,12 +18748,19 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "2961",
+        "tag": "Pl13_53TP_Markowskiego",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 9.0,
+            "dpm": 1866
         }
     },
     {
-        "name": "4Tp",
+        "name": "4TP",
         "nation": "poland",
-        "tier": "1",
+        "tier": 1,
         "hp": "188",
         "chassis_stats": {
             "movement_dispersion": "0.28",
@@ -18057,12 +18785,19 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "1169",
+        "tag": "Pl14_4TP",
+        "stats": {
+            "damage_avg": 9,
+            "reload_time": 4.2,
+            "dpm": 128
         }
     },
     {
-        "name": "60Tp Lewandowskiego",
+        "name": "60TP Lewandowskiego",
         "nation": "poland",
-        "tier": "10",
+        "tier": 10,
         "hp": "2000",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -18087,6 +18822,13 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "3473",
+        "tag": "Pl15_60TP_Lewandowskiego",
+        "stats": {
+            "damage_avg": 656,
+            "reload_time": 20.5,
+            "dpm": 1920
         }
     },
     {
@@ -18540,9 +19282,9 @@
         }
     },
     {
-        "name": "56Tp",
+        "name": "56TP",
         "nation": "poland",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -18567,6 +19309,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 2.56
             }
+        },
+        "api_id": "50833",
+        "tag": "Pl24_56TP",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 14.5,
+            "dpm": 1411
         }
     },
     {
@@ -19172,7 +19921,7 @@
     {
         "name": "Strv 74",
         "nation": "sweden",
-        "tier": "5",
+        "tier": 6,
         "hp": "736",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -19197,6 +19946,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 3.4
             }
+        },
+        "api_id": "1409",
+        "tag": "S07_Strv_74",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 6.0,
+            "dpm": 1310
         }
     },
     {
@@ -19382,7 +20138,7 @@
     {
         "name": "Strv 103B",
         "nation": "sweden",
-        "tier": "10",
+        "tier": 10,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.4",
@@ -19407,6 +20163,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "4737",
+        "tag": "S11_Strv_103B",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 7.0,
+            "dpm": 2922
         }
     },
     {
@@ -19472,7 +20235,7 @@
     {
         "name": "Leo",
         "nation": "sweden",
-        "tier": "6",
+        "tier": 7,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -19497,12 +20260,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "1665",
+        "tag": "S13_Leo",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 5.0,
+            "dpm": 1572
         }
     },
     {
         "name": "Ikv 103",
         "nation": "sweden",
-        "tier": "4",
+        "tier": 5,
         "hp": "400",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -19527,6 +20297,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 2.52
             }
+        },
+        "api_id": "3457",
+        "tag": "S14_Ikv_103",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 12.0,
+            "dpm": 1310
         }
     },
     {
@@ -19622,7 +20399,7 @@
     {
         "name": "Kranvagn",
         "nation": "sweden",
-        "tier": "10",
+        "tier": 10,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -19647,6 +20424,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 5.04
             }
+        },
+        "api_id": "2433",
+        "tag": "S16_Kranvagn",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 25.0,
+            "dpm": 924
         }
     },
     {
@@ -19772,7 +20556,7 @@
     {
         "name": "Ikv 72",
         "nation": "sweden",
-        "tier": "2",
+        "tier": 3,
         "hp": "212",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -19797,12 +20581,19 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "2945",
+        "tag": "S20_Ikv_72",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 5.0,
+            "dpm": 1152
         }
     },
     {
-        "name": "Udes 03",
+        "name": "UDES 03",
         "nation": "sweden",
-        "tier": "7",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -19827,6 +20618,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "4225",
+        "tag": "S21_UDES_03",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 6.7,
+            "dpm": 2194
         }
     },
     {
@@ -19862,7 +20660,7 @@
     {
         "name": "Strv S1",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 8,
         "hp": "800",
         "chassis_stats": {
             "movement_dispersion": "0.4",
@@ -19887,12 +20685,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.6
             }
+        },
+        "api_id": "52097",
+        "tag": "S22_Strv_S1",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 10.2,
+            "dpm": 2005
         }
     },
     {
-        "name": "Strv S1 Fl",
+        "name": "Strv S1 FL",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 8,
         "hp": "800",
         "chassis_stats": {
             "movement_dispersion": "0.4",
@@ -19917,6 +20722,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.6
             }
+        },
+        "api_id": "53633",
+        "tag": "S22_Strv_S1_FL",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 10.2,
+            "dpm": 2005
         }
     },
     {
@@ -19982,7 +20794,7 @@
     {
         "name": "Strv 81",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -20007,6 +20819,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 4.32
             }
+        },
+        "api_id": "52353",
+        "tag": "S23_Strv_81",
+        "stats": {
+            "damage_avg": 201,
+            "reload_time": 6.6,
+            "dpm": 1827
         }
     },
     {
@@ -20072,7 +20891,7 @@
     {
         "name": "Lansen C",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 8,
         "hp": "1080",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -20097,12 +20916,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 4.48
             }
+        },
+        "api_id": "53121",
+        "tag": "S26_Lansen_C",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 9.2,
+            "dpm": 1826
         }
     },
     {
-        "name": "Udes 16",
+        "name": "UDES 16",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 9,
         "hp": "1360",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -20127,6 +20953,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "5249",
+        "tag": "S27_UDES_16",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 10.0,
+            "dpm": 1890
         }
     },
     {
@@ -20340,9 +21173,9 @@
         }
     },
     {
-        "name": "Udes 03 Alt 3",
+        "name": "UDES 03 Alt 3",
         "nation": "sweden",
-        "tier": "9",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -20367,6 +21200,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "53377",
+        "tag": "S30_UDES_03_Alt_3",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 30.0,
+            "dpm": 630
         }
     },
     {
@@ -20402,7 +21242,7 @@
     {
         "name": "Strv K",
         "nation": "sweden",
-        "tier": "9",
+        "tier": 9,
         "hp": "1480",
         "chassis_stats": {
             "movement_dispersion": "0.19",
@@ -20427,12 +21267,19 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.4
             }
+        },
+        "api_id": "54145",
+        "tag": "S31_Strv_K",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.0,
+            "dpm": 1705
         }
     },
     {
         "name": "Bofors Tornvagn",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -20457,6 +21304,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 5.0
             }
+        },
+        "api_id": "54657",
+        "tag": "S32_Bofors_Tornvagn",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 15.0,
+            "dpm": 1400
         }
     },
     {
@@ -20522,7 +21376,7 @@
     {
         "name": "Lago M38",
         "nation": "sweden",
-        "tier": "3",
+        "tier": 3,
         "hp": "372",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -20547,12 +21401,19 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "50817",
+        "tag": "S34_Lago_M38",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 3.0,
+            "dpm": 1040
         }
     },
     {
         "name": "Stridsyxa",
         "nation": "sweden",
-        "tier": "8",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -20577,6 +21438,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "55425",
+        "tag": "S35_Stridsyxa",
+        "stats": {
+            "damage_avg": 306,
+            "reload_time": 10.0,
+            "dpm": 1836
         }
     },
     {
@@ -20732,7 +21600,7 @@
     {
         "name": "Valentine",
         "nation": "uk",
-        "tier": "2",
+        "tier": 3,
         "hp": "312",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -20757,6 +21625,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 6.12
             }
+        },
+        "api_id": "4945",
+        "tag": "GB04_Valentine",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 3.2,
+            "dpm": 825
         }
     },
     {
@@ -20822,7 +21697,7 @@
     {
         "name": "Matilda",
         "nation": "uk",
-        "tier": "3",
+        "tier": 4,
         "hp": "456",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -20847,12 +21722,19 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 2.04
             }
+        },
+        "api_id": "849",
+        "tag": "GB07_Matilda",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 2.0,
+            "dpm": 1320
         }
     },
     {
         "name": "Churchill I",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "736",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -20877,6 +21759,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 2.72
             }
+        },
+        "api_id": "2897",
+        "tag": "GB08_Churchill_I",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 1.9,
+            "dpm": 1642
         }
     },
     {
@@ -20910,9 +21799,9 @@
         }
     },
     {
-        "name": "Churchill Vii",
+        "name": "Churchill VII",
         "nation": "uk",
-        "tier": "5",
+        "tier": 6,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -20937,12 +21826,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "4689",
+        "tag": "GB09_Churchill_VII",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 4.5,
+            "dpm": 1573
         }
     },
     {
         "name": "Manticore",
         "nation": "uk",
-        "tier": "10",
+        "tier": 10,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -20967,6 +21863,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "58961",
+        "tag": "GB100_Manticore",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 14.0,
+            "dpm": 1461
         }
     },
     {
@@ -21000,9 +21903,9 @@
         }
     },
     {
-        "name": "Fv1066 Senlac",
+        "name": "FV1066 Senlac",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "840",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -21027,6 +21930,13 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 4.6
             }
+        },
+        "api_id": "58449",
+        "tag": "GB101_FV1066_Senlac",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 5.5,
+            "dpm": 1712
         }
     },
     {
@@ -21060,9 +21970,9 @@
         }
     },
     {
-        "name": "Lhmtv",
+        "name": "LHMTV",
         "nation": "uk",
-        "tier": "7",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21087,6 +21997,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "59473",
+        "tag": "GB102_LHMTV",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 4.8,
+            "dpm": 1475
         }
     },
     {
@@ -21120,9 +22037,9 @@
         }
     },
     {
-        "name": "Gsr 3301 Setter",
+        "name": "GSR 3301 Setter",
         "nation": "uk",
-        "tier": "6",
+        "tier": 7,
         "hp": "800",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21147,6 +22064,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "59729",
+        "tag": "GB104_GSR_3301_Setter",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 3.0,
+            "dpm": 1300
         }
     },
     {
@@ -21182,7 +22106,7 @@
     {
         "name": "Cobra",
         "nation": "uk",
-        "tier": "9",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.21",
@@ -21207,12 +22131,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "60497",
+        "tag": "GB106_Cobra",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 50.0,
+            "dpm": 378
         }
     },
     {
         "name": "Cavalier",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "560",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21237,6 +22168,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "16209",
+        "tag": "GB107_Cavalier",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.3,
+            "dpm": 1695
         }
     },
     {
@@ -21272,7 +22210,7 @@
     {
         "name": "A46",
         "nation": "uk",
-        "tier": "6",
+        "tier": 6,
         "hp": "464",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -21297,12 +22235,19 @@
                 "turret_traverse": 54.24,
                 "turret_bloom_max": 5.2
             }
+        },
+        "api_id": "55377",
+        "tag": "GB108_A46",
+        "stats": {
+            "damage_avg": 92,
+            "reload_time": 4.2,
+            "dpm": 1314
         }
     },
     {
-        "name": "Gsor 1008",
+        "name": "GSOR 1008",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -21327,6 +22272,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 2.24
             }
+        },
+        "api_id": "52305",
+        "tag": "GB109_GSOR_1008",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 45.0,
+            "dpm": 373
         }
     },
     {
@@ -21362,7 +22314,7 @@
     {
         "name": "Black Prince",
         "nation": "uk",
-        "tier": "6",
+        "tier": 7,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21387,6 +22339,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "3153",
+        "tag": "GB10_Black_Prince",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 4.5,
+            "dpm": 1746
         }
     },
     {
@@ -21422,7 +22381,7 @@
     {
         "name": "Charlemagne",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -21447,12 +22406,19 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 2.24
             }
+        },
+        "api_id": "52049",
+        "tag": "GB111_Charlemagne",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 16.7,
+            "dpm": 1383
         }
     },
     {
         "name": "Caliban",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.38",
@@ -21477,12 +22443,19 @@
                 "turret_traverse": 23.99,
                 "turret_bloom_max": 4.6
             }
+        },
+        "api_id": "51537",
+        "tag": "GB112_Caliban",
+        "stats": {
+            "damage_avg": 744,
+            "reload_time": 25.0,
+            "dpm": 1785
         }
     },
     {
-        "name": "Matilda Lvt",
+        "name": "Matilda LVT",
         "nation": "uk",
-        "tier": "4",
+        "tier": 4,
         "hp": "400",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -21507,6 +22480,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 2.56
             }
+        },
+        "api_id": "51281",
+        "tag": "GB113_Matilda_LVT",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 5.0,
+            "dpm": 1152
         }
     },
     {
@@ -21542,7 +22522,7 @@
     {
         "name": "Gonsalo",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.25",
@@ -21567,6 +22547,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 2.24
             }
+        },
+        "api_id": "60753",
+        "tag": "GB115_Gonsalo",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 15.0,
+            "dpm": 1540
         }
     },
     {
@@ -21602,7 +22589,7 @@
     {
         "name": "Caernarvon",
         "nation": "uk",
-        "tier": "7",
+        "tier": 8,
         "hp": "1400",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21627,6 +22614,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "3921",
+        "tag": "GB11_Caernarvon",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 3.4,
+            "dpm": 2311
         }
     },
     {
@@ -21720,9 +22714,9 @@
         }
     },
     {
-        "name": "Gsor 1010 Fb",
+        "name": "GSOR 1010 FB",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -21747,6 +22741,13 @@
                 "turret_traverse": 52.15,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "61265",
+        "tag": "GB121_GSOR_1010_FB",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 12.2,
+            "dpm": 1549
         }
     },
     {
@@ -21810,9 +22811,9 @@
         }
     },
     {
-        "name": "Aec Armoured Car",
+        "name": "AEC Armoured Car",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "520",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21837,6 +22838,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 2.64
             }
+        },
+        "api_id": "20049",
+        "tag": "GB124_AEC_Armoured_Car",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 1.8,
+            "dpm": 1733
         }
     },
     {
@@ -21870,9 +22878,9 @@
         }
     },
     {
-        "name": "Fsv Scheme A",
+        "name": "FSV Scheme A",
         "nation": "uk",
-        "tier": "6",
+        "tier": 7,
         "hp": "880",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21897,12 +22905,19 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "20561",
+        "tag": "GB126_FSV_Scheme_A",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 4.2,
+            "dpm": 1685
         }
     },
     {
         "name": "A7E3",
         "nation": "uk",
-        "tier": "3",
+        "tier": 3,
         "hp": "368",
         "chassis_stats": {
             "movement_dispersion": "0.28",
@@ -21927,12 +22942,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "61777",
+        "tag": "GB127_A7E3",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 3.0,
+            "dpm": 880
         }
     },
     {
         "name": "Nemesis",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.21",
@@ -21957,12 +22979,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 4.5
             }
+        },
+        "api_id": "61521",
+        "tag": "GB128_Nemesis",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 17.0,
+            "dpm": 1295
         }
     },
     {
         "name": "Conqueror",
         "nation": "uk",
-        "tier": "8",
+        "tier": 9,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -21987,12 +23016,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "4433",
+        "tag": "GB12_Conqueror",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 5.9,
+            "dpm": 2491
         }
     },
     {
-        "name": "Conqueror Fl",
+        "name": "Conqueror FL",
         "nation": "uk",
-        "tier": "9",
+        "tier": 9,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -22017,6 +23053,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "53329",
+        "tag": "GB12_Conqueror_FL",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 11.3,
+            "dpm": 1858
         }
     },
     {
@@ -22082,7 +23125,7 @@
     {
         "name": "Crusher",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -22107,6 +23150,13 @@
                 "turret_traverse": 23.99,
                 "turret_bloom_max": 2.3
             }
+        },
+        "api_id": "62289",
+        "tag": "GB131_Crusher",
+        "stats": {
+            "damage_avg": 306,
+            "reload_time": 10.5,
+            "dpm": 1748
         }
     },
     {
@@ -22202,7 +23252,7 @@
     {
         "name": "Gryphon",
         "nation": "uk",
-        "tier": "10",
+        "tier": 10,
         "hp": "1680",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -22227,6 +23277,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "63057",
+        "tag": "GB134_Gryphon",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 8.6,
+            "dpm": 2560
         }
     },
     {
@@ -22262,7 +23319,7 @@
     {
         "name": "Cromwell Applique",
         "nation": "uk",
-        "tier": "5",
+        "tier": 5,
         "hp": "640",
         "chassis_stats": {
             "movement_dispersion": "0.26",
@@ -22287,12 +23344,19 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 3.4
             }
+        },
+        "api_id": "21329",
+        "tag": "GB137_Cromwell_Applique",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.3,
+            "dpm": 1695
         }
     },
     {
-        "name": "Fv226 Contradictious",
+        "name": "FV226 Contradictious",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -22317,6 +23381,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "63825",
+        "tag": "GB139_FV226_Contradictious",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 11.0,
+            "dpm": 1718
         }
     },
     {
@@ -22350,9 +23421,9 @@
         }
     },
     {
-        "name": "Fv215B",
+        "name": "FV215b",
         "nation": "uk",
-        "tier": "10",
+        "tier": 10,
         "hp": "2000",
         "chassis_stats": {
             "movement_dispersion": "0.1",
@@ -22377,6 +23448,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 2.72
             }
+        },
+        "api_id": "6225",
+        "tag": "GB13_FV215b",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 8.7,
+            "dpm": 2413
         }
     },
     {
@@ -22410,9 +23488,9 @@
         }
     },
     {
-        "name": "Fv224 Chopper",
+        "name": "FV224 Chopper",
         "nation": "uk",
-        "tier": "6",
+        "tier": 7,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -22437,6 +23515,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "22865",
+        "tag": "GB140_FV224_Chopper",
+        "stats": {
+            "damage_avg": 201,
+            "reload_time": 8.1,
+            "dpm": 1488
         }
     },
     {
@@ -22470,9 +23555,9 @@
         }
     },
     {
-        "name": "Gsor The Tank",
+        "name": "GSOR the TANK",
         "nation": "uk",
-        "tier": "9",
+        "tier": 9,
         "hp": "1360",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -22497,12 +23582,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 6.0
             }
+        },
+        "api_id": "21585",
+        "tag": "GB141_GSOR_the_TANK",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.0,
+            "dpm": 1705
         }
     },
     {
-        "name": "Fv230 Canopener",
+        "name": "FV230 Canopener",
         "nation": "uk",
-        "tier": "10",
+        "tier": 10,
         "hp": "1800",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -22527,6 +23619,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "21841",
+        "tag": "GB142_FV230_Canopener",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 10.0,
+            "dpm": 2202
         }
     },
     {
@@ -22560,9 +23659,9 @@
         }
     },
     {
-        "name": "Fv229 Contender",
+        "name": "FV229 Contender",
         "nation": "uk",
-        "tier": "8",
+        "tier": 9,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -22587,6 +23686,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "23377",
+        "tag": "GB143_FV229_Contender",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 6.3,
+            "dpm": 2333
         }
     },
     {
@@ -22680,9 +23786,9 @@
         }
     },
     {
-        "name": "Fv4025 Contriver",
+        "name": "FV4025 Contriver",
         "nation": "uk",
-        "tier": "11",
+        "tier": 11,
         "hp": "1920",
         "chassis_stats": {
             "movement_dispersion": "0.155",
@@ -22707,6 +23813,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.3
             }
+        },
+        "api_id": "23889",
+        "tag": "GB147_FV4025_Contriver",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 10.0,
+            "dpm": 2310
         }
     },
     {
@@ -22740,9 +23853,9 @@
         }
     },
     {
-        "name": "Fv227 Conceiver",
+        "name": "FV227 Conceiver",
         "nation": "uk",
-        "tier": "7",
+        "tier": 8,
         "hp": "1360",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -22767,6 +23880,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "23121",
+        "tag": "GB148_FV227_Conceiver",
+        "stats": {
+            "damage_avg": 201,
+            "reload_time": 6.3,
+            "dpm": 1914
         }
     },
     {
@@ -22832,7 +23952,7 @@
     {
         "name": "M2",
         "nation": "uk",
-        "tier": "1",
+        "tier": 2,
         "hp": "264",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -22857,6 +23977,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "593",
+        "tag": "GB14_M2",
+        "stats": {
+            "damage_avg": 7,
+            "reload_time": 17.5,
+            "dpm": 24
         }
     },
     {
@@ -22920,9 +24047,9 @@
         }
     },
     {
-        "name": "Black Prince Ii",
+        "name": "Black Prince II",
         "nation": "uk",
-        "tier": "7",
+        "tier": 7,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -22947,6 +24074,13 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "25169",
+        "tag": "GB156_Black_Prince_II",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 6.0,
+            "dpm": 1310
         }
     },
     {
@@ -23072,7 +24206,7 @@
     {
         "name": "Sherman Firefly",
         "nation": "uk",
-        "tier": "5",
+        "tier": 6,
         "hp": "672",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23097,6 +24231,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 5.6
             }
+        },
+        "api_id": "3665",
+        "tag": "GB19_Sherman_Firefly",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.8,
+            "dpm": 1515
         }
     },
     {
@@ -23132,7 +24273,7 @@
     {
         "name": "Crusader",
         "nation": "uk",
-        "tier": "5",
+        "tier": 6,
         "hp": "640",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23157,12 +24298,19 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "2129",
+        "tag": "GB20_Crusader",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 2.0,
+            "dpm": 1560
         }
     },
     {
         "name": "Cromwell",
         "nation": "uk",
-        "tier": "5",
+        "tier": 6,
         "hp": "760",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23187,6 +24335,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "1105",
+        "tag": "GB21_Cromwell",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.3,
+            "dpm": 1695
         }
     },
     {
@@ -23222,7 +24377,7 @@
     {
         "name": "Comet",
         "nation": "uk",
-        "tier": "6",
+        "tier": 7,
         "hp": "1000",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23247,6 +24402,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 6.72
             }
+        },
+        "api_id": "5457",
+        "tag": "GB22_Comet",
+        "stats": {
+            "damage_avg": 122,
+            "reload_time": 3.9,
+            "dpm": 1876
         }
     },
     {
@@ -23342,7 +24504,7 @@
     {
         "name": "Loyd Gun Carriage",
         "nation": "uk",
-        "tier": "1",
+        "tier": 2,
         "hp": "128",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23367,12 +24529,19 @@
                 "turret_traverse": 10.43,
                 "turret_bloom_max": 6.0
             }
+        },
+        "api_id": "10577",
+        "tag": "GB25_Loyd_Gun_Carriage",
+        "stats": {
+            "damage_avg": 144,
+            "reload_time": 9.0,
+            "dpm": 960
         }
     },
     {
         "name": "Birch Gun",
         "nation": "uk",
-        "tier": "3",
+        "tier": 4,
         "hp": "232",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23397,6 +24566,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 7.04
             }
+        },
+        "api_id": "10833",
+        "tag": "GB26_Birch_Gun",
+        "stats": {
+            "damage_avg": 227,
+            "reload_time": 8.8,
+            "dpm": 1547
         }
     },
     {
@@ -23432,7 +24608,7 @@
     {
         "name": "Bishop",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "368",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23457,6 +24633,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 6.4
             }
+        },
+        "api_id": "11089",
+        "tag": "GB28_Bishop",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 8.8,
+            "dpm": 1670
         }
     },
     {
@@ -23490,9 +24673,9 @@
         }
     },
     {
-        "name": "Fv3805",
+        "name": "FV3805",
         "nation": "uk",
-        "tier": "8",
+        "tier": 9,
         "hp": "360",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23517,6 +24700,13 @@
                 "turret_traverse": 12.52,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "11601",
+        "tag": "GB30_FV3805",
+        "stats": {
+            "damage_avg": 481,
+            "reload_time": 23.0,
+            "dpm": 1254
         }
     },
     {
@@ -23552,7 +24742,7 @@
     {
         "name": "Tortoise",
         "nation": "uk",
-        "tier": "8",
+        "tier": 9,
         "hp": "1480",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23577,6 +24767,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 1.56
             }
+        },
+        "api_id": "52561",
+        "tag": "GB32_Tortoise",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 5.6,
+            "dpm": 2625
         }
     },
     {
@@ -23732,7 +24929,7 @@
     {
         "name": "Challenger",
         "nation": "uk",
-        "tier": "6",
+        "tier": 7,
         "hp": "760",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23757,12 +24954,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.6
             }
+        },
+        "api_id": "14161",
+        "tag": "GB41_Challenger",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 3.5,
+            "dpm": 2245
         }
     },
     {
-        "name": "Valentine At",
+        "name": "Valentine AT",
         "nation": "uk",
-        "tier": "3",
+        "tier": 4,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23787,12 +24991,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "8017",
+        "tag": "GB42_Valentine_AT",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.2,
+            "dpm": 1772
         }
     },
     {
         "name": "Archer",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "376",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23817,6 +25028,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "13393",
+        "tag": "GB44_Archer",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.5,
+            "dpm": 1560
         }
     },
     {
@@ -23880,9 +25098,9 @@
         }
     },
     {
-        "name": "Sherman Iii",
+        "name": "Sherman III",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "488",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23907,12 +25125,19 @@
                 "turret_traverse": 40.68,
                 "turret_bloom_max": 6.24
             }
+        },
+        "api_id": "12881",
+        "tag": "GB50_Sherman_III",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.8,
+            "dpm": 1515
         }
     },
     {
         "name": "Excelsior",
         "nation": "uk",
-        "tier": "5",
+        "tier": 5,
         "hp": "704",
         "chassis_stats": {
             "movement_dispersion": "0.28",
@@ -23937,6 +25162,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.76
             }
+        },
+        "api_id": "54353",
+        "tag": "GB51_Excelsior",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.8,
+            "dpm": 1515
         }
     },
     {
@@ -23972,7 +25204,7 @@
     {
         "name": "Alecto",
         "nation": "uk",
-        "tier": "3",
+        "tier": 4,
         "hp": "332",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -23997,6 +25229,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "9041",
+        "tag": "GB57_Alecto",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.3,
+            "dpm": 1695
         }
     },
     {
@@ -24062,7 +25301,7 @@
     {
         "name": "Covenanter",
         "nation": "uk",
-        "tier": "4",
+        "tier": 5,
         "hp": "480",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -24087,6 +25326,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "6481",
+        "tag": "GB60_Covenanter",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 2.1,
+            "dpm": 1485
         }
     },
     {
@@ -24122,7 +25368,7 @@
     {
         "name": "Matilda Black Prince",
         "nation": "uk",
-        "tier": "5",
+        "tier": 5,
         "hp": "640",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -24147,6 +25393,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "53585",
+        "tag": "GB68_Matilda_Black_Prince",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.3,
+            "dpm": 1695
         }
     },
     {
@@ -24270,9 +25523,9 @@
         }
     },
     {
-        "name": "At 15A",
+        "name": "AT 15A",
         "nation": "uk",
-        "tier": "7",
+        "tier": 7,
         "hp": "840",
         "chassis_stats": {
             "movement_dispersion": "0.36",
@@ -24297,6 +25550,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 4.16
             }
+        },
+        "api_id": "54097",
+        "tag": "GB71_AT_15A",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 4.3,
+            "dpm": 1827
         }
     },
     {
@@ -24480,9 +25740,9 @@
         }
     },
     {
-        "name": "Fv304",
+        "name": "FV304",
         "nation": "uk",
-        "tier": "5",
+        "tier": 6,
         "hp": "252",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -24507,6 +25767,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 8.4
             }
+        },
+        "api_id": "11857",
+        "tag": "GB77_FV304",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 8.4,
+            "dpm": 1749
         }
     },
     {
@@ -24542,7 +25809,7 @@
     {
         "name": "Sexton I",
         "nation": "uk",
-        "tier": "3",
+        "tier": 3,
         "hp": "200",
         "chassis_stats": {
             "movement_dispersion": "0.44",
@@ -24567,6 +25834,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 7.04
             }
+        },
+        "api_id": "54609",
+        "tag": "GB78_Sexton_I",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 10.8,
+            "dpm": 1361
         }
     },
     {
@@ -24602,7 +25876,7 @@
     {
         "name": "Charioteer",
         "nation": "uk",
-        "tier": "7",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -24627,6 +25901,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 1.44
             }
+        },
+        "api_id": "14673",
+        "tag": "GB80_Charioteer",
+        "stats": {
+            "damage_avg": 201,
+            "reload_time": 5.1,
+            "dpm": 2364
         }
     },
     {
@@ -24752,7 +26033,7 @@
     {
         "name": "Centurion Action X",
         "nation": "uk",
-        "tier": "10",
+        "tier": 10,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.1",
@@ -24777,6 +26058,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "7249",
+        "tag": "GB86_Centurion_Action_X",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 8.0,
+            "dpm": 2557
         }
     },
     {
@@ -24902,7 +26190,7 @@
     {
         "name": "Super Conqueror",
         "nation": "uk",
-        "tier": "10",
+        "tier": 10,
         "hp": "1840",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -24927,6 +26215,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "15697",
+        "tag": "GB91_Super_Conqueror",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 9.6,
+            "dpm": 2187
         }
     },
     {
@@ -25112,7 +26407,7 @@
     {
         "name": "Excalibur",
         "nation": "uk",
-        "tier": "6",
+        "tier": 6,
         "hp": "672",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -25137,12 +26432,19 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 2.2
             }
+        },
+        "api_id": "57681",
+        "tag": "GB96_Excalibur",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 4.5,
+            "dpm": 1746
         }
     },
     {
         "name": "Chimera",
         "nation": "uk",
-        "tier": "8",
+        "tier": 8,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -25167,6 +26469,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 3.12
             }
+        },
+        "api_id": "57425",
+        "tag": "GB97_Chimera",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 15.5,
+            "dpm": 1490
         }
     },
     {
@@ -25232,7 +26541,7 @@
     {
         "name": "T1 Cunningham",
         "nation": "usa",
-        "tier": "1",
+        "tier": 1,
         "hp": "200",
         "chassis_stats": {
             "movement_dispersion": "0.38",
@@ -25257,6 +26566,13 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 4.9
             }
+        },
+        "api_id": "545",
+        "tag": "A01_T1_Cunningham",
+        "stats": {
+            "damage_avg": 26,
+            "reload_time": 2.2,
+            "dpm": 709
         }
     },
     {
@@ -25292,7 +26608,7 @@
     {
         "name": "M3 Stuart",
         "nation": "usa",
-        "tier": "2",
+        "tier": 3,
         "hp": "352",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -25317,6 +26633,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "289",
+        "tag": "A03_M3_Stuart",
+        "stats": {
+            "damage_avg": 35,
+            "reload_time": 2.0,
+            "dpm": 1050
         }
     },
     {
@@ -25412,7 +26735,7 @@
     {
         "name": "M4A3E8 Sherman",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "800",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -25437,12 +26760,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "1313",
+        "tag": "A06_M4A3E8_Sherman",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 3.5,
+            "dpm": 1714
         }
     },
     {
         "name": "T20",
         "nation": "usa",
-        "tier": "6",
+        "tier": 7,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -25467,6 +26797,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "1569",
+        "tag": "A07_T20",
+        "stats": {
+            "damage_avg": 140,
+            "reload_time": 4.6,
+            "dpm": 1826
         }
     },
     {
@@ -25682,7 +27019,7 @@
     {
         "name": "T49",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -25707,6 +27044,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "18209",
+        "tag": "A100_T49",
+        "stats": {
+            "damage_avg": 236,
+            "reload_time": 7.0,
+            "dpm": 2022
         }
     },
     {
@@ -25742,7 +27086,7 @@
     {
         "name": "T28 Concept",
         "nation": "usa",
-        "tier": "7",
+        "tier": 7,
         "hp": "704",
         "chassis_stats": {
             "movement_dispersion": "0.21",
@@ -25767,6 +27111,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "56609",
+        "tag": "A102_T28_concept",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 10.0,
+            "dpm": 1680
         }
     },
     {
@@ -25980,9 +27331,9 @@
         }
     },
     {
-        "name": "T1 Hmc",
+        "name": "T1 HMC",
         "nation": "usa",
-        "tier": "1",
+        "tier": 2,
         "hp": "128",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26007,12 +27358,19 @@
                 "turret_traverse": 15.64,
                 "turret_bloom_max": 7.2
             }
+        },
+        "api_id": "2081",
+        "tag": "A107_T1_HMC",
+        "stats": {
+            "damage_avg": 153,
+            "reload_time": 9.0,
+            "dpm": 1020
         }
     },
     {
-        "name": "T18 Hmc",
+        "name": "T18 HMC",
         "nation": "usa",
-        "tier": "2",
+        "tier": 3,
         "hp": "156",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26037,12 +27395,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 5.6
             }
+        },
+        "api_id": "18465",
+        "tag": "A108_T18_HMC",
+        "stats": {
+            "damage_avg": 153,
+            "reload_time": 7.0,
+            "dpm": 1311
         }
     },
     {
-        "name": "T56 Gmc",
+        "name": "T56 GMC",
         "nation": "usa",
-        "tier": "2",
+        "tier": 3,
         "hp": "228",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26067,12 +27432,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 6.16
             }
+        },
+        "api_id": "6433",
+        "tag": "A109_T56_GMC",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 5.6,
+            "dpm": 1028
         }
     },
     {
         "name": "M6",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "880",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26097,6 +27469,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 2.5
             }
+        },
+        "api_id": "801",
+        "tag": "A10_M6",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 3.3,
+            "dpm": 1818
         }
     },
     {
@@ -26222,7 +27601,7 @@
     {
         "name": "Chrysler K",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -26247,12 +27626,19 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "60193",
+        "tag": "A115_Chrysler_K",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 10.1,
+            "dpm": 1663
         }
     },
     {
-        "name": "Chrysler K Gf",
+        "name": "Chrysler K GF",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -26277,6 +27663,13 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "58657",
+        "tag": "A115_Chrysler_K_GF",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 10.1,
+            "dpm": 1663
         }
     },
     {
@@ -26312,7 +27705,7 @@
     {
         "name": "T26E5",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -26337,12 +27730,19 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 3.25
             }
+        },
+        "api_id": "58913",
+        "tag": "A117_T26E5",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.2,
+            "dpm": 1750
         }
     },
     {
-        "name": "T26E5 Fl",
+        "name": "T26E5 FL",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -26367,12 +27767,19 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 3.25
             }
+        },
+        "api_id": "63009",
+        "tag": "A117_T26E5_FL",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.2,
+            "dpm": 1750
         }
     },
     {
         "name": "T26E5 Patriot",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -26397,6 +27804,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 3.25
             }
+        },
+        "api_id": "59169",
+        "tag": "A117_T26E5_Patriot",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.2,
+            "dpm": 1750
         }
     },
     {
@@ -26432,7 +27846,7 @@
     {
         "name": "T29",
         "nation": "usa",
-        "tier": "6",
+        "tier": 7,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26457,6 +27871,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 4.68
             }
+        },
+        "api_id": "3873",
+        "tag": "A11_T29",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.0,
+            "dpm": 1800
         }
     },
     {
@@ -26610,9 +28031,9 @@
         }
     },
     {
-        "name": "Ts-5",
+        "name": "TS-5",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -26637,12 +28058,19 @@
                 "turret_traverse": 22.95,
                 "turret_bloom_max": 1.32
             }
+        },
+        "api_id": "60449",
+        "tag": "A122_TS-5",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 8.5,
+            "dpm": 2470
         }
     },
     {
         "name": "T78",
         "nation": "usa",
-        "tier": "6",
+        "tier": 6,
         "hp": "536",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -26667,6 +28095,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "61217",
+        "tag": "A123_T78",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 8.3,
+            "dpm": 1518
         }
     },
     {
@@ -26792,7 +28227,7 @@
     {
         "name": "Concept 1B",
         "nation": "usa",
-        "tier": "9",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -26817,12 +28252,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 2.56
             }
+        },
+        "api_id": "62753",
+        "tag": "A128_concept_1b",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 11.0,
+            "dpm": 1909
         }
     },
     {
         "name": "T6 Medium",
         "nation": "usa",
-        "tier": "3",
+        "tier": 4,
         "hp": "456",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26847,6 +28289,13 @@
                 "turret_traverse": 38.59,
                 "turret_bloom_max": 6.29
             }
+        },
+        "api_id": "20257",
+        "tag": "A129_T6_medium",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 4.3,
+            "dpm": 1339
         }
     },
     {
@@ -26882,7 +28331,7 @@
     {
         "name": "T32",
         "nation": "usa",
-        "tier": "7",
+        "tier": 8,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -26907,12 +28356,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.6
             }
+        },
+        "api_id": "4385",
+        "tag": "A12_T32",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 6.7,
+            "dpm": 1880
         }
     },
     {
-        "name": "T32 Fl",
+        "name": "T32 FL",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -26937,6 +28393,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 2.5
             }
+        },
+        "api_id": "63265",
+        "tag": "A12_T32_FL",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 9.0,
+            "dpm": 1866
         }
     },
     {
@@ -26972,7 +28435,7 @@
     {
         "name": "Super Hellcat",
         "nation": "usa",
-        "tier": "7",
+        "tier": 7,
         "hp": "640",
         "chassis_stats": {
             "movement_dispersion": "0.23",
@@ -26997,12 +28460,19 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "62497",
+        "tag": "A130_Super_Hellcat",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 8.0,
+            "dpm": 1575
         }
     },
     {
         "name": "T77",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -27027,6 +28497,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.04
             }
+        },
+        "api_id": "51233",
+        "tag": "A132_T77",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 40.0,
+            "dpm": 472
         }
     },
     {
@@ -27062,7 +28539,7 @@
     {
         "name": "T42",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1080",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -27087,6 +28564,13 @@
                 "turret_traverse": 38.59,
                 "turret_bloom_max": 3.7
             }
+        },
+        "api_id": "50721",
+        "tag": "A136_T42",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 9.1,
+            "dpm": 1615
         }
     },
     {
@@ -27332,7 +28816,7 @@
     {
         "name": "Pawlack Tank",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "840",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -27357,6 +28841,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "20513",
+        "tag": "A142_Pawlack_Tank",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 4.4,
+            "dpm": 1786
         }
     },
     {
@@ -27630,9 +29121,9 @@
         }
     },
     {
-        "name": "Ambt",
+        "name": "AMBT",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -27657,12 +29148,19 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 4.48
             }
+        },
+        "api_id": "34081",
+        "tag": "A149_AMBT",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 15.0,
+            "dpm": 1260
         }
     },
     {
         "name": "T30",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -27687,12 +29185,19 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "2593",
+        "tag": "A14_T30",
+        "stats": {
+            "damage_avg": 394,
+            "reload_time": 10.2,
+            "dpm": 2317
         }
     },
     {
-        "name": "T30 Fl",
+        "name": "T30 FL",
         "nation": "usa",
-        "tier": "9",
+        "tier": 9,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -27717,6 +29222,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 3.96
             }
+        },
+        "api_id": "58145",
+        "tag": "A14_T30_FL",
+        "stats": {
+            "damage_avg": 656,
+            "reload_time": 21.0,
+            "dpm": 1874
         }
     },
     {
@@ -27840,9 +29352,9 @@
         }
     },
     {
-        "name": "Xm66F",
+        "name": "XM66F",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -27867,6 +29379,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.6
             }
+        },
+        "api_id": "32545",
+        "tag": "A153_XM66F",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 9.5,
+            "dpm": 2210
         }
     },
     {
@@ -27900,9 +29419,9 @@
         }
     },
     {
-        "name": "Aat60",
+        "name": "AAT60",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -27927,6 +29446,13 @@
                 "turret_traverse": 46.93,
                 "turret_bloom_max": 4.5
             }
+        },
+        "api_id": "53281",
+        "tag": "A155_AAT60",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 8.7,
+            "dpm": 1931
         }
     },
     {
@@ -28080,9 +29606,9 @@
         }
     },
     {
-        "name": "Armt",
+        "name": "ARMT",
         "nation": "usa",
-        "tier": "5",
+        "tier": 5,
         "hp": "480",
         "chassis_stats": {
             "movement_dispersion": "0.23",
@@ -28107,6 +29633,13 @@
                 "turret_traverse": 40.68,
                 "turret_bloom_max": 5.85
             }
+        },
+        "api_id": "35617",
+        "tag": "A161_ARMT",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 19.0,
+            "dpm": 315
         }
     },
     {
@@ -28232,7 +29765,7 @@
     {
         "name": "M7 Priest",
         "nation": "usa",
-        "tier": "2",
+        "tier": 3,
         "hp": "200",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -28257,12 +29790,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 8.96
             }
+        },
+        "api_id": "3617",
+        "tag": "A16_M7_Priest",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 20.0,
+            "dpm": 1077
         }
     },
     {
-        "name": "Imt",
+        "name": "IMT",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1080",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -28287,6 +29827,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 3.4
             }
+        },
+        "api_id": "66337",
+        "tag": "A171_IMT",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 12.3,
+            "dpm": 1536
         }
     },
     {
@@ -28380,9 +29927,9 @@
         }
     },
     {
-        "name": "Ltc Ii",
+        "name": "LTC II",
         "nation": "usa",
-        "tier": "9",
+        "tier": 9,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.1",
@@ -28407,6 +29954,13 @@
                 "turret_traverse": 46.93,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "21793",
+        "tag": "A175_LTC_II",
+        "stats": {
+            "damage_avg": 175,
+            "reload_time": 40.0,
+            "dpm": 262
         }
     },
     {
@@ -28470,9 +30024,9 @@
         }
     },
     {
-        "name": "Spht",
+        "name": "SPHT",
         "nation": "usa",
-        "tier": "9",
+        "tier": 9,
         "hp": "1360",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -28497,12 +30051,19 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 2.8
             }
+        },
+        "api_id": "67873",
+        "tag": "A178_SPHT",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 9.6,
+            "dpm": 2293
         }
     },
     {
         "name": "Black Rock",
         "nation": "usa",
-        "tier": "11",
+        "tier": 11,
         "hp": "1920",
         "chassis_stats": {
             "movement_dispersion": "0.166",
@@ -28527,12 +30088,19 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 3.5
             }
+        },
+        "api_id": "67361",
+        "tag": "A179_Black_Rock",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 10.5,
+            "dpm": 2097
         }
     },
     {
         "name": "M37",
         "nation": "usa",
-        "tier": "3",
+        "tier": 4,
         "hp": "220",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -28557,12 +30125,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 7.68
             }
+        },
+        "api_id": "4641",
+        "tag": "A17_M37",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 15.0,
+            "dpm": 1436
         }
     },
     {
         "name": "T803",
         "nation": "usa",
-        "tier": "11",
+        "tier": 11,
         "hp": "1880",
         "chassis_stats": {
             "movement_dispersion": "0.145",
@@ -28587,12 +30162,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 1.92
             }
+        },
+        "api_id": "69153",
+        "tag": "A182_T803",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 9.0,
+            "dpm": 2393
         }
     },
     {
-        "name": "Xm69 Hacker",
+        "name": "XM69 Hacker",
         "nation": "usa",
-        "tier": "11",
+        "tier": 11,
         "hp": "1680",
         "chassis_stats": {
             "movement_dispersion": "0.066",
@@ -28617,12 +30199,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 2.2
             }
+        },
+        "api_id": "35873",
+        "tag": "A183_XM69_Hacker",
+        "stats": {
+            "damage_avg": 359,
+            "reload_time": 8.35,
+            "dpm": 2579
         }
     },
     {
         "name": "Ares 75",
         "nation": "usa",
-        "tier": "7",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -28647,6 +30236,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "23073",
+        "tag": "A187_Ares_75",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 6.0,
+            "dpm": 520
         }
     },
     {
@@ -28682,7 +30278,7 @@
     {
         "name": "Ares 90",
         "nation": "usa",
-        "tier": "10",
+        "tier": 10,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.17",
@@ -28707,12 +30303,19 @@
                 "turret_traverse": 46.93,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "22049",
+        "tag": "A189_Ares_90",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 8.0,
+            "dpm": 750
         }
     },
     {
         "name": "M41",
         "nation": "usa",
-        "tier": "4",
+        "tier": 5,
         "hp": "240",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -28737,12 +30340,19 @@
                 "turret_traverse": 10.43,
                 "turret_bloom_max": 5.0
             }
+        },
+        "api_id": "4129",
+        "tag": "A18_M41",
+        "stats": {
+            "damage_avg": 437,
+            "reload_time": 29.0,
+            "dpm": 904
         }
     },
     {
         "name": "Ares 85",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -28767,12 +30377,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "36129",
+        "tag": "A190_Ares_85",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 5.0,
+            "dpm": 624
         }
     },
     {
         "name": "Ares 90 C",
         "nation": "usa",
-        "tier": "11",
+        "tier": 11,
         "hp": "1640",
         "chassis_stats": {
             "movement_dispersion": "0.167",
@@ -28797,6 +30414,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 3.22
             }
+        },
+        "api_id": "22305",
+        "tag": "A191_Ares_90_C",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 7.0,
+            "dpm": 857
         }
     },
     {
@@ -28862,7 +30486,7 @@
     {
         "name": "T14",
         "nation": "usa",
-        "tier": "6",
+        "tier": 5,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -28887,6 +30511,13 @@
                 "turret_traverse": 27.38,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "33",
+        "tag": "A21_T14",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.81,
+            "dpm": 1511
         }
     },
     {
@@ -28922,7 +30553,7 @@
     {
         "name": "M5 Stuart",
         "nation": "usa",
-        "tier": "3",
+        "tier": 4,
         "hp": "416",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -28947,6 +30578,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "5153",
+        "tag": "A22_M5_Stuart",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 2.0,
+            "dpm": 1320
         }
     },
     {
@@ -29102,7 +30740,7 @@
     {
         "name": "T40",
         "nation": "usa",
-        "tier": "3",
+        "tier": 4,
         "hp": "304",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29127,12 +30765,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 6.16
             }
+        },
+        "api_id": "7713",
+        "tag": "A29_T40",
+        "stats": {
+            "damage_avg": 153,
+            "reload_time": 3.7,
+            "dpm": 2481
         }
     },
     {
         "name": "M10 Wolverine",
         "nation": "usa",
-        "tier": "4",
+        "tier": 5,
         "hp": "400",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29157,6 +30802,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 2.24
             }
+        },
+        "api_id": "6945",
+        "tag": "A30_M10_Wolverine",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.3,
+            "dpm": 1745
         }
     },
     {
@@ -29192,7 +30844,7 @@
     {
         "name": "M12",
         "nation": "usa",
-        "tier": "6",
+        "tier": 7,
         "hp": "280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29217,12 +30869,19 @@
                 "turret_traverse": 12.52,
                 "turret_bloom_max": 5.4
             }
+        },
+        "api_id": "7969",
+        "tag": "A32_M12",
+        "stats": {
+            "damage_avg": 525,
+            "reload_time": 28.5,
+            "dpm": 1105
         }
     },
     {
-        "name": "Mtls-1G14",
+        "name": "MTLS-1G14",
         "nation": "usa",
-        "tier": "6",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -29247,12 +30906,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 5.28
             }
+        },
+        "api_id": "52001",
+        "tag": "A33_MTLS-1G14",
+        "stats": {
+            "damage_avg": 35,
+            "reload_time": 4.6,
+            "dpm": 456
         }
     },
     {
         "name": "M24 Chaffee",
         "nation": "usa",
-        "tier": "4",
+        "tier": 5,
         "hp": "488",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29277,6 +30943,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "9761",
+        "tag": "A34_M24_Chaffee",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 4.3,
+            "dpm": 1339
         }
     },
     {
@@ -29462,7 +31135,7 @@
     {
         "name": "T92",
         "nation": "usa",
-        "tier": "10",
+        "tier": 8,
         "hp": "400",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -29487,12 +31160,19 @@
                 "turret_traverse": 8.34,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "57889",
+        "tag": "A99_T92_LT",
+        "stats": {
+            "damage_avg": 131,
+            "reload_time": 4.5,
+            "dpm": 1746
         }
     },
     {
         "name": "T28",
         "nation": "usa",
-        "tier": "7",
+        "tier": 8,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29517,12 +31197,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "8225",
+        "tag": "A39_T28",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 8.3,
+            "dpm": 2277
         }
     },
     {
         "name": "T95",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29547,12 +31234,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "8737",
+        "tag": "A40_T95",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 7.4,
+            "dpm": 2554
         }
     },
     {
         "name": "M18 Hellcat",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "520",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29577,12 +31271,19 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 2.56
             }
+        },
+        "api_id": "11553",
+        "tag": "A41_M18_Hellcat",
+        "stats": {
+            "damage_avg": 118,
+            "reload_time": 3.7,
+            "dpm": 1913
         }
     },
     {
         "name": "M22 Locust",
         "nation": "usa",
-        "tier": "3",
+        "tier": 3,
         "hp": "356",
         "chassis_stats": {
             "movement_dispersion": "0.21",
@@ -29607,6 +31308,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "52769",
+        "tag": "A43_M22_Locust",
+        "stats": {
+            "damage_avg": 35,
+            "reload_time": 2.29,
+            "dpm": 917
         }
     },
     {
@@ -29642,7 +31350,7 @@
     {
         "name": "M6A2E1",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1240",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -29667,6 +31375,13 @@
                 "turret_traverse": 23.99,
                 "turret_bloom_max": 3.68
             }
+        },
+        "api_id": "52513",
+        "tag": "A45_M6A2E1",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 11.89,
+            "dpm": 1412
         }
     },
     {
@@ -29702,7 +31417,7 @@
     {
         "name": "M8A1",
         "nation": "usa",
-        "tier": "3",
+        "tier": 4,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29727,12 +31442,19 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "10273",
+        "tag": "A57_M8A1",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.7,
+            "dpm": 1444
         }
     },
     {
         "name": "T67",
         "nation": "usa",
-        "tier": "4",
+        "tier": 5,
         "hp": "376",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29757,6 +31479,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.92
             }
+        },
+        "api_id": "10529",
+        "tag": "A58_T67",
+        "stats": {
+            "damage_avg": 65,
+            "reload_time": 2.4,
+            "dpm": 1625
         }
     },
     {
@@ -29822,7 +31551,7 @@
     {
         "name": "M46 Patton",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29847,12 +31576,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "8993",
+        "tag": "A63_M46_Patton",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 6.3,
+            "dpm": 2333
         }
     },
     {
-        "name": "M46 Patton Fl",
+        "name": "M46 Patton FL",
         "nation": "usa",
-        "tier": "9",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.08",
@@ -29877,12 +31613,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "58401",
+        "tag": "A63_M46_Patton_FL",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 9.0,
+            "dpm": 2273
         }
     },
     {
-        "name": "M46 Patton Kr",
+        "name": "M46 Patton KR",
         "nation": "usa",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -29907,12 +31650,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 3.04
             }
+        },
+        "api_id": "57121",
+        "tag": "A63_M46_Patton_KR",
+        "stats": {
+            "damage_avg": 210,
+            "reload_time": 7.4,
+            "dpm": 1702
         }
     },
     {
-        "name": "T25 At",
+        "name": "T25 AT",
         "nation": "usa",
-        "tier": "6",
+        "tier": 7,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29937,12 +31687,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.6
             }
+        },
+        "api_id": "9249",
+        "tag": "A64_T25_AT",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 8.2,
+            "dpm": 1792
         }
     },
     {
         "name": "M103",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -29967,6 +31724,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.6
             }
+        },
+        "api_id": "9505",
+        "tag": "A66_M103",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 11.0,
+            "dpm": 1909
         }
     },
     {
@@ -30002,7 +31766,7 @@
     {
         "name": "T28 Prototype",
         "nation": "usa",
-        "tier": "7",
+        "tier": 8,
         "hp": "1120",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30027,12 +31791,19 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 2.16
             }
+        },
+        "api_id": "11297",
+        "tag": "A68_T28_Prototype",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 9.3,
+            "dpm": 2032
         }
     },
     {
         "name": "T110E5",
         "nation": "usa",
-        "tier": "10",
+        "tier": 10,
         "hp": "1760",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -30057,6 +31828,13 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 1.92
             }
+        },
+        "api_id": "10785",
+        "tag": "A69_T110E5",
+        "stats": {
+            "damage_avg": 350,
+            "reload_time": 8.8,
+            "dpm": 2386
         }
     },
     {
@@ -30092,7 +31870,7 @@
     {
         "name": "T21",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "536",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30117,6 +31895,13 @@
                 "turret_traverse": 43.81,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "15137",
+        "tag": "A71_T21",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 4.5,
+            "dpm": 1333
         }
     },
     {
@@ -30272,7 +32057,7 @@
     {
         "name": "M4 Improved",
         "nation": "usa",
-        "tier": "5",
+        "tier": 5,
         "hp": "504",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -30297,6 +32082,13 @@
                 "turret_traverse": 40.68,
                 "turret_bloom_max": 3.12
             }
+        },
+        "api_id": "12577",
+        "tag": "A78_M4_Improved",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 4.0,
+            "dpm": 1440
         }
     },
     {
@@ -30392,7 +32184,7 @@
     {
         "name": "T110E4",
         "nation": "usa",
-        "tier": "10",
+        "tier": 10,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -30417,6 +32209,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "13089",
+        "tag": "A83_T110E4",
+        "stats": {
+            "damage_avg": 656,
+            "reload_time": 19.5,
+            "dpm": 2018
         }
     },
     {
@@ -30452,7 +32251,7 @@
     {
         "name": "T110E3",
         "nation": "usa",
-        "tier": "10",
+        "tier": 10,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -30477,12 +32276,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "13857",
+        "tag": "A85_T110E3",
+        "stats": {
+            "damage_avg": 656,
+            "reload_time": 18.0,
+            "dpm": 2186
         }
     },
     {
         "name": "T23E3",
         "nation": "usa",
-        "tier": "7",
+        "tier": 7,
         "hp": "840",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -30507,12 +32313,19 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "11809",
+        "tag": "A86_T23E3",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 3.3,
+            "dpm": 1818
         }
     },
     {
         "name": "M44",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "252",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30537,6 +32350,13 @@
                 "turret_traverse": 9.39,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "16417",
+        "tag": "A87_M44",
+        "stats": {
+            "damage_avg": 437,
+            "reload_time": 28.0,
+            "dpm": 936
         }
     },
     {
@@ -30572,7 +32392,7 @@
     {
         "name": "T54E1",
         "nation": "usa",
-        "tier": "8",
+        "tier": 9,
         "hp": "1520",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30597,12 +32417,19 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.04
             }
+        },
+        "api_id": "15393",
+        "tag": "A89_T54E1",
+        "stats": {
+            "damage_avg": 245,
+            "reload_time": 25.0,
+            "dpm": 588
         }
     },
     {
         "name": "T69",
         "nation": "usa",
-        "tier": "7",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30627,6 +32454,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "14625",
+        "tag": "A90_T69",
+        "stats": {
+            "damage_avg": 153,
+            "reload_time": 15.0,
+            "dpm": 612
         }
     },
     {
@@ -30662,7 +32496,7 @@
     {
         "name": "M60",
         "nation": "usa",
-        "tier": "10",
+        "tier": 10,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.1",
@@ -30687,12 +32521,19 @@
                 "turret_traverse": 43.81,
                 "turret_bloom_max": 3.36
             }
+        },
+        "api_id": "15905",
+        "tag": "A92_M60",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 8.8,
+            "dpm": 2324
         }
     },
     {
         "name": "T7 Combat Car",
         "nation": "usa",
-        "tier": "2",
+        "tier": 2,
         "hp": "240",
         "chassis_stats": {
             "movement_dispersion": "0.26",
@@ -30717,12 +32558,19 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "55073",
+        "tag": "A93_T7_Combat_Car",
+        "stats": {
+            "damage_avg": 7,
+            "reload_time": 24.0,
+            "dpm": 17
         }
     },
     {
         "name": "T37",
         "nation": "usa",
-        "tier": "5",
+        "tier": 6,
         "hp": "640",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30747,6 +32595,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 3.52
             }
+        },
+        "api_id": "16673",
+        "tag": "A94_T37",
+        "stats": {
+            "damage_avg": 100,
+            "reload_time": 3.9,
+            "dpm": 1538
         }
     },
     {
@@ -30870,9 +32725,9 @@
         }
     },
     {
-        "name": "Is",
+        "name": "IS",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 7,
         "hp": "1080",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30897,12 +32752,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 5.32
             }
+        },
+        "api_id": "513",
+        "tag": "R01_IS",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 4.6,
+            "dpm": 2047
         }
     },
     {
-        "name": "Su-85",
+        "name": "SU-85",
         "nation": "ussr",
-        "tier": "4",
+        "tier": 5,
         "hp": "400",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30927,12 +32789,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "257",
+        "tag": "R02_SU-85",
+        "stats": {
+            "damage_avg": 140,
+            "reload_time": 4.5,
+            "dpm": 1866
         }
     },
     {
-        "name": "Bt-7",
+        "name": "BT-7",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 4,
         "hp": "432",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30957,12 +32826,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 3.04
             }
+        },
+        "api_id": "769",
+        "tag": "R03_BT-7",
+        "stats": {
+            "damage_avg": 44,
+            "reload_time": 1.8,
+            "dpm": 1466
         }
     },
     {
         "name": "T-34",
         "nation": "ussr",
-        "tier": "4",
+        "tier": 5,
         "hp": "520",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -30987,6 +32863,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "1",
+        "tag": "R04_T-34",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.7,
+            "dpm": 1556
         }
     },
     {
@@ -31052,7 +32935,7 @@
     {
         "name": "T-28",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 4,
         "hp": "456",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -31077,12 +32960,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 7.36
             }
+        },
+        "api_id": "1537",
+        "tag": "R06_T-28",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.9,
+            "dpm": 1476
         }
     },
     {
         "name": "T-34-85",
         "nation": "ussr",
-        "tier": "5",
+        "tier": 6,
         "hp": "760",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -31107,12 +32997,19 @@
                 "turret_traverse": 47.98,
                 "turret_bloom_max": 6.44
             }
+        },
+        "api_id": "2561",
+        "tag": "R07_T-34-85",
+        "stats": {
+            "damage_avg": 140,
+            "reload_time": 4.8,
+            "dpm": 1750
         }
     },
     {
-        "name": "Bt-2",
+        "name": "BT-2",
         "nation": "ussr",
-        "tier": "1",
+        "tier": 2,
         "hp": "256",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -31137,12 +33034,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "1025",
+        "tag": "R08_BT-2",
+        "stats": {
+            "damage_avg": 35,
+            "reload_time": 2.0,
+            "dpm": 1050
         }
     },
     {
         "name": "T-26",
         "nation": "ussr",
-        "tier": "1",
+        "tier": 2,
         "hp": "288",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -31167,6 +33071,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 6.16
             }
+        },
+        "api_id": "4609",
+        "tag": "R09_T-26",
+        "stats": {
+            "damage_avg": 31,
+            "reload_time": 2.3,
+            "dpm": 808
         }
     },
     {
@@ -31470,9 +33381,9 @@
         }
     },
     {
-        "name": "At-1",
+        "name": "AT-1",
         "nation": "ussr",
-        "tier": "2",
+        "tier": 2,
         "hp": "200",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -31497,12 +33408,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 4.4
             }
+        },
+        "api_id": "5121",
+        "tag": "R10_AT-1",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.1,
+            "dpm": 1171
         }
     },
     {
         "name": "Object 260",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1680",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -31527,6 +33445,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "58369",
+        "tag": "R110_Object_260",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 11.0,
+            "dpm": 2100
         }
     },
     {
@@ -31652,7 +33577,7 @@
     {
         "name": "Object 244",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 6,
         "hp": "792",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -31677,6 +33602,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 4.16
             }
+        },
+        "api_id": "60161",
+        "tag": "R114_Object_244",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 5.7,
+            "dpm": 1652
         }
     },
     {
@@ -31920,9 +33852,9 @@
         }
     },
     {
-        "name": "Ms-1",
+        "name": "MS-1",
         "nation": "ussr",
-        "tier": "1",
+        "tier": 1,
         "hp": "176",
         "chassis_stats": {
             "movement_dispersion": "0.38",
@@ -31947,6 +33879,13 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 4.9
             }
+        },
+        "api_id": "3329",
+        "tag": "R11_MS-1",
+        "stats": {
+            "damage_avg": 26,
+            "reload_time": 2.0,
+            "dpm": 780
         }
     },
     {
@@ -32102,7 +34041,7 @@
     {
         "name": "T-45",
         "nation": "ussr",
-        "tier": "2",
+        "tier": 2,
         "hp": "224",
         "chassis_stats": {
             "movement_dispersion": "0.3",
@@ -32127,6 +34066,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 5.44
             }
+        },
+        "api_id": "50945",
+        "tag": "R125_T_45",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 3.6,
+            "dpm": 683
         }
     },
     {
@@ -32342,7 +34288,7 @@
     {
         "name": "Object 257",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 9,
         "hp": "1680",
         "chassis_stats": {
             "movement_dispersion": "0.19",
@@ -32367,12 +34313,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 3.12
             }
+        },
+        "api_id": "19713",
+        "tag": "R151_Object_257_2",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 11.1,
+            "dpm": 1843
         }
     },
     {
         "name": "A-20",
         "nation": "ussr",
-        "tier": "4",
+        "tier": 5,
         "hp": "496",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -32397,6 +34350,13 @@
                 "turret_traverse": 46.93,
                 "turret_bloom_max": 3.6
             }
+        },
+        "api_id": "2049",
+        "tag": "R12_A-20",
+        "stats": {
+            "damage_avg": 52,
+            "reload_time": 1.9,
+            "dpm": 1642
         }
     },
     {
@@ -32522,7 +34482,7 @@
     {
         "name": "Object 252U",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "1200",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -32547,12 +34507,19 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "49665",
+        "tag": "R134_Object_252U",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 15.0,
+            "dpm": 1540
         }
     },
     {
         "name": "T-103",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "1000",
         "chassis_stats": {
             "movement_dispersion": "0.23",
@@ -32577,6 +34544,13 @@
                 "turret_traverse": 15.64,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "48385",
+        "tag": "R135_T_103",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 11.2,
+            "dpm": 2062
         }
     },
     {
@@ -32610,9 +34584,9 @@
         }
     },
     {
-        "name": "Kv-1S",
+        "name": "KV-1S",
         "nation": "ussr",
-        "tier": "5",
+        "tier": 6,
         "hp": "920",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -32637,6 +34611,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 2.24
             }
+        },
+        "api_id": "18689",
+        "tag": "R13_KV-1s",
+        "stats": {
+            "damage_avg": 105,
+            "reload_time": 3.4,
+            "dpm": 1852
         }
     },
     {
@@ -32672,7 +34653,7 @@
     {
         "name": "T-29",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 3,
         "hp": "356",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -32697,6 +34678,13 @@
                 "turret_traverse": 35.46,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "47873",
+        "tag": "R143_T_29",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 4.68,
+            "dpm": 1230
         }
     },
     {
@@ -32820,9 +34808,9 @@
         }
     },
     {
-        "name": "Stg",
+        "name": "STG",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "1080",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -32847,6 +34835,13 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 4.2
             }
+        },
+        "api_id": "47617",
+        "tag": "R146_STG",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 13.0,
+            "dpm": 1573
         }
     },
     {
@@ -32882,7 +34877,7 @@
     {
         "name": "Object 701",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.25",
@@ -32907,6 +34902,13 @@
                 "turret_traverse": 20.86,
                 "turret_bloom_max": 3.0
             }
+        },
+        "api_id": "65537",
+        "tag": "R147_Object_701",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 15.5,
+            "dpm": 1320
         }
     },
     {
@@ -33000,9 +35002,9 @@
         }
     },
     {
-        "name": "Su-5",
+        "name": "SU-5",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 4,
         "hp": "196",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -33027,6 +35029,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 4.16
             }
+        },
+        "api_id": "4865",
+        "tag": "R14_SU-5",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 6.0,
+            "dpm": 1570
         }
     },
     {
@@ -33122,7 +35131,7 @@
     {
         "name": "Object 705",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 9,
         "hp": "1680",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -33147,6 +35156,13 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "20737",
+        "tag": "R153_Object_705",
+        "stats": {
+            "damage_avg": 385,
+            "reload_time": 12.0,
+            "dpm": 1925
         }
     },
     {
@@ -33182,7 +35198,7 @@
     {
         "name": "Object 277",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1760",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -33207,6 +35223,13 @@
                 "turret_traverse": 28.16,
                 "turret_bloom_max": 2.16
             }
+        },
+        "api_id": "22017",
+        "tag": "R155_Object_277",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 12.5,
+            "dpm": 2059
         }
     },
     {
@@ -33392,7 +35415,7 @@
     {
         "name": "S-51",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 7,
         "hp": "280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -33417,6 +35440,13 @@
                 "turret_traverse": 12.52,
                 "turret_bloom_max": 5.52
             }
+        },
+        "api_id": "1793",
+        "tag": "R15_S-51",
+        "stats": {
+            "damage_avg": 525,
+            "reload_time": 25.0,
+            "dpm": 1260
         }
     },
     {
@@ -33452,7 +35482,7 @@
     {
         "name": "T-116",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -33477,6 +35507,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 5.6
             }
+        },
+        "api_id": "44801",
+        "tag": "R161_T_116",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.3,
+            "dpm": 1069
         }
     },
     {
@@ -33660,9 +35697,9 @@
         }
     },
     {
-        "name": "Su-18",
+        "name": "SU-18",
         "nation": "ussr",
-        "tier": "1",
+        "tier": 2,
         "hp": "112",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -33687,6 +35724,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 5.04
             }
+        },
+        "api_id": "3841",
+        "tag": "R16_SU-18",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 8.0,
+            "dpm": 1177
         }
     },
     {
@@ -33812,7 +35856,7 @@
     {
         "name": "Object 752",
         "nation": "ussr",
-        "tier": "9",
+        "tier": 9,
         "hp": "1400",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -33837,6 +35881,13 @@
                 "turret_traverse": 23.99,
                 "turret_bloom_max": 2.53
             }
+        },
+        "api_id": "30465",
+        "tag": "R172_Object_752",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 34.0,
+            "dpm": 601
         }
     },
     {
@@ -33900,9 +35951,9 @@
         }
     },
     {
-        "name": "Bt-5",
+        "name": "BT-5",
         "nation": "ussr",
-        "tier": "2",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -33927,6 +35978,13 @@
                 "turret_traverse": 36.5,
                 "turret_bloom_max": 2.8
             }
+        },
+        "api_id": "23041",
+        "tag": "R174_BT-5",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.0,
+            "dpm": 1230
         }
     },
     {
@@ -33992,7 +36050,7 @@
     {
         "name": "Object 780",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1760",
         "chassis_stats": {
             "movement_dispersion": "0.17",
@@ -34017,12 +36075,19 @@
                 "turret_traverse": 31.29,
                 "turret_bloom_max": 2.4
             }
+        },
+        "api_id": "32001",
+        "tag": "R178_Object_780",
+        "stats": {
+            "damage_avg": 464,
+            "reload_time": 14.0,
+            "dpm": 1988
         }
     },
     {
-        "name": "Su-100",
+        "name": "SU-100",
         "nation": "ussr",
-        "tier": "5",
+        "tier": 6,
         "hp": "520",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -34047,6 +36112,13 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "3585",
+        "tag": "R17_SU-100",
+        "stats": {
+            "damage_avg": 219,
+            "reload_time": 7.7,
+            "dpm": 1706
         }
     },
     {
@@ -34202,7 +36274,7 @@
     {
         "name": "Object 590",
         "nation": "ussr",
-        "tier": "9",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -34227,12 +36299,19 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "33793",
+        "tag": "R187_Object_590",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 9.0,
+            "dpm": 1866
         }
     },
     {
         "name": "Object 259A",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.19",
@@ -34257,6 +36336,13 @@
                 "turret_traverse": 30.25,
                 "turret_bloom_max": 3.48
             }
+        },
+        "api_id": "33537",
+        "tag": "R188_Object_259A",
+        "stats": {
+            "damage_avg": 367,
+            "reload_time": 15.0,
+            "dpm": 1468
         }
     },
     {
@@ -34290,9 +36376,9 @@
         }
     },
     {
-        "name": "Su-152",
+        "name": "SU-152",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 7,
         "hp": "720",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -34317,6 +36403,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "2305",
+        "tag": "R18_SU-152",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 8.4,
+            "dpm": 2435
         }
     },
     {
@@ -34352,7 +36445,7 @@
     {
         "name": "Object 283",
         "nation": "ussr",
-        "tier": "9",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.14",
@@ -34377,6 +36470,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 7.2
             }
+        },
+        "api_id": "34817",
+        "tag": "R191_Object_283",
+        "stats": {
+            "damage_avg": 315,
+            "reload_time": 9.39,
+            "dpm": 2012
         }
     },
     {
@@ -34502,7 +36602,7 @@
     {
         "name": "Object 452K",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1920",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -34527,6 +36627,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 2.0
             }
+        },
+        "api_id": "55809",
+        "tag": "R196_Object_452K",
+        "stats": {
+            "damage_avg": 490,
+            "reload_time": 14.0,
+            "dpm": 2100
         }
     },
     {
@@ -34650,9 +36757,9 @@
         }
     },
     {
-        "name": "Is-3",
+        "name": "IS-3",
         "nation": "ussr",
-        "tier": "7",
+        "tier": 8,
         "hp": "1320",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -34677,6 +36784,13 @@
                 "turret_traverse": 29.2,
                 "turret_bloom_max": 2.8
             }
+        },
+        "api_id": "5377",
+        "tag": "R19_IS-3",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 12.3,
+            "dpm": 1663
         }
     },
     {
@@ -34982,7 +37096,7 @@
     {
         "name": "T-44",
         "nation": "ussr",
-        "tier": "7",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35007,12 +37121,19 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 5.76
             }
+        },
+        "api_id": "4353",
+        "tag": "R20_T-44",
+        "stats": {
+            "damage_avg": 192,
+            "reload_time": 6.1,
+            "dpm": 1888
         }
     },
     {
-        "name": "T-44 Fl",
+        "name": "T-44 FL",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -35037,6 +37158,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 5.76
             }
+        },
+        "api_id": "44033",
+        "tag": "R20_T-44_FL",
+        "stats": {
+            "damage_avg": 219,
+            "reload_time": 6.8,
+            "dpm": 1932
         }
     },
     {
@@ -35072,7 +37200,7 @@
     {
         "name": "Object Kust",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 8,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.4",
@@ -35097,6 +37225,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 1.6
             }
+        },
+        "api_id": "65793",
+        "tag": "R217_Object_Kust",
+        "stats": {
+            "damage_avg": 481,
+            "reload_time": 17.8,
+            "dpm": 1621
         }
     },
     {
@@ -35132,7 +37267,7 @@
     {
         "name": "T-115",
         "nation": "ussr",
-        "tier": "5",
+        "tier": 5,
         "hp": "570",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -35157,12 +37292,19 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "66049",
+        "tag": "R218_T_115",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.2,
+            "dpm": 1800
         }
     },
     {
         "name": "Object 265T",
         "nation": "ussr",
-        "tier": "9",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -35187,6 +37329,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 3.75
             }
+        },
+        "api_id": "66305",
+        "tag": "R219_Object_265T",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 11.0,
+            "dpm": 1859
         }
     },
     {
@@ -35252,7 +37401,7 @@
     {
         "name": "T-46",
         "nation": "ussr",
-        "tier": "2",
+        "tier": 3,
         "hp": "356",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35277,12 +37426,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 6.16
             }
+        },
+        "api_id": "3073",
+        "tag": "R22_T-46",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.3,
+            "dpm": 1069
         }
     },
     {
         "name": "Object 432U",
         "nation": "ussr",
-        "tier": "11",
+        "tier": 11,
         "hp": "1760",
         "chassis_stats": {
             "movement_dispersion": "0.15",
@@ -35307,6 +37463,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.22
             }
+        },
+        "api_id": "36609",
+        "tag": "R230_Object_432U",
+        "stats": {
+            "damage_avg": 394,
+            "reload_time": 11.5,
+            "dpm": 2055
         }
     },
     {
@@ -35372,7 +37535,7 @@
     {
         "name": "T-43",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 7,
         "hp": "960",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35397,6 +37560,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 3.84
             }
+        },
+        "api_id": "6657",
+        "tag": "R23_T-43",
+        "stats": {
+            "damage_avg": 175,
+            "reload_time": 6.2,
+            "dpm": 1693
         }
     },
     {
@@ -35490,9 +37660,9 @@
         }
     },
     {
-        "name": "Su-8",
+        "name": "SU-8",
         "nation": "ussr",
-        "tier": "5",
+        "tier": 6,
         "hp": "240",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35517,6 +37687,13 @@
                 "turret_traverse": 18.77,
                 "turret_bloom_max": 6.84
             }
+        },
+        "api_id": "5633",
+        "tag": "R26_SU-8",
+        "stats": {
+            "damage_avg": 437,
+            "reload_time": 18.0,
+            "dpm": 1456
         }
     },
     {
@@ -35670,9 +37847,9 @@
         }
     },
     {
-        "name": "Bt-Sv",
+        "name": "BT-SV",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 3,
         "hp": "340",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -35697,6 +37874,13 @@
                 "turret_traverse": 41.07,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "52225",
+        "tag": "R34_BT-SV",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.29,
+            "dpm": 1074
         }
     },
     {
@@ -35760,9 +37944,9 @@
         }
     },
     {
-        "name": "Kv-3",
+        "name": "KV-3",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 7,
         "hp": "1160",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35787,12 +37971,19 @@
                 "turret_traverse": 25.03,
                 "turret_bloom_max": 2.88
             }
+        },
+        "api_id": "5889",
+        "tag": "R39_KV-3",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 9.7,
+            "dpm": 1620
         }
     },
     {
         "name": "T-54",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35817,12 +38008,19 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 5.76
             }
+        },
+        "api_id": "7937",
+        "tag": "R40_T-54",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 6.6,
+            "dpm": 2381
         }
     },
     {
-        "name": "T-54 Fl",
+        "name": "T-54 FL",
         "nation": "ussr",
-        "tier": "9",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.11",
@@ -35847,12 +38045,19 @@
                 "turret_traverse": 45.89,
                 "turret_bloom_max": 5.28
             }
+        },
+        "api_id": "57601",
+        "tag": "R40_T-54_FL",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 6.9,
+            "dpm": 2434
         }
     },
     {
         "name": "T-50",
         "nation": "ussr",
-        "tier": "4",
+        "tier": 5,
         "hp": "440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35877,12 +38082,19 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "9473",
+        "tag": "R41_T-50",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.1,
+            "dpm": 1171
         }
     },
     {
         "name": "T-60",
         "nation": "ussr",
-        "tier": "1",
+        "tier": 2,
         "hp": "272",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35907,12 +38119,19 @@
                 "turret_traverse": 33.38,
                 "turret_bloom_max": 3.2
             }
+        },
+        "api_id": "15361",
+        "tag": "R42_T-60",
+        "stats": {
+            "damage_avg": 9,
+            "reload_time": 9.4,
+            "dpm": 57
         }
     },
     {
         "name": "T-70",
         "nation": "ussr",
-        "tier": "2",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -35937,6 +38156,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.04
             }
+        },
+        "api_id": "15105",
+        "tag": "R43_T-70",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.4,
+            "dpm": 1025
         }
     },
     {
@@ -36000,9 +38226,9 @@
         }
     },
     {
-        "name": "Is-7",
+        "name": "IS-7",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1920",
         "chassis_stats": {
             "movement_dispersion": "0.16",
@@ -36027,6 +38253,13 @@
                 "turret_traverse": 26.07,
                 "turret_bloom_max": 1.5
             }
+        },
+        "api_id": "7169",
+        "tag": "R45_IS-7",
+        "stats": {
+            "damage_avg": 429,
+            "reload_time": 13.7,
+            "dpm": 1878
         }
     },
     {
@@ -36090,9 +38323,9 @@
         }
     },
     {
-        "name": "Kv-13",
+        "name": "KV-13",
         "nation": "ussr",
-        "tier": "6",
+        "tier": 7,
         "hp": "816",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -36117,6 +38350,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 6.72
             }
+        },
+        "api_id": "8961",
+        "tag": "R46_KV-13",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 3.6,
+            "dpm": 1600
         }
     },
     {
@@ -36180,9 +38420,9 @@
         }
     },
     {
-        "name": "Isu-152",
+        "name": "ISU-152",
         "nation": "ussr",
-        "tier": "7",
+        "tier": 8,
         "hp": "1000",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -36207,6 +38447,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.08
             }
+        },
+        "api_id": "7425",
+        "tag": "R47_ISU-152",
+        "stats": {
+            "damage_avg": 612,
+            "reload_time": 17.1,
+            "dpm": 2147
         }
     },
     {
@@ -36332,7 +38579,7 @@
     {
         "name": "Object 261",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "408",
         "chassis_stats": {
             "movement_dispersion": "0.2",
@@ -36357,12 +38604,19 @@
                 "turret_traverse": 12.52,
                 "turret_bloom_max": 3.3
             }
+        },
+        "api_id": "8705",
+        "tag": "R52_Object_261",
+        "stats": {
+            "damage_avg": 700,
+            "reload_time": 32.0,
+            "dpm": 1312
         }
     },
     {
         "name": "Object 704",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 9,
         "hp": "1280",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -36387,12 +38641,19 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "8193",
+        "tag": "R53_Object_704",
+        "stats": {
+            "damage_avg": 656,
+            "reload_time": 17.4,
+            "dpm": 2262
         }
     },
     {
-        "name": "Kv-5",
+        "name": "KV-5",
         "nation": "ussr",
-        "tier": "7",
+        "tier": 8,
         "hp": "1424",
         "chassis_stats": {
             "movement_dispersion": "0.18",
@@ -36417,6 +38678,13 @@
                 "turret_traverse": 22.16,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "53249",
+        "tag": "R54_KV-5",
+        "stats": {
+            "damage_avg": 262,
+            "reload_time": 8.57,
+            "dpm": 1834
         }
     },
     {
@@ -36452,7 +38720,7 @@
     {
         "name": "T-127",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 3,
         "hp": "356",
         "chassis_stats": {
             "movement_dispersion": "0.24",
@@ -36477,6 +38745,13 @@
                 "turret_traverse": 47.46,
                 "turret_bloom_max": 7.28
             }
+        },
+        "api_id": "53505",
+        "tag": "R56_T-127",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.29,
+            "dpm": 1074
         }
     },
     {
@@ -36510,9 +38785,9 @@
         }
     },
     {
-        "name": "Su-101",
+        "name": "SU-101",
         "nation": "ussr",
-        "tier": "7",
+        "tier": 8,
         "hp": "1040",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -36537,6 +38812,13 @@
                 "turret_traverse": 27.12,
                 "turret_bloom_max": 2.6
             }
+        },
+        "api_id": "9985",
+        "tag": "R58_SU-101",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 8.7,
+            "dpm": 1931
         }
     },
     {
@@ -36720,9 +39002,9 @@
         }
     },
     {
-        "name": "Su-26",
+        "name": "SU-26",
         "nation": "ussr",
-        "tier": "2",
+        "tier": 3,
         "hp": "156",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -36747,6 +39029,13 @@
                 "turret_traverse": 16.69,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "7681",
+        "tag": "R66_SU-26",
+        "stats": {
+            "damage_avg": 157,
+            "reload_time": 7.2,
+            "dpm": 1308
         }
     },
     {
@@ -36782,7 +39071,7 @@
     {
         "name": "A-32",
         "nation": "ussr",
-        "tier": "5",
+        "tier": 4,
         "hp": "440",
         "chassis_stats": {
             "movement_dispersion": "0.22",
@@ -36807,6 +39096,13 @@
                 "turret_traverse": 41.98,
                 "turret_bloom_max": 0.0
             }
+        },
+        "api_id": "52993",
+        "tag": "R68_A-32",
+        "stats": {
+            "damage_avg": 96,
+            "reload_time": 4.1,
+            "dpm": 1404
         }
     },
     {
@@ -37200,9 +39496,9 @@
         }
     },
     {
-        "name": "Ltp",
+        "name": "LTP",
         "nation": "ussr",
-        "tier": "3",
+        "tier": 3,
         "hp": "328",
         "chassis_stats": {
             "movement_dispersion": "0.26",
@@ -37227,6 +39523,13 @@
                 "turret_traverse": 37.55,
                 "turret_bloom_max": 5.76
             }
+        },
+        "api_id": "56577",
+        "tag": "R86_LTP",
+        "stats": {
+            "damage_avg": 41,
+            "reload_time": 2.4,
+            "dpm": 1025
         }
     },
     {
@@ -37532,7 +39835,7 @@
     {
         "name": "Object 907",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1600",
         "chassis_stats": {
             "movement_dispersion": "0.12",
@@ -37557,6 +39860,13 @@
                 "turret_traverse": 50.06,
                 "turret_bloom_max": 4.8
             }
+        },
+        "api_id": "15617",
+        "tag": "R95_Object_907",
+        "stats": {
+            "damage_avg": 280,
+            "reload_time": 6.5,
+            "dpm": 2584
         }
     },
     {
@@ -37592,7 +39902,7 @@
     {
         "name": "Object 430",
         "nation": "ussr",
-        "tier": "8",
+        "tier": 9,
         "hp": "1440",
         "chassis_stats": {
             "movement_dispersion": "0.0",
@@ -37617,6 +39927,13 @@
                 "turret_traverse": 39.63,
                 "turret_bloom_max": 4.56
             }
+        },
+        "api_id": "21505",
+        "tag": "R96_Object_430",
+        "stats": {
+            "damage_avg": 341,
+            "reload_time": 9.7,
+            "dpm": 2109
         }
     },
     {
@@ -37652,7 +39969,7 @@
     {
         "name": "Object 140",
         "nation": "ussr",
-        "tier": "10",
+        "tier": 10,
         "hp": "1560",
         "chassis_stats": {
             "movement_dispersion": "0.08",
@@ -37677,6 +39994,13 @@
                 "turret_traverse": 41.72,
                 "turret_bloom_max": 4.0
             }
+        },
+        "api_id": "16897",
+        "tag": "R97_Object_140",
+        "stats": {
+            "damage_avg": 297,
+            "reload_time": 6.3,
+            "dpm": 2828
         }
     },
     {

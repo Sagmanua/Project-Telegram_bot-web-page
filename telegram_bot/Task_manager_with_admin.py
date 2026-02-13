@@ -10,8 +10,7 @@ import time
 DATABASE = "tasks.db"
 TOKEN = ""
 
-# 👑 Admin Telegram IDs
-ADMINS = {1083670850}  # <-- replace with your Telegram user_id
+ADMINS = {1083670850}  
 
 bot = telebot.TeleBot(TOKEN)
 
