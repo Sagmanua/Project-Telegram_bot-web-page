@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1647.1561347113718" height="851.109381781684" viewBox="0 0 1647.1561347113718 851.109381781684">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="349.000006781684" y="40" width="120" height="40" rx="4" ry="4" />
+<text x="409.000006781684" y="64" text-anchor="middle">Telegram</text>
+<rect class="shape-rect" x="179.00000678168402" y="160.99999321831598" width="120" height="40.00001695421007" rx="4" ry="4" />
+<text x="239.00000678168402" y="185.00000169542102" text-anchor="middle">/clan_add</text>
+<rect class="shape-rect" x="177.9999796549479" y="197.00000339084198" width="120" height="40" rx="4" ry="4" />
+<text x="237.9999796549479" y="221.00000339084198" text-anchor="middle">/massage</text>
+<rect class="shape-rect" x="354.000006781684" y="157.99999660915796" width="120" height="40" rx="4" ry="4" />
+<text x="414.000006781684" y="181.99999660915796" text-anchor="middle">/news_on</text>
+<rect class="shape-rect" x="354.9999660915799" y="197.00000339084198" width="120" height="40" rx="4" ry="4" />
+<text x="414.9999660915799" y="221.00000339084198" text-anchor="middle">/news_off</text>
+<rect class="shape-rect" x="527.0000203450521" y="158.99998982747394" width="120" height="40" rx="4" ry="4" />
+<text x="587.0000203450521" y="182.99998982747394" text-anchor="middle">/clan_stats</text>
+<rect class="shape-rect" x="529.0000067816841" y="197.99999660915796" width="120" height="40" rx="4" ry="4" />
+<text x="589.0000067816841" y="221.99999660915796" text-anchor="middle">/player_stats</text>
+<rect class="shape-rect" x="40" y="160.99999321831598" width="119.99996609157986" height="40.00001695421007" rx="4" ry="4" />
+<text x="99.99998304578993" y="185.00000169542102" text-anchor="middle">/tank</text>
+<text x="535.9999932183159" y="151.999996609158">API</text>
+<text x="363.0000474717882" y="149.99999321831598">API</text>
+<text x="216.99998643663193" y="151.000003390842">My code</text>
+<text x="45" y="151.000003390842">Parse of  database of game</text>
+<rect class="shape-rect" x="707.9999796549479" y="157.99999660915796" width="120" height="40" rx="4" ry="4" />
+<text x="767.9999796549479" y="181.99999660915796" text-anchor="middle">/eqipment</text>
+<rect class="shape-rect" x="707.0000203450521" y="196.00001017252606" width="119.99993218315971" height="40" rx="4" ry="4" />
+<text x="766.999986436632" y="220.00001017252606" text-anchor="middle">/crew</text>
+<text x="710.999993218316" y="151.999996609158">images</text>
+<text x="714.9999660915798" y="326.9999796549479">Need to do</text>
+<rect class="shape-rect" x="859.9999660915798" y="158.99998982747394" width="211.59383138020831" height="40" rx="4" ry="4" />
+<text x="965.796881781684" y="182.99998982747394" text-anchor="middle">/tank_compare &lt;tank1&gt; &lt;tank2&gt;</text>
+<text x="860.9999932183159" y="211.99999660915796">Need to do</text>
+<text x="861.9999525282118" y="149.99999321831598">Parse</text>
+<rect class="shape-rect" x="1133.000047471788" y="162.00000339084198" width="119.99986436631944" height="40" rx="4" ry="4" />
+<text x="1192.9999796549478" y="186.00000339084198" text-anchor="middle">/moe</text>
+<rect class="shape-rect" x="1134.9999660915798" y="203.99998982747394" width="120" height="40" rx="4" ry="4" />
+<text x="1194.9999660915798" y="227.99998982747394" text-anchor="middle">/masters</text>
+<text x="1135.999993218316" y="156.999996609158">API</text>
+<text x="1320.9998575846355" y="588.000006781684">APi + save in database</text>
+<rect class="shape-rect" x="1313.999938964844" y="432.9999796549479" width="120" height="40" rx="4" ry="4" />
+<text x="1373.999938964844" y="456.9999796549479" text-anchor="middle">/leaderboard</text>
+<text x="1319.99996609158" y="489.00003390842016">Maybe if will be a lot of users</text>
+<rect class="shape-rect" x="1304.99996609158" y="274.000006781684" width="120" height="40" rx="4" ry="4" />
+<text x="1364.99996609158" y="298.000006781684" text-anchor="middle">/exp_clacl</text>
+<rect class="shape-rect" x="709.9999660915798" y="274.000006781684" width="120" height="40" rx="4" ry="4" />
+<text x="769.9999660915798" y="298.000006781684" text-anchor="middle">/map_stracts</text>
+<rect class="shape-rect" x="709.0000067816841" y="234.99998304578992" width="120" height="39.99998304578993" rx="4" ry="4" />
+<text x="769.0000067816841" y="258.9999745686849" text-anchor="middle">/map</text>
+<rect class="shape-rect" x="1306.9998847113716" y="157.00000339084198" width="120" height="40" rx="4" ry="4" />
+<text x="1366.9998847113716" y="181.00000339084198" text-anchor="middle">/clan_activity</text>
+<text x="1303.999938964844" y="220.00001017252606">List members who haven&apos;t played a battle in X days</text>
+<rect class="shape-rect" x="1314.99996609158" y="535.0000339084202" width="175.76551649305554" height="40" rx="4" ry="4" />
+<text x="1402.882724338108" y="559.0000339084202" text-anchor="middle">/session (weak day month)</text>
+<text x="1309.99996609158" y="328.000006781684">If you write perk level and % it give you experience</text>
+<rect class="shape-rect" x="116.99998643663194" y="472.0000203450521" width="120" height="40" rx="4" ry="4" />
+<text x="176.99998643663196" y="496.0000203450521" text-anchor="middle">/boosters</text>
+<text x="114.00000678168402" y="539.0000339084202">A reminder command that lists which Clan Reserves</text>
+<rect class="shape-rect" x="640.999993218316" y="467.9999796549479" width="120" height="40" rx="4" ry="4" />
+<text x="700.999993218316" y="491.9999796549479" text-anchor="middle">/codes</text>
+<text x="644.0000067816841" y="524.9999932183159">Bonus Codes</text>
+<rect class="shape-rect" x="839.0000067816841" y="470.9999932183159" width="119.99993218315971" height="40" rx="4" ry="4" />
+<text x="898.9999728732639" y="494.9999932183159" text-anchor="middle">/exchange_exp</text>
+<rect class="shape-rect" x="839.0000067816841" y="520.0000339084202" width="119.99993218315971" height="40" rx="4" ry="4" />
+<text x="898.9999728732639" y="544.0000339084202" text-anchor="middle">/exchange_silver</text>
+<text x="844.9999660915798" y="459.9999932183159">exchange calculador  gold to exp  and silver</text>
+<rect class="shape-rect" x="836.9999525282118" y="602.0000203450521" width="119.99993218315971" height="40" rx="4" ry="4" />
+<text x="896.9999186197916" y="626.0000203450521" text-anchor="middle">/gold_value</text>
+<text x="844.9999660915798" y="654.9999932183159">Calculates the best &quot;Gold per Dollar&quot;</text>
+<text x="56.99998643663194" y="723.000006781684">The bot checks the API every 5 minutes. If it detects a new battle was played, it automatically posts the result in your Telegram group: &quot;Player [Name] just got an Ace Tanker in the Bourrasque! 5k Damage!&quot;</text>
+<rect class="shape-rect" x="52.999979654947914" y="665.9999932183159" width="120" height="40" rx="4" ry="4" />
+<text x="112.99997965494791" y="689.9999932183159" text-anchor="middle">/battle_watcher</text>
+<rect class="shape-rect" x="52.999979654947914" y="742.9999796549479" width="120" height="40" rx="4" ry="4" />
+<text x="112.99997965494791" y="766.9999796549479" text-anchor="middle">/moe_target</text>
+<text x="57.76560465494792" y="805.109381781684">Shows the &quot;Live&quot; Mark of Excellence percentage. It tells you: &quot;You are at 84.2%. You need 2,500 damage in the next game to hit 2-Marks.&quot;</text>
+</svg>

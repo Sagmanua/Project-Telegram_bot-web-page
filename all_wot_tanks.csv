@@ -1,0 +1,983 @@
+tank_id,name,nation,tier,type,is_premium
+1,T-34,ussr,5,mediumTank,False
+3137,AMX 50 100,france,8,heavyTank,False
+20481,IS-M,ussr,8,heavyTank,False
+15617,Object 907,ussr,10,mediumTank,True
+50465,Patton the Tank,usa,9,mediumTank,True
+44545,Object 777 Version II,ussr,9,heavyTank,True
+49169,Tiger 131,germany,6,heavyTank,True
+1569,T20,usa,7,mediumTank,False
+21073,Gabler’s Destroyer,uk,5,lightTank,True
+5729,O-I Experimental,japan,5,heavyTank,False
+2865,110,china,8,heavyTank,False
+7025,Projekt ION,czech,8,heavyTank,True
+10497,KV-2,ussr,6,heavyTank,False
+34849,TS-54,usa,8,heavyTank,True
+65537,Object 701,ussr,8,heavyTank,True
+4161,AMX 13 105 AM mle. 50,france,5,SPG,False
+5633,SU-8,ussr,6,SPG,False
+16641,MT-25,ussr,6,lightTank,False
+6465,AMX 12 t,france,6,lightTank,False
+5457,Comet,uk,7,mediumTank,False
+11793,Nashorn,germany,6,AT-SPG,False
+2097,WZ-111 model 1-4,china,9,heavyTank,False
+33281,T-34 with L-11,ussr,4,mediumTank,True
+2593,T30,usa,9,AT-SPG,False
+9793,Somua SAu 40,france,4,AT-SPG,False
+32833,ERAC 105 Proto,france,9,lightTank,True
+1025,BT-2,ussr,2,lightTank,False
+35873,XM69 Hacker,usa,11,mediumTank,False
+55377,A46,uk,6,lightTank,True
+8545,Type 71,japan,10,heavyTank,False
+2321,VK 36.01 (H),germany,6,heavyTank,False
+53329,Conqueror FL,uk,9,heavyTank,True
+18961,Spähpanzer SP I C,germany,7,lightTank,False
+3617,M7 Priest,usa,3,SPG,False
+50945,T-45,ussr,2,lightTank,True
+4913,59-16,china,6,lightTank,False
+8289,Ho-Ri 3,japan,10,AT-SPG,False
+22273,ST-II,ussr,10,heavyTank,False
+67585,KR-1,ussr,11,heavyTank,False
+6209,AMX 50 B,france,10,heavyTank,False
+52241,Pz.Kpfw. B2 740 (f),germany,4,heavyTank,True
+18689,KV-1S,ussr,6,heavyTank,False
+53537,T1E6,usa,2,lightTank,True
+7505,Cruiser Mk. IV,uk,4,lightTank,False
+6257,LPT-67 Šelma,czech,9,lightTank,False
+19985,Rheinmetall Panzerwagen,germany,10,lightTank,False
+4641,M37,usa,4,SPG,False
+3377,WZ-131,china,7,lightTank,False
+21281,M-VI-Y,usa,9,heavyTank,False
+20241,HWK 12,germany,8,lightTank,False
+129,Strv fm/21,sweden,1,lightTank,False
+3073,T-46,ussr,3,lightTank,False
+57425,Chimera,uk,8,mediumTank,True
+4369,Pz.Kpfw. III Ausf. J,germany,4,mediumTank,False
+11553,M18 Hellcat,usa,6,AT-SPG,False
+11521,T-10,ussr,9,heavyTank,False
+2193,25TP KSUST II,poland,5,mediumTank,False
+5665,T2 Medium Tank,usa,2,mediumTank,False
+6945,M10 Wolverine,usa,5,AT-SPG,False
+52993,A-32,ussr,4,mediumTank,True
+22305,Ares 90 C,usa,11,mediumTank,False
+57153,AMX ELC 901,france,6,lightTank,True
+161,Fiat 3000,italy,1,lightTank,False
+4097,SU-14-2,ussr,8,SPG,False
+8257,Renault UE 57,france,3,AT-SPG,False
+52593,TBT,czech,9,heavyTank,True
+5393,VK 16.02 Leopard,germany,5,lightTank,False
+9553,AT 8,uk,6,AT-SPG,False
+4881,Pz.Kpfw. III Ausf. E,germany,3,lightTank,False
+45569,LT-432,ussr,8,lightTank,True
+37377,Obsidian,ussr,8,mediumTank,True
+54017,KV-220-2,ussr,5,heavyTank,True
+5121,AT-1,ussr,2,AT-SPG,False
+59473,LHMTV,uk,8,lightTank,False
+21537,M-V-Y,usa,10,heavyTank,False
+65073,WZ-111 Alpine Tiger,china,8,heavyTank,True
+6657,T-43,ussr,7,mediumTank,False
+21761,K-91,ussr,10,mediumTank,False
+56609,T28 Concept,usa,7,AT-SPG,True
+10577,Loyd Gun Carriage,uk,2,SPG,False
+43537,Pz.Kpfw. M 15,germany,3,lightTank,True
+23057,Tiger-Maus,germany,9,heavyTank,True
+7713,T40,usa,4,AT-SPG,False
+9985,SU-101,ussr,8,AT-SPG,False
+10817,AMX AC mle. 46,france,7,AT-SPG,False
+9009,BZ-75,china,10,heavyTank,False
+59201,Projet Louis,france,9,lightTank,True
+2129,Crusader,uk,6,lightTank,False
+6145,IS-4,ussr,10,heavyTank,False
+60497,Cobra,uk,9,mediumTank,True
+51025,Vickers MBT Mk. 3,uk,10,mediumTank,True
+62209,KV-4 KTTS,ussr,8,AT-SPG,True
+22785,IS-2-II,ussr,8,heavyTank,False
+57633,T71 CMCD P,usa,7,lightTank,True
+11601,FV3805,uk,9,SPG,False
+2657,STA-1,japan,8,mediumTank,False
+17473,Bat.-Châtillon 12 t,france,8,lightTank,False
+8737,T95,usa,9,AT-SPG,False
+19969,Object 430U,ussr,10,mediumTank,False
+56065,IS-3A Peregrine,ussr,8,heavyTank,True
+60225,Bat.-Châtillon Bourrasque,france,8,mediumTank,True
+2305,SU-152,ussr,7,AT-SPG,False
+7169,IS-7,ussr,10,heavyTank,False
+42017,XM57,usa,8,AT-SPG,True
+61521,Nemesis,uk,8,mediumTank,True
+385,Strv m/38,sweden,2,lightTank,False
+145,Pudel,poland,6,mediumTank,True
+8961,KV-13,ussr,7,mediumTank,False
+8465,Panther II,germany,8,mediumTank,False
+58657,Chrysler K GF,usa,8,heavyTank,True
+6417,Pz.Kpfw. III/IV,germany,5,mediumTank,False
+63505,43 M. Toldi III,germany,3,lightTank,True
+9761,M24 Chaffee,usa,5,lightTank,False
+29953,LTS-85,ussr,8,lightTank,True
+41745,Taschenratte,germany,11,heavyTank,False
+11057,PTZ-78,china,11,AT-SPG,False
+61249,M10 RBFM,france,5,AT-SPG,True
+51489,T2 Light Tank,usa,2,lightTank,True
+32065,AltProto AMX 30,france,8,mediumTank,True
+9249,T25 AT,usa,7,AT-SPG,False
+8193,Object 704,ussr,9,AT-SPG,False
+62545,Charioteer Nomad,uk,8,AT-SPG,True
+59441,116-F3,china,10,heavyTank,True
+9489,E 100,germany,10,heavyTank,False
+59681,M4A3E8 Thunderbolt VII,usa,6,mediumTank,True
+2353,Vickers Mk. E Type B,china,2,lightTank,False
+10785,T110E5,usa,10,heavyTank,False
+15905,M60,usa,10,mediumTank,True
+58113,T-34-85M,ussr,6,mediumTank,True
+62273,Somua SM,france,8,heavyTank,True
+897,Lago,sweden,4,mediumTank,False
+4417,Renault G1,france,5,mediumTank,False
+59409,VK 65.01 (H),germany,5,heavyTank,True
+12289,A-43,ussr,6,mediumTank,False
+52385,M16/43 Sahariano,italy,3,mediumTank,True
+10513,VK 45.02 (P) Ausf. A,germany,8,heavyTank,False
+60705,T34 FL,usa,8,heavyTank,True
+14673,Charioteer,uk,8,AT-SPG,False
+4433,Conqueror,uk,9,heavyTank,False
+46593,IS-2M,ussr,7,heavyTank,True
+27153,T 54D,germany,9,mediumTank,True
+11809,T23E3,usa,7,mediumTank,True
+2689,Pvlvv fm/42,sweden,2,AT-SPG,False
+59137,IS-2,ussr,7,heavyTank,True
+63297,AMX 13 57 GF,france,7,lightTank,True
+1921,Emil I,sweden,8,heavyTank,False
+6497,Ho-Ri 2,japan,8,AT-SPG,False
+8449,212A,ussr,9,SPG,False
+10241,SU-100M1,ussr,7,AT-SPG,False
+14401,Bat.-Châtillon 155 55,france,9,SPG,False
+6545,SDP 44 Burza,poland,6,AT-SPG,False
+53409,Prototipo 6,italy,8,mediumTank,True
+66097,Yong Bing,china,9,heavyTank,True
+11537,Jagdpanther II,germany,8,AT-SPG,False
+61729,AE Phase I,usa,9,heavyTank,True
+353,Chi-Ni,japan,2,mediumTank,False
+6513,DBV-152,czech,10,AT-SPG,True
+43521,IS-6 FL,ussr,8,heavyTank,True
+63025,WZ-120G FT,china,9,AT-SPG,True
+1649,Konštrukta T-34/100,czech,7,mediumTank,False
+60161,Object 244,ussr,6,heavyTank,True
+64321,AMX M4 mle. 51 FL,france,9,heavyTank,True
+2945,Ikv 72,sweden,3,AT-SPG,False
+2433,Kranvagn,sweden,10,heavyTank,False
+11265,T-150,ussr,6,heavyTank,False
+15425,AMX 30 B,france,10,mediumTank,False
+5185,AMX 13 75,france,7,lightTank,False
+4241,CS-44,poland,7,mediumTank,False
+5649,Grille,germany,5,SPG,False
+12561,Pz.Kpfw. I Ausf. C,germany,3,lightTank,False
+62753,Concept 1B,usa,9,heavyTank,True
+17665,Object 430 Version II,ussr,9,mediumTank,False
+1377,Type 3 Chi-Nu,japan,5,mediumTank,False
+2449,40TP Habicha,poland,6,mediumTank,False
+29201,Pz.Kpfw. 38 (K),germany,5,mediumTank,True
+64049,T-34-3,china,8,mediumTank,True
+66561,SU-100I,ussr,5,AT-SPG,True
+45841,Kampfpanzer 07 RH,germany,8,mediumTank,True
+65345,AMX M4 mle. 49 FL,france,8,heavyTank,True
+4513,SMV CC-56,italy,7,AT-SPG,False
+62481,Rheinmetall Skorpion,germany,8,AT-SPG,True
+1121,Type 5 Chi-Ri,japan,7,mediumTank,False
+16449,AMX 65 t,france,8,heavyTank,False
+1953,P.43 ter,italy,7,mediumTank,False
+5265,CS-63,poland,10,mediumTank,False
+7425,ISU-152,ussr,8,AT-SPG,False
+13585,VK 20.01 (D),germany,4,mediumTank,False
+33089,AS-XX 40 t,france,11,mediumTank,False
+2401,Type 98 Ke-Ni,japan,3,lightTank,False
+30225,White Dragon,germany,8,mediumTank,True
+14881,T57 Heavy,usa,10,heavyTank,False
+3697,Vz. 44-1,czech,7,heavyTank,False
+53345,Type 5 Ka-Ri,japan,8,AT-SPG,True
+30977,K-91 Version II,ussr,9,mediumTank,True
+46865,E 75 TS,germany,8,heavyTank,True
+66369,Vercingétorix,france,9,mediumTank,True
+13313,Object 416,ussr,8,mediumTank,False
+34305,M4-85,ussr,5,mediumTank,True
+417,L6/40,italy,2,lightTank,False
+6289,CC-46 Pancernik,poland,9,heavyTank,True
+14609,Leopard 1,germany,10,mediumTank,False
+25617,"VK 28.01 mit 10,5 cm L/28",germany,6,lightTank,True
+3425,Type 61,japan,9,mediumTank,False
+31249,Schwertwal,germany,10,heavyTank,True
+561,Type 59 G,china,8,mediumTank,True
+4721,Vz. 64 Blesk,czech,8,lightTank,False
+63233,KV-4 Kreslavskiy,ussr,8,heavyTank,True
+32545,XM66F,usa,8,AT-SPG,True
+52049,Charlemagne,uk,8,heavyTank,True
+65825,M3A3 Stuart,usa,3,lightTank,True
+3153,Black Prince,uk,7,heavyTank,False
+1105,Cromwell,uk,6,mediumTank,False
+7313,SDP 58 Kilana,poland,8,AT-SPG,False
+15633,Pz.Sfl. IVb,germany,4,SPG,False
+289,M3 Stuart,usa,3,lightTank,False
+19793,FV601 Saladin,uk,8,mediumTank,False
+4449,Type 95 Heavy,japan,4,heavyTank,False
+47617,STG,ussr,8,mediumTank,True
+2049,A-20,ussr,5,lightTank,False
+48913,VK 168.01 (P),germany,8,heavyTank,True
+2881,AMX 40,france,4,lightTank,False
+49665,Object 252U,ussr,8,heavyTank,True
+5377,IS-3,ussr,8,heavyTank,False
+65553,Straussler V–4/40,germany,3,lightTank,True
+50209,M24 Chaffee No. 594,usa,5,lightTank,True
+2817,KV-85,ussr,6,heavyTank,False
+16657,Rhm.-Borsig Waffenträger,germany,8,AT-SPG,False
+66849,Rambo,usa,9,heavyTank,True
+5473,O-I,japan,6,heavyTank,False
+529,Tiger I,germany,7,heavyTank,False
+48641,Object 252U Defender,ussr,8,heavyTank,True
+17953,M41 Walker Bulldog,usa,8,lightTank,False
+34593,Convert. Medium Tank T3,usa,3,mediumTank,True
+3905,AMX 50 120,france,9,heavyTank,False
+3345,Pz.Kpfw. 38 (t),germany,3,lightTank,False
+68129,M-VI-Y (120),usa,9,heavyTank,True
+16385,SU-122A,ussr,5,SPG,False
+51233,T77,usa,8,heavyTank,True
+5201,Cruiser Mk. I,uk,1,lightTank,False
+6673,Marder II,germany,3,AT-SPG,False
+33025,KV-1 shielded,ussr,5,heavyTank,True
+67873,SPHT,usa,9,heavyTank,True
+21841,FV230 Canopener,uk,10,heavyTank,False
+4657,Type T-34,china,5,mediumTank,False
+3633,IS-2,china,7,heavyTank,False
+769,BT-7,ussr,4,lightTank,False
+35617,ARMT,usa,5,mediumTank,True
+4929,AMX 13 90,france,9,lightTank,False
+4673,AMX 13 F3 AM,france,6,SPG,False
+8705,Object 261,ussr,10,SPG,False
+2065,Pz.Kpfw. II,germany,2,lightTank,False
+52257,M4A2E4 Sherman,usa,5,mediumTank,True
+6225,FV215b,uk,10,heavyTank,True
+2145,Type 97 Chi-Ha,japan,3,lightTank,False
+18705,Mäuschen,germany,9,heavyTank,False
+3361,T1 Heavy,usa,5,heavyTank,False
+22865,FV224 Chopper,uk,7,heavyTank,False
+25169,Black Prince II,uk,7,heavyTank,True
+50689,Object 268 Version V,ussr,10,AT-SPG,True
+7969,M12,usa,7,SPG,False
+43281,Pz.Kpfw. 35 R,germany,2,lightTank,True
+51985,Pz.Kpfw. S35 739 (f),germany,3,mediumTank,True
+56145,AC 4 Experimental,uk,6,mediumTank,True
+8801,Type 68,japan,9,heavyTank,False
+3089,Leichttraktor,germany,1,lightTank,False
+53281,AAT60,usa,8,mediumTank,True
+7249,Centurion Action X,uk,10,mediumTank,False
+49937,Schwarzpanzer 58,germany,8,mediumTank,True
+19729,VK 100.01 (P),germany,8,heavyTank,False
+4385,T32,usa,8,heavyTank,False
+23889,FV4025 Contriver,uk,11,heavyTank,False
+6769,Vz. 71 Tesák,czech,10,lightTank,False
+51713,Churchill III,ussr,5,heavyTank,True
+21025,M-III-Y,usa,8,heavyTank,False
+5937,WZ-132-1,china,10,lightTank,False
+29969,Kpz. 3 GST Turm,germany,8,AT-SPG,True
+57169,Sherman VC Firefly,uk,6,mediumTank,True
+62001,M41D,china,8,lightTank,True
+51841,L-60,sweden,2,lightTank,True
+4113,VK 30.02 (D),germany,7,mediumTank,False
+54305,Chrysler MTC 2TC,usa,8,mediumTank,True
+8273,Universal Carrier 2-pdr,uk,2,AT-SPG,False
+36097,ISU-122-2,ussr,8,AT-SPG,True
+5409,M7,usa,5,lightTank,False
+577,Renault FT,france,1,lightTank,False
+2705,45TP Habicha,poland,7,heavyTank,False
+69409,Sherman Firefly Saunders,usa,6,mediumTank,True
+37393,Mittlerer Kpz. Pr. 68 (P),germany,8,mediumTank,True
+22049,Ares 90,usa,10,mediumTank,False
+61489,WZ-120-1G FT FL,china,8,AT-SPG,True
+3841,SU-18,ussr,2,SPG,False
+58193,FV4202 FL,uk,8,mediumTank,True
+673,M14/41,italy,2,mediumTank,False
+5137,Tiger II,germany,8,heavyTank,False
+9297,FV215b (183),uk,10,AT-SPG,True
+51313,Škoda T 45,czech,7,heavyTank,True
+6433,T56 GMC,usa,3,AT-SPG,False
+25937,Triumphant,uk,10,mediumTank,True
+60785,TT-130M,czech,9,heavyTank,True
+46609,M48A2 Räumpanzer,germany,8,mediumTank,True
+53761,SU-85I,ussr,5,AT-SPG,True
+23073,Ares 75,usa,8,mediumTank,False
+1041,StuG III Ausf. G,germany,5,AT-SPG,False
+4865,SU-5,ussr,4,SPG,False
+10753,ST-I,ussr,9,heavyTank,False
+20225,Object 268 Version 4,ussr,10,AT-SPG,False
+6161,Pz.Kpfw. II Luchs,germany,4,lightTank,False
+56353,M56 Scorpion,usa,7,AT-SPG,True
+20257,T6 Medium,usa,4,mediumTank,False
+22801,Kampfpanzer 07 P(E),germany,10,heavyTank,True
+7457,M40/M43,usa,8,SPG,False
+8529,AT 15,uk,8,AT-SPG,False
+19713,Object 257,ussr,9,heavyTank,False
+54785,SU-100Y,ussr,6,AT-SPG,True
+58945,AMX 13 (FL 11),france,5,lightTank,True
+68609,Peerless,ussr,9,heavyTank,True
+11857,FV304,uk,6,SPG,False
+5889,KV-3,ussr,7,heavyTank,False
+60241,Valiant,uk,5,mediumTank,True
+14353,Aufklärungspanzer Panther,germany,7,lightTank,True
+22529,IS-3-II,ussr,9,heavyTank,False
+57377,T25 Pilot Number 1,usa,8,mediumTank,True
+11345,Crusader 5.5-in. SP,uk,7,SPG,False
+3169,Type 97 Te-Ke,japan,2,lightTank,True
+8481,T92 HMC,usa,10,SPG,False
+43329,AM 39 Gendron-Somua,france,2,lightTank,True
+55809,Object 452K,ussr,10,heavyTank,True
+9777,BZ-58,china,7,heavyTank,False
+59969,ELC EVEN 90 FL,france,8,lightTank,True
+8993,M46 Patton,usa,9,mediumTank,False
+6913,SU-85B,ussr,4,AT-SPG,False
+11073,AMX 50 Foch,france,9,AT-SPG,False
+49921,KV-122,ussr,7,heavyTank,True
+305,Type 62,china,7,lightTank,True
+8209,Pz.Kpfw. 38 (t) n.A.,germany,4,lightTank,False
+58401,M46 Patton FL,usa,9,mediumTank,True
+12369,Conqueror Gun Carriage,uk,10,SPG,False
+2177,Emil II,sweden,9,heavyTank,False
+1185,P26/40,italy,4,mediumTank,False
+9505,M103,usa,9,heavyTank,False
+37649,E 77,germany,9,heavyTank,True
+41489,Leopard 120 Verbessert,germany,11,mediumTank,False
+10801,BZ-79,china,11,heavyTank,False
+60993,M4A1 FL 10,france,6,mediumTank,True
+53361,Vz. 68 Squall,czech,8,lightTank,True
+7937,T-54,ussr,9,mediumTank,False
+12097,AMX AC mle. 48,france,8,AT-SPG,False
+33569,TS-60,usa,9,AT-SPG,True
+9233,G.W. E 100,germany,10,SPG,False
+59425,T34 B,usa,8,heavyTank,True
+13393,Archer,uk,5,AT-SPG,False
+7985,WZ-111-1G FT,china,8,AT-SPG,False
+2209,P.44 Pantera,italy,8,mediumTank,False
+25873,KPz 3 Projekt 07 HK,germany,9,AT-SPG,True
+10529,T67,usa,5,AT-SPG,False
+1601,D1,france,2,lightTank,False
+6961,SU-76G FT,china,4,AT-SPG,False
+62017,AMX M4 mle. 49 Liberté,france,8,heavyTank,True
+641,Strv m/40L,sweden,3,lightTank,False
+59153,Pz.Kpfw. KW I (r),germany,5,heavyTank,True
+40977,Hirschkäfer,germany,11,AT-SPG,False
+13121,Somua S35,france,3,mediumTank,False
+1937,14TP,poland,4,lightTank,False
+6977,AMX M4 mle. 45,france,7,heavyTank,False
+10257,E 50,germany,9,mediumTank,False
+60449,TS-5,usa,8,AT-SPG,True
+14417,Achilles,uk,6,AT-SPG,False
+3233,Carro d'assalto P.88,italy,7,heavyTank,False
+61745,112 FL,china,8,heavyTank,True
+369,LT vz. 35,czech,2,lightTank,False
+54097,AT 15A,uk,7,AT-SPG,True
+11585,ARL V39,france,6,AT-SPG,False
+58881,IS-5 (Object 730),ussr,8,heavyTank,True
+63041,M4A1 Revalorisé,france,8,mediumTank,True
+1665,Leo,sweden,7,mediumTank,False
+2897,Churchill I,uk,5,heavyTank,False
+60177,"Panther mit 8,8 cm L/71",germany,8,mediumTank,True
+14145,AMX ELC bis,france,5,lightTank,False
+2961,53TP Markowskiego,poland,8,heavyTank,False
+7009,Type 3 Ho-Ni III,japan,5,AT-SPG,False
+11281,Marder 38T,germany,4,AT-SPG,False
+61473,King Tiger (Captured),usa,7,heavyTank,True
+15441,Chieftain/T95,uk,8,mediumTank,True
+3217,50TP Tyszkiewicza,poland,9,heavyTank,False
+4257,Semovente M43 Bassotto,italy,6,AT-SPG,False
+54289,Löwe,germany,8,heavyTank,True
+27921,Pz.Kpfw. IV Ausf. F2,germany,5,mediumTank,True
+12577,M4 Improved,usa,5,mediumTank,True
+1393,Škoda T 25,czech,6,mediumTank,False
+51585,Strv m/42-57 Alt A.2,sweden,6,mediumTank,True
+20737,Object 705,ussr,9,heavyTank,False
+1905,TVP VTU Koncept,czech,8,mediumTank,False
+59905,T-54 first prototype,ussr,8,mediumTank,True
+64065,FCM 50 t,france,8,heavyTank,True
+13089,T110E4,usa,10,AT-SPG,False
+58449,FV1066 Senlac,uk,8,lightTank,True
+33,T14,usa,5,heavyTank,True
+11009,KV-4,ussr,8,heavyTank,False
+15169,FCM 36,france,2,lightTank,False
+3985,B.U.G.I.,poland,6,mediumTank,False
+4993,UDES 14 Alt 5,sweden,8,mediumTank,False
+12305,E 50 Ausf. M,germany,10,mediumTank,False
+62497,Super Hellcat,usa,7,AT-SPG,True
+833,Renault FT 75 BS,france,2,SPG,False
+4193,Type 4 Heavy,japan,9,heavyTank,False
+5281,Controcarro 3 Minotauro,italy,10,AT-SPG,False
+44289,Object 703 Version II,ussr,8,heavyTank,True
+63793,59-Patton,china,8,mediumTank,True
+2417,TVP T 50/51,czech,10,mediumTank,False
+52113,50TP Resilient,poland,8,heavyTank,True
+45585,Pz.Kpfw. IV Ausf. H Ankou,germany,5,mediumTank,True
+3713,Ikv 65 Alt II,sweden,6,AT-SPG,False
+18177,T-54 ltwt.,ussr,9,lightTank,False
+10017,M4A3E2 Sherman Jumbo,usa,6,mediumTank,False
+849,Matilda,uk,4,mediumTank,False
+52129,Mars,italy,8,mediumTank,True
+1329,Renault NC-31,china,1,lightTank,False
+13329,Durchbruchswagen 2,germany,4,heavyTank,False
+2161,Škoda T 50,czech,9,mediumTank,False
+13345,T26E4 SuperPershing,usa,8,mediumTank,True
+6305,Coccodrillo,italy,10,mediumTank,True
+45313,T-50-2,ussr,6,lightTank,True
+14625,T69,usa,8,mediumTank,False
+3441,TNH 105/1000,czech,8,heavyTank,False
+53633,Strv S1 FL,sweden,8,AT-SPG,True
+61953,T-44-100,ussr,8,mediumTank,True
+66113,Sentinelle,france,9,heavyTank,True
+4737,Strv 103B,sweden,10,AT-SPG,False
+63249,Turán III prototípus,germany,5,mediumTank,True
+17217,AMX 13 105,france,10,lightTank,False
+6033,SDP 60 Gonkiewicza,poland,9,AT-SPG,False
+29697,KV-4 Turchaninov,ussr,8,heavyTank,True
+51361,Progetto M35 mod. 46,italy,8,mediumTank,True
+30993,Windhund,germany,8,AT-SPG,True
+65841,Type 59 First Warrior,china,8,mediumTank,True
+1793,S-51,ussr,7,SPG,False
+54657,Bofors Tornvagn,sweden,8,heavyTank,True
+47633,MKA,germany,2,lightTank,True
+32289,T3E2 Medium Tank,usa,3,mediumTank,True
+51793,FV4201 Chieftain Proto,uk,9,heavyTank,True
+64273,Panzer 58 Mutz,germany,8,mediumTank,True
+18241,Hotchkiss EBR,france,7,lightTank,False
+7057,NC 70 Błyskawica,poland,10,AT-SPG,False
+15377,G.W. Tiger (P),germany,8,SPG,False
+65569,Stinger,usa,10,heavyTank,True
+19537,GSOR 1006 Scheme 7,uk,9,mediumTank,False
+59217,A43 BP prototype,uk,6,heavyTank,True
+47361,STG Guard,ussr,8,mediumTank,True
+16673,T37,usa,6,lightTank,False
+5489,Škoda T 15A,czech,4,lightTank,True
+11777,KV-1,ussr,5,heavyTank,False
+60433,Pz.Kpfw. II Ausf. D,germany,2,lightTank,True
+64001,Udarniy,ussr,8,heavyTank,True
+33313,T54 Heavy Tank,usa,9,heavyTank,True
+2625,ARL 44,france,6,heavyTank,False
+15937,Renault R35,france,2,lightTank,False
+6785,Strv m/31,sweden,3,lightTank,True
+11297,T28 Prototype,usa,8,AT-SPG,False
+15105,T-70,ussr,3,lightTank,False
+65297,Löwe FL,germany,8,heavyTank,True
+49953,TS-6,usa,9,heavyTank,True
+3921,Caernarvon,uk,8,heavyTank,False
+8081,CS-59,poland,9,mediumTank,False
+15361,T-60,ussr,2,lightTank,False
+52817,AC 1 Sentinel,uk,4,mediumTank,True
+16401,Waffenträger auf Pz. IV,germany,9,AT-SPG,False
+35329,ST-62 Version 2,ussr,10,mediumTank,True
+20561,FSV Scheme A,uk,7,mediumTank,False
+60929,BT-7 artillery,ussr,3,lightTank,True
+55313,"8,8 cm Pak 43 Jagdtiger",germany,8,AT-SPG,True
+33041,KJPZ TIII Jäger,germany,9,AT-SPG,True
+50193,Rheinmetall Skorpion G,germany,8,AT-SPG,True
+34337,TL-7,usa,9,AT-SPG,True
+53841,TOG II*,uk,6,heavyTank,True
+1057,M4A1 Sherman,usa,5,mediumTank,False
+785,Pz.Kpfw. 35 (t),germany,2,lightTank,False
+50977,M24E2 Super Chaffee,usa,6,lightTank,True
+4945,Valentine,uk,3,lightTank,False
+33825,MBT-B,usa,10,heavyTank,True
+17425,Pz.Kpfw. IV Ausf. D,germany,4,mediumTank,False
+2081,T1 HMC,usa,2,SPG,False
+21585,GSOR the TANK,uk,9,mediumTank,True
+6241,Chi-To SP,japan,7,AT-SPG,False
+5217,O-Ni,japan,7,heavyTank,False
+64817,Type 64,china,6,lightTank,True
+6049,Felice,italy,9,mediumTank,True
+49409,IS-6 B,ussr,8,heavyTank,True
+18721,T82 HMC,usa,4,SPG,False
+58417,BZ-72-1,china,10,heavyTank,True
+513,IS,ussr,7,heavyTank,False
+35361,T110E5 CL,usa,10,heavyTank,True
+54865,Light Mk. VIC,uk,2,lightTank,True
+1809,Jagdpanzer 38(t) Hetzer,germany,4,AT-SPG,False
+52001,MTLS-1G14,usa,3,lightTank,True
+5969,Centurion Mk. I,uk,8,mediumTank,False
+56161,Stitch,japan,8,heavyTank,True
+7233,Lorraine 155 mle. 50,france,7,SPG,False
+33793,Object 590,ussr,9,mediumTank,True
+3105,M3 Lee,usa,4,mediumTank,False
+22609,Centurion St. Gloriana,uk,7,mediumTank,True
+52065,STA-2,japan,8,mediumTank,True
+38401,T-44-100 Igrovoy,ussr,8,mediumTank,True
+4401,Type 2597 Chi-Ha,china,3,lightTank,False
+5681,WZ-132A,china,9,lightTank,False
+54353,Excelsior,uk,5,heavyTank,True
+29713,Kanonenjagdpanzer 2,germany,8,AT-SPG,True
+51729,Pz.Kpfw. II Ausf. J,germany,3,lightTank,True
+5697,Bat.-Châtillon 25 t AP,france,9,mediumTank,False
+2833,Sturmpanzer I Bison,germany,3,SPG,False
+53025,Alembic,usa,8,mediumTank,True
+6993,Cruiser Mk. II,uk,2,lightTank,False
+56577,LTP,ussr,3,lightTank,True
+52321,Heavy Tank No. VI,japan,6,heavyTank,True
+57905,Vickers 6 ton,china,2,lightTank,True
+19473,Pz.Kpfw. VII,germany,10,heavyTank,False
+4129,M41,usa,5,SPG,False
+23633,Churchill St. Gloriana,uk,6,heavyTank,True
+17937,StuG III Ausf. B,germany,4,AT-SPG,False
+48385,T-103,ussr,8,AT-SPG,True
+20769,M-II-Y,usa,7,heavyTank,False
+7281,Vz. 60S Dravec,czech,10,heavyTank,True
+3649,Bat.-Châtillon 25 t,france,10,mediumTank,False
+2561,T-34-85,ussr,6,mediumTank,False
+6721,BDR G1 B,france,5,heavyTank,False
+19201,T-100 LT,ussr,10,lightTank,False
+8017,Valentine AT,uk,4,AT-SPG,False
+1153,Strv m/42,sweden,5,mediumTank,False
+35841,TITT Rozanov,ussr,8,mediumTank,True
+5153,M5 Stuart,usa,4,lightTank,False
+9473,T-50,ussr,5,lightTank,False
+9313,Type 57,japan,8,heavyTank,False
+46353,Kunze Panzer,germany,9,mediumTank,True
+52481,Valentine II,ussr,4,lightTank,True
+6449,T-26G FT,china,2,AT-SPG,False
+1617,Grant,uk,4,mediumTank,False
+1169,4TP,poland,1,lightTank,False
+1889,Type 4 Chi-To,japan,6,mediumTank,False
+3585,SU-100,ussr,6,AT-SPG,False
+57937,T95/FV4201 Chieftain,uk,10,heavyTank,True
+4705,Type 91 Heavy,japan,3,heavyTank,False
+16129,SU-14-1,ussr,7,SPG,False
+55073,T7 Combat Car,usa,2,lightTank,True
+9041,Alecto,uk,4,AT-SPG,False
+50337,SMV CC-64 Vipera,italy,8,AT-SPG,True
+7441,VK 45.02 (P) Ausf. B,germany,9,heavyTank,False
+6177,T3 HMC,usa,2,AT-SPG,False
+4977,Škoda T 17,czech,7,lightTank,False
+19457,LTG,ussr,7,lightTank,False
+53505,T-127,ussr,3,lightTank,True
+7473,WZ-131G FT,china,6,AT-SPG,False
+4609,T-26,ussr,2,lightTank,False
+18433,LTTB,ussr,8,lightTank,False
+58961,Manticore,uk,10,lightTank,False
+14097,VK 30.01 (D),germany,6,mediumTank,False
+5905,Wespe,germany,3,SPG,False
+56097,M4A3E8 Fury,usa,6,mediumTank,True
+10065,AT 7,uk,7,AT-SPG,False
+37889,KV-1SA,ussr,5,heavyTank,True
+7201,M36 Jackson,usa,6,AT-SPG,False
+69153,T803,usa,11,heavyTank,False
+54033,Pz.Kpfw. V/IV Alpha,germany,5,mediumTank,True
+54529,Tetrarch,ussr,2,lightTank,True
+8497,WZ-113G FT,china,10,AT-SPG,False
+10273,M8A1,usa,4,AT-SPG,False
+55825,Ferdinand FL,germany,8,AT-SPG,True
+32769,K-91-PT,ussr,9,AT-SPG,True
+59985,Turtle Mk. I,uk,8,AT-SPG,True
+6929,Maus,germany,10,heavyTank,False
+57121,M46 Patton KR,usa,8,mediumTank,True
+11089,Bishop,uk,5,SPG,False
+337,Vickers Medium Mk. II,uk,2,mediumTank,False
+8225,T28,usa,8,AT-SPG,False
+43073,Lorraine 50 t,france,9,heavyTank,True
+15393,T54E1,usa,9,heavyTank,False
+9521,BZ-166,china,8,heavyTank,False
+56849,Panzer 58 FL,germany,8,mediumTank,True
+61009,A25 Harry Hopkins I,uk,4,lightTank,True
+7953,Jagdtiger,germany,9,AT-SPG,False
+58145,T30 FL,usa,9,AT-SPG,True
+12113,FV207,uk,8,SPG,False
+34049,Object 140 CL,ussr,10,mediumTank,True
+58929,WZ-111 model 6,china,8,heavyTank,True
+31745,ISU-152K,ussr,8,AT-SPG,True
+6017,Strv 107-12,sweden,11,AT-SPG,False
+1345,Hotchkiss H35,france,2,lightTank,False
+41233,leKpz Borkenkäfer,germany,11,lightTank,False
+10545,BZT-70,china,10,heavyTank,True
+60737,Bretagne Panther,france,6,mediumTank,True
+1297,Panther,germany,7,mediumTank,False
+7681,SU-26,ussr,3,SPG,False
+11841,Bat.-Châtillon 155 58,france,10,SPG,False
+52737,M3 Light,ussr,3,lightTank,True
+65585,DZT-159,china,9,mediumTank,True
+3201,Sav m/43,sweden,4,AT-SPG,False
+8977,G.W. Panther,germany,7,SPG,False
+59169,T26E5 Patriot,usa,8,heavyTank,True
+13137,FV4004 Conway,uk,9,AT-SPG,False
+1313,M4A3E8 Sherman,usa,6,mediumTank,False
+40961,IT-3,ussr,4,mediumTank,True
+60465,WZ-114,china,9,heavyTank,True
+6705,M3G FT,china,3,AT-SPG,False
+47377,HWK 30,germany,8,lightTank,True
+57601,T-54 FL,ussr,9,mediumTank,True
+61761,AMX Canon d'assaut 105,france,8,AT-SPG,True
+50577,CS-52 C,poland,8,mediumTank,True
+60721,WZ-113-II,china,8,heavyTank,True
+13825,T-62A,ussr,10,mediumTank,False
+58897,Tiger II FL,germany,8,heavyTank,True
+43553,M-IV-Y,usa,8,heavyTank,True
+63057,Gryphon,uk,10,heavyTank,True
+56369,WZ-111 model 1-4 FL,china,9,heavyTank,True
+1681,10TP,poland,3,lightTank,False
+10001,VK 28.01,germany,6,lightTank,False
+60193,Chrysler K,usa,8,heavyTank,True
+14161,Challenger,uk,7,AT-SPG,False
+2977,Rinoceronte,italy,10,heavyTank,False
+26641,Kpz. Erich Konzept I,germany,9,mediumTank,True
+66049,T-115,ussr,5,mediumTank,True
+113,Kolohousenka,czech,1,lightTank,False
+66881,Brennos,france,8,heavyTank,True
+58625,ISU-130,ussr,8,AT-SPG,True
+57361,Pz.Kpfw. IV Schmalturm,germany,6,mediumTank,True
+62785,AMX M4 mle. 49,france,8,heavyTank,True
+1409,Strv 74,sweden,6,mediumTank,False
+15697,Super Conqueror,uk,10,heavyTank,False
+13889,AMX 50 Foch (155),france,10,AT-SPG,True
+1441,P.43,italy,5,mediumTank,False
+15121,G.Pz. Mk. VI (e),germany,2,SPG,False
+11025,Sturer Emil,germany,7,AT-SPG,False
+61217,T78,usa,6,AT-SPG,True
+15185,Chieftain Mk. 6,uk,10,heavyTank,True
+16897,Object 140,ussr,10,mediumTank,False
+9569,STK-2,japan,11,heavyTank,False
+27665,BT-42 Jatkosota HS,germany,5,lightTank,True
+62513,113 Beijing Opera,china,10,heavyTank,True
+913,50TP prototyp,poland,8,heavyTank,True
+51329,Lätt Stridsfordon 120,sweden,9,AT-SPG,True
+7265,Type 95 Ji-Ro,japan,6,AT-SPG,False
+59649,ISU-122S,ussr,7,AT-SPG,True
+63809,AMX 13 57,france,7,lightTank,True
+52625,Hurricane,poland,10,mediumTank,True
+7537,SDT-58 Vlkodav,czech,9,mediumTank,True
+60945,T 55A,germany,9,mediumTank,True
+14913,SARL 42,france,4,mediumTank,False
+3729,DS PZInż,poland,5,mediumTank,False
+1073,T-34-1,china,7,mediumTank,False
+12049,Jagdpanzer E 100,germany,10,AT-SPG,False
+62241,TL-1 LPC,usa,8,mediumTank,True
+16209,Cavalier,uk,5,mediumTank,False
+865,Type 95 Ha-Go,japan,2,lightTank,False
+52609,Primo Victoria,sweden,8,mediumTank,True
+44033,T-44 FL,ussr,8,mediumTank,True
+63537,121B,china,10,mediumTank,True
+2113,105 leFH18B2,france,5,SPG,True
+43585,Panhard EBR 75 (FL 10),france,8,lightTank,True
+52353,Strv 81,sweden,8,mediumTank,True
+5233,SZDV Vz. 50,czech,8,AT-SPG,True
+16417,M44,usa,6,SPG,False
+3457,Ikv 103,sweden,5,AT-SPG,False
+7729,T-34-2G FT,china,7,AT-SPG,False
+61969,Kanonenjagdpanzer,germany,8,AT-SPG,True
+19745,T71 CMCD,usa,7,lightTank,False
+593,M2,uk,2,lightTank,False
+43777,T-54 first prototype FL,ussr,8,mediumTank,True
+13073,Pz.Kpfw. II Ausf. G,germany,3,lightTank,False
+63265,T32 FL,usa,8,heavyTank,True
+32577,Char Murat,france,9,mediumTank,True
+52081,Vz. 55 Gothic Warrior,czech,10,heavyTank,True
+50593,Lion,italy,10,mediumTank,True
+45057,SU-130PM,ussr,8,AT-SPG,True
+64561,112,china,8,heavyTank,True
+1537,T-28,ussr,4,mediumTank,False
+3185,TNH T Vz. 51,czech,9,heavyTank,False
+53377,UDES 03 Alt 3,sweden,9,mediumTank,True
+2369,FCM 36 Pak 40,france,3,AT-SPG,True
+61697,T-22 medium,ussr,10,mediumTank,True
+65857,AMR P.103,france,2,lightTank,True
+4481,Strv 103-0,sweden,9,AT-SPG,False
+62993,VK 45.03,germany,7,heavyTank,True
+66305,Object 265T,ussr,9,heavyTank,True
+16961,AMX M4 mle. 54,france,10,heavyTank,False
+29441,SU-2-122,ussr,5,AT-SPG,True
+53105,Vz. 58 Medvěd,czech,9,heavyTank,True
+30737,WT auf E 100 Phönix,germany,10,AT-SPG,True
+49,Type 59,china,8,mediumTank,True
+929,M15/42,italy,3,mediumTank,False
+54401,Strv 103-0 FL,sweden,9,AT-SPG,True
+1633,Type 1 Chi-He,japan,4,mediumTank,False
+62721,Kirovets-1,ussr,8,heavyTank,True
+51537,Caliban,uk,8,heavyTank,True
+5505,UDES 15/16,sweden,10,mediumTank,False
+3665,Sherman Firefly,uk,6,mediumTank,False
+64017,leKpz M 41 90 mm,germany,8,lightTank,True
+17985,Panhard AMD 178B,france,6,lightTank,False
+6801,SDP 40 Zadymka,poland,5,AT-SPG,False
+30465,Object 752,ussr,9,heavyTank,True
+19281,Concept No. 5,uk,10,mediumTank,False
+3937,Type 5 Heavy,japan,10,heavyTank,False
+7825,CS-67 Szakal,poland,11,mediumTank,False
+55057,Pz.Kpfw. IV hydrostat.,germany,5,mediumTank,True
+47105,T-34 shielded,ussr,5,mediumTank,True
+55889,Cromwell B,uk,6,mediumTank,True
+23121,FV227 Conceiver,uk,8,heavyTank,False
+55425,Stridsyxa,sweden,8,mediumTank,True
+67905,Fantôme,france,9,mediumTank,True
+21505,Object 430,ussr,9,mediumTank,False
+48401,Kanonenjagdpanzer 105,germany,8,AT-SPG,True
+33057,M47 Iron Arnie,usa,8,mediumTank,True
+52561,Tortoise,uk,9,AT-SPG,False
+7697,Ferdinand,germany,8,AT-SPG,False
+49697,M4A3(76)W Sherman,usa,6,mediumTank,True
+19009,Panhard EBR 105,france,10,lightTank,False
+53857,Chi-Se,japan,8,heavyTank,True
+2465,Prototipo Standard B,italy,9,mediumTank,False
+16145,Pz.Sfl. IVc,germany,5,AT-SPG,False
+801,M6,usa,6,heavyTank,False
+20305,Staghound Mk. III,uk,6,mediumTank,False
+4961,O-Ho,japan,8,heavyTank,False
+32257,Object 274a,ussr,8,mediumTank,True
+321,D2,france,3,mediumTank,False
+32001,Object 780,ussr,10,heavyTank,True
+64769,KV-2 (R),ussr,6,heavyTank,True
+34081,AMBT,usa,8,mediumTank,True
+3393,Lorraine 39L AM,france,3,SPG,False
+26129,Leichter Kpz. 70 (K),germany,8,lightTank,True
+15873,T-80,ussr,4,lightTank,False
+50721,T42,usa,8,mediumTank,True
+4689,Churchill VII,uk,6,heavyTank,False
+34817,Object 283,ussr,9,mediumTank,True
+17169,Pz.Kpfw. IV Ausf. A,germany,3,mediumTank,False
+67361,Black Rock,usa,11,heavyTank,True
+21329,Cromwell Applique,uk,5,mediumTank,True
+5985,Type 89 I-Go/Chi-Ro,japan,2,mediumTank,False
+67105,Chaffee Camouflaged,usa,5,lightTank,True
+18465,T18 HMC,usa,3,SPG,False
+56593,E 50 FL,germany,9,mediumTank,True
+5425,113,china,10,heavyTank,False
+29457,Rheinmetall Begleitwagen,germany,3,mediumTank,True
+65793,Object Kust,ussr,8,AT-SPG,True
+35105,ASTRON Rex 105 mm,usa,8,mediumTank,True
+54609,Sexton I,uk,3,SPG,True
+1585,T-34-2,china,8,mediumTank,False
+66337,IMT,usa,8,mediumTank,True
+1553,Jagdpanzer IV,germany,6,AT-SPG,False
+32785,Jagdpanzer E 90,germany,9,AT-SPG,True
+5713,Centurion Mk. 7/1,uk,9,mediumTank,False
+55905,Ashigaru,japan,10,AT-SPG,True
+18193,Pz.Kpfw. IV Ausf. H,germany,5,mediumTank,False
+2849,T34,usa,8,heavyTank,True
+56897,Char de transition,france,6,heavyTank,True
+48129,Loza's M4-A2 Sherman,ussr,6,mediumTank,True
+4145,121,china,10,mediumTank,False
+6753,Ho-Ri 1,japan,9,AT-SPG,False
+51473,Pz.Kpfw. V/IV,germany,5,mediumTank,True
+36129,Ares 85,usa,9,mediumTank,False
+55633,FV4202,uk,8,mediumTank,True
+51457,Matilda IV,ussr,5,mediumTank,True
+26193,Jade Coil,uk,8,AT-SPG,True
+2577,VK 30.01 (H),germany,5,mediumTank,False
+52769,M22 Locust,usa,3,lightTank,True
+34561,K-2,ussr,8,heavyTank,True
+3873,T29,usa,7,heavyTank,False
+9217,IS-6,ussr,8,heavyTank,True
+10049,S35 CA,france,5,AT-SPG,False
+7777,Type 3 Ju-Nu,japan,6,heavyTank,False
+46097,Pz.Sfl. IC,germany,4,AT-SPG,True
+51201,KV-220-2 Beta Test,ussr,5,heavyTank,True
+20513,Pawlack Tank,usa,6,heavyTank,False
+273,Hummel,germany,6,SPG,False
+1361,Stuart I-IV,uk,3,lightTank,False
+52497,Pz.Kpfw. 38H 735 (f),germany,2,lightTank,True
+49425,Jagdtiger Prototype,germany,8,AT-SPG,True
+56657,Caernarvon Action X,uk,8,heavyTank,True
+3857,Jagdpanther,germany,7,AT-SPG,False
+5745,Panzerwagen 39,czech,3,lightTank,True
+3601,Panzerjäger I,germany,2,AT-SPG,False
+53793,T95E2,usa,8,mediumTank,True
+7761,Cruiser Mk. III,uk,3,lightTank,False
+53585,Matilda Black Prince,uk,5,mediumTank,True
+7185,VK 30.01 (P),germany,6,heavyTank,False
+4897,M2 Medium Tank,usa,3,mediumTank,False
+24401,AT-FV230 Breaker,uk,11,AT-SPG,False
+9057,Type 4 Ju-To,japan,7,heavyTank,False
+50817,Lago M38,sweden,3,lightTank,True
+56081,VK 75.01 (K),germany,8,heavyTank,True
+52225,BT-SV,ussr,3,lightTank,True
+6193,WZ-111 model 5A,china,10,heavyTank,False
+56913,Centurion Mk. 5/1 RAAC,uk,8,mediumTank,True
+3329,MS-1,ussr,1,lightTank,False
+57681,Excalibur,uk,6,AT-SPG,True
+50833,56TP,poland,8,heavyTank,True
+1825,M2 Light,usa,2,lightTank,False
+4625,Sturmpanzer II,germany,4,SPG,False
+8785,AT 2,uk,5,AT-SPG,False
+2929,Vz. 55,czech,10,heavyTank,False
+3489,Progetto C50 mod. 66,italy,9,heavyTank,False
+36609,Object 432U,ussr,11,mediumTank,False
+5921,M26 Pershing,usa,8,mediumTank,False
+60273,Šotek,czech,8,AT-SPG,True
+50849,Carro da Combattimento 45 t,italy,10,mediumTank,True
+64081,Nergal,uk,8,heavyTank,True
+53249,KV-5,ussr,8,heavyTank,True
+7217,60G FT,china,5,AT-SPG,False
+57409,Miel,france,8,mediumTank,True
+625,LT vz. 38,czech,3,lightTank,False
+54881,Type 1 Ho-Ni II,japan,4,AT-SPG,True
+54545,Pz.Kpfw. T 25,germany,5,mediumTank,True
+58705,GSOR 3301 AVR FS,uk,9,lightTank,False
+20993,Object 705A,ussr,10,heavyTank,False
+55841,T95E6,usa,10,mediumTank,True
+9809,Churchill Gun Carrier,uk,6,AT-SPG,False
+3121,M5A1 Stuart,china,4,lightTank,False
+15137,T21,usa,6,lightTank,False
+54273,SU-76I,ussr,3,AT-SPG,True
+8241,WZ-111G FT,china,9,AT-SPG,False
+58433,FCM 2C,france,3,heavyTank,True
+52513,M6A2E1,usa,8,heavyTank,True
+55569,E 25,germany,7,AT-SPG,True
+59729,GSR 3301 Setter,uk,7,lightTank,False
+58913,T26E5,usa,8,heavyTank,True
+22017,Object 277,ussr,10,heavyTank,False
+10833,Birch Gun,uk,4,SPG,False
+21793,LTC II,usa,9,lightTank,True
+58673,Monkey King,china,10,mediumTank,True
+257,SU-85,ussr,5,AT-SPG,False
+1089,B1,france,4,heavyTank,False
+55297,SU-122-44,ussr,7,AT-SPG,True
+9265,BZ-68,china,9,heavyTank,False
+4353,T-44,ussr,8,mediumTank,False
+6401,SU-76M,ussr,4,AT-SPG,False
+60753,Gonsalo,uk,8,heavyTank,True
+23041,BT-5,ussr,3,lightTank,False
+57889,T92,usa,8,lightTank,True
+7745,Renault FT AC,france,2,AT-SPG,False
+59185,BZ-74-1,china,8,heavyTank,True
+43841,AMR 35,france,2,lightTank,True
+32513,ST-66,ussr,8,mediumTank,True
+56321,Object 168 German,ussr,8,mediumTank,True
+10289,BZ-58-2,china,9,heavyTank,True
+60481,Char Futur 4,france,9,mediumTank,True
+52865,EMIL 1951,sweden,8,heavyTank,True
+2385,Vickers Medium Mk. III,uk,3,mediumTank,False
+13569,Object 268,ussr,10,AT-SPG,False
+57617,Panther/M10,germany,7,mediumTank,True
+42273,H3,usa,9,heavyTank,True
+61777,A7E3,uk,3,lightTank,True
+401,TKS z n.k.m. 20 mm,poland,2,lightTank,True
+50961,leKpz M 41 90 mm GF,germany,8,lightTank,True
+8721,G.W. Tiger,germany,9,SPG,False
+18449,Spähpanzer Ru 251,germany,9,lightTank,False
+12881,Sherman III,uk,5,mediumTank,False
+1697,P.43 bis,italy,6,mediumTank,False
+1137,Škoda T 24,czech,5,mediumTank,False
+60209,BZ-176,china,8,heavyTank,True
+66625,VCS 6x6 TS 90,france,9,lightTank,True
+18209,T49,usa,9,lightTank,False
+57105,Dicker Max,germany,6,AT-SPG,True
+15889,VK 30.02 (M),germany,6,mediumTank,False
+61505,ELC EVEN 90,france,8,lightTank,True
+57649,Divine Valor,china,10,heavyTank,True
+58641,VK 72.01 (K),germany,10,heavyTank,True
+43297,T-832,usa,8,heavyTank,True
+62801,Churchill Crocodile,uk,6,heavyTank,True
+1425,7TP,poland,2,lightTank,False
+3889,WZ-132,china,8,lightTank,False
+61265,GSOR 1010 FB,uk,8,mediumTank,True
+14865,Leopard Prototyp A,germany,9,mediumTank,False
+9745,E 75,germany,9,heavyTank,False
+59937,T26E3 Eagle 7,usa,7,mediumTank,True
+13905,FV4005 Stage II,uk,10,AT-SPG,False
+3681,STB-1,japan,10,mediumTank,False
+2721,Progetto M40 mod. 65,italy,10,mediumTank,False
+51745,Ram II,usa,5,mediumTank,True
+11041,T25/2,usa,7,AT-SPG,False
+5953,AMX 38,france,3,lightTank,False
+58369,Object 260,ussr,10,heavyTank,True
+62529,Lorraine 40 t,france,8,mediumTank,True
+51345,T-34-85 Rudy,poland,6,mediumTank,True
+59665,Großtraktor - Krupp,germany,3,mediumTank,True
+33537,Object 259A,ussr,8,heavyTank,True
+63825,FV226 Contradictious,uk,8,heavyTank,True
+55121,FV201 (A45),uk,7,heavyTank,True
+817,WZ-111,china,8,heavyTank,True
+10769,Tiger (P),germany,7,heavyTank,False
+60961,T26E4 SuperPershing FL,usa,8,mediumTank,True
+15649,T71 DA,usa,7,lightTank,False
+3745,Progetto CC55 mod. 54,italy,8,heavyTank,False
+60977,114 SP2,china,10,AT-SPG,True
+27409,Tiger II Kuromorimine,germany,7,heavyTank,True
+62257,WZ-111 Qilin,china,10,heavyTank,True
+56337,Jagdtiger FL,germany,9,AT-SPG,True
+881,ST vz. 39,czech,4,mediumTank,False
+8033,Mitsu 108,japan,5,heavyTank,False
+59393,T-34-85 Rudy,ussr,6,mediumTank,True
+63553,AMX Chasseur de chars,france,8,mediumTank,True
+51857,SDP wz 66 Grom,poland,8,AT-SPG,True
+60689,StuG IV,germany,5,AT-SPG,True
+19489,XM551 Sheridan,usa,10,lightTank,False
+14657,AMX 105 AM mle. 47,france,4,SPG,False
+3473,60TP Lewandowskiego,poland,10,heavyTank,False
+51057,Škoda T 56,czech,8,heavyTank,True
+68385,OCP Peacekeeper,usa,9,heavyTank,True
+61985,M54 Renegade,usa,8,heavyTank,True
+15953,FV217 Badger,uk,10,AT-SPG,False
+609,Renault Otsu,japan,1,lightTank,False
+4769,SMV CC-67,italy,8,AT-SPG,False
+59697,WZ-132 FL,china,8,lightTank,True
+63281,WZ-120-1G FT,china,8,AT-SPG,True
+60529,ShPTK-TVP 100,czech,8,AT-SPG,True
+52097,Strv S1,sweden,8,AT-SPG,True
+3969,Ikv 90 Typ B,sweden,7,AT-SPG,False
+60417,IS-3A,ussr,8,heavyTank,True
+64577,M4A1 Revalorisé FL,france,8,mediumTank,True
+59713,AMX AC mle. 48 FL,france,8,AT-SPG,True
+53393,Ashbringer,poland,10,heavyTank,True
+7489,Lorraine 155 mle. 51,france,8,SPG,False
+61713,Krupp-Steyr Waffenträger,germany,7,AT-SPG,True
+15681,AMX 30 1er prototype,france,9,mediumTank,False
+4497,CS-53,poland,8,mediumTank,False
+51089,CS-52 LIS,poland,8,mediumTank,True
+66353,DZT-159 Dragon's Soul,china,9,mediumTank,True
+12817,Pz.Kpfw. I,germany,2,lightTank,False
+63009,T26E5 FL,usa,8,heavyTank,True
+32321,Char Mle. 75,france,9,lightTank,True
+51825,Škoda T 27,czech,8,mediumTank,True
+5793,Semovente M41,italy,5,AT-SPG,False
+44801,T-116,ussr,3,lightTank,True
+14113,M48A5 Patton,usa,10,mediumTank,False
+81,Vickers Medium Mk. I,uk,1,mediumTank,False
+53121,Lansen C,sweden,8,mediumTank,True
+53153,Toro,italy,9,heavyTank,True
+61441,T-28E with F-30,ussr,4,mediumTank,True
+65601,SFAC 105,france,8,AT-SPG,True
+4225,UDES 03,sweden,8,AT-SPG,False
+3409,Sexton II,uk,3,SPG,False
+12545,A-44,ussr,7,mediumTank,False
+16705,AMX M4 mle. 51,france,9,heavyTank,False
+51553,Type 3 Chi-Nu Kai,japan,5,mediumTank,True
+52305,GSOR 1008,uk,8,AT-SPG,True
+13841,Indien-Panzer,germany,8,mediumTank,False
+64033,M41 Walker Bulldog FL,usa,8,lightTank,True
+33345,AMX 67 Imbattable,france,11,heavyTank,False
+2913,Type 5 Ke-Ho,japan,4,lightTank,False
+54801,Pz.Kpfw. T 15,germany,3,lightTank,True
+30481,E 65 Zwilling,germany,8,heavyTank,True
+65329,122 TM,china,8,mediumTank,True
+52881,CS-53/56 Wojtek,poland,8,mediumTank,True
+54145,Strv K,sweden,9,heavyTank,True
+21249,Object 263,ussr,9,AT-SPG,False
+47121,Kampfpanzer 50 t,germany,9,mediumTank,True
+51281,Matilda LVT,uk,4,mediumTank,True
+52897,Stone Sentinel,italy,8,heavyTank,True
+5249,UDES 16,sweden,9,mediumTank,False
+545,T1 Cunningham,usa,1,lightTank,False
+63761,Panzer 58,germany,8,mediumTank,True
+17729,AMX 50 Foch B,france,10,AT-SPG,False
+61457,Pz.Kpfw. III Ausf. K,germany,5,mediumTank,True
+62289,Crusher,uk,8,heavyTank,True
+30209,SU-122V,ussr,9,AT-SPG,True
+18497,Panhard AML Lynx 6x6,france,8,lightTank,False
+51105,Bisonte C45,italy,8,heavyTank,True
+27905,Forest Spirit,ussr,8,AT-SPG,True
+5537,Controcarro 1 Mk. 2,italy,9,AT-SPG,False
+46849,Object 279 early,ussr,10,heavyTank,True
+16161,M53/M55,usa,9,SPG,False
+19217,Grille 15,germany,10,AT-SPG,False
+48145,VK 168.01 Mauerbrecher,germany,8,heavyTank,True
+32801,M47 Patton Improved,usa,8,mediumTank,True
+67649,Renault R35/FCM 36,france,2,lightTank,True
+6481,Covenanter,uk,5,lightTank,False
+23377,FV229 Contender,uk,9,heavyTank,False
+18753,Panhard EBR 90,france,9,lightTank,False
+53601,Type 63,japan,8,heavyTank,True
+7569,SDP 57 Gowika,poland,7,AT-SPG,False
+31233,IS-2 shielded,ussr,7,heavyTank,True
+66081,M103M,usa,9,heavyTank,True
+20049,AEC Armoured Car,uk,5,mediumTank,False
+13857,T110E3,usa,10,AT-SPG,False
+47873,T-29,ussr,3,mediumTank,True
+1841,WZ-120,china,9,mediumTank,False
+51569,Škoda T 40,czech,6,mediumTank,True
+5169,Type 58,china,6,mediumTank,False

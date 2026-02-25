@@ -1,0 +1,410 @@
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "310px",
+      "top": "148px",
+      "width": "",
+      "height": "",
+      "texto": "Telegram"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "140px",
+      "top": "269px",
+      "width": "",
+      "height": "",
+      "texto": "/clan_add"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "139px",
+      "top": "305px",
+      "width": "",
+      "height": "",
+      "texto": "/massage"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "315px",
+      "top": "266px",
+      "width": "",
+      "height": "",
+      "texto": "/news_on"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "rectangle",
+      "left": "316px",
+      "top": "305px",
+      "width": "",
+      "height": "",
+      "texto": "/news_off"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "488px",
+      "top": "267px",
+      "width": "",
+      "height": "",
+      "texto": "/clan_stats"
+    },
+    {
+      "id": "forma-7",
+      "tipo": "rectangle",
+      "left": "490px",
+      "top": "306px",
+      "width": "",
+      "height": "",
+      "texto": "/player_stats"
+    },
+    {
+      "id": "forma-8",
+      "tipo": "rectangle",
+      "left": "1px",
+      "top": "269px",
+      "width": "",
+      "height": "",
+      "texto": "/tank"
+    },
+    {
+      "id": "forma-10",
+      "tipo": "text",
+      "left": "497px",
+      "top": "246px",
+      "width": "",
+      "height": "",
+      "texto": "API"
+    },
+    {
+      "id": "forma-11",
+      "tipo": "text",
+      "left": "324px",
+      "top": "244px",
+      "width": "",
+      "height": "",
+      "texto": "API"
+    },
+    {
+      "id": "forma-12",
+      "tipo": "text",
+      "left": "178px",
+      "top": "245px",
+      "width": "",
+      "height": "",
+      "texto": "My code"
+    },
+    {
+      "id": "forma-13",
+      "tipo": "text",
+      "left": "6px",
+      "top": "245px",
+      "width": "",
+      "height": "",
+      "texto": "Parse of  database of game"
+    },
+    {
+      "id": "forma-14",
+      "tipo": "rectangle",
+      "left": "669px",
+      "top": "266px",
+      "width": "",
+      "height": "",
+      "texto": "/eqipment"
+    },
+    {
+      "id": "forma-15",
+      "tipo": "rectangle",
+      "left": "668px",
+      "top": "304px",
+      "width": "",
+      "height": "",
+      "texto": "/crew"
+    },
+    {
+      "id": "forma-16",
+      "tipo": "text",
+      "left": "672px",
+      "top": "246px",
+      "width": "",
+      "height": "",
+      "texto": "images"
+    },
+    {
+      "id": "forma-18",
+      "tipo": "text",
+      "left": "676px",
+      "top": "421px",
+      "width": "",
+      "height": "",
+      "texto": "Need to do"
+    },
+    {
+      "id": "forma-19",
+      "tipo": "rectangle",
+      "left": "821px",
+      "top": "267px",
+      "width": "",
+      "height": "",
+      "texto": "/tank_compare <tank1> <tank2>"
+    },
+    {
+      "id": "forma-20",
+      "tipo": "text",
+      "left": "822px",
+      "top": "306px",
+      "width": "",
+      "height": "",
+      "texto": "Need to do"
+    },
+    {
+      "id": "forma-21",
+      "tipo": "text",
+      "left": "823px",
+      "top": "244px",
+      "width": "",
+      "height": "",
+      "texto": "Parse"
+    },
+    {
+      "id": "forma-22",
+      "tipo": "rectangle",
+      "left": "1094px",
+      "top": "270px",
+      "width": "",
+      "height": "",
+      "texto": "/moe"
+    },
+    {
+      "id": "forma-23",
+      "tipo": "rectangle",
+      "left": "1096px",
+      "top": "312px",
+      "width": "",
+      "height": "",
+      "texto": "/masters"
+    },
+    {
+      "id": "forma-24",
+      "tipo": "text",
+      "left": "1097px",
+      "top": "251px",
+      "width": "",
+      "height": "",
+      "texto": "API"
+    },
+    {
+      "id": "forma-26",
+      "tipo": "text",
+      "left": "1282px",
+      "top": "682px",
+      "width": "",
+      "height": "",
+      "texto": "APi + save in database"
+    },
+    {
+      "id": "forma-27",
+      "tipo": "rectangle",
+      "left": "1275px",
+      "top": "541px",
+      "width": "",
+      "height": "",
+      "texto": "/leaderboard"
+    },
+    {
+      "id": "forma-28",
+      "tipo": "text",
+      "left": "1281px",
+      "top": "583px",
+      "width": "",
+      "height": "",
+      "texto": "Maybe if will be a lot of users "
+    },
+    {
+      "id": "forma-29",
+      "tipo": "rectangle",
+      "left": "1266px",
+      "top": "382px",
+      "width": "",
+      "height": "",
+      "texto": "/exp_clacl"
+    },
+    {
+      "id": "forma-30",
+      "tipo": "rectangle",
+      "left": "671px",
+      "top": "382px",
+      "width": "",
+      "height": "",
+      "texto": "/map_stracts"
+    },
+    {
+      "id": "forma-31",
+      "tipo": "rectangle",
+      "left": "670px",
+      "top": "343px",
+      "width": "",
+      "height": "",
+      "texto": "/map"
+    },
+    {
+      "id": "forma-32",
+      "tipo": "rectangle",
+      "left": "1268px",
+      "top": "265px",
+      "width": "",
+      "height": "",
+      "texto": "/clan_activity"
+    },
+    {
+      "id": "forma-33",
+      "tipo": "text",
+      "left": "1265px",
+      "top": "314px",
+      "width": "",
+      "height": "",
+      "texto": "List members who haven't played a battle in X days"
+    },
+    {
+      "id": "forma-34",
+      "tipo": "rectangle",
+      "left": "1276px",
+      "top": "643px",
+      "width": "",
+      "height": "",
+      "texto": "/session (weak day month)"
+    },
+    {
+      "id": "forma-35",
+      "tipo": "text",
+      "left": "1271px",
+      "top": "422px",
+      "width": "",
+      "height": "",
+      "texto": "If you write perk level and % it give you experience "
+    },
+    {
+      "id": "forma-36",
+      "tipo": "rectangle",
+      "left": "78px",
+      "top": "580px",
+      "width": "",
+      "height": "",
+      "texto": "/boosters"
+    },
+    {
+      "id": "forma-37",
+      "tipo": "text",
+      "left": "75px",
+      "top": "633px",
+      "width": "",
+      "height": "",
+      "texto": "A reminder command that lists which Clan Reserves "
+    },
+    {
+      "id": "forma-38",
+      "tipo": "rectangle",
+      "left": "602px",
+      "top": "576px",
+      "width": "",
+      "height": "",
+      "texto": "/codes"
+    },
+    {
+      "id": "forma-39",
+      "tipo": "text",
+      "left": "605px",
+      "top": "619px",
+      "width": "",
+      "height": "",
+      "texto": "Bonus Codes"
+    },
+    {
+      "id": "forma-40",
+      "tipo": "rectangle",
+      "left": "800px",
+      "top": "579px",
+      "width": "",
+      "height": "",
+      "texto": "/exchange_exp"
+    },
+    {
+      "id": "forma-41",
+      "tipo": "rectangle",
+      "left": "800px",
+      "top": "628px",
+      "width": "",
+      "height": "",
+      "texto": "/exchange_silver"
+    },
+    {
+      "id": "forma-42",
+      "tipo": "text",
+      "left": "806px",
+      "top": "554px",
+      "width": "",
+      "height": "",
+      "texto": "exchange calculador  gold to exp  and silver "
+    },
+    {
+      "id": "forma-44",
+      "tipo": "rectangle",
+      "left": "798px",
+      "top": "710px",
+      "width": "",
+      "height": "",
+      "texto": "/gold_value"
+    },
+    {
+      "id": "forma-45",
+      "tipo": "text",
+      "left": "806px",
+      "top": "749px",
+      "width": "",
+      "height": "",
+      "texto": "Calculates the best \"Gold per Dollar\""
+    },
+    {
+      "id": "forma-46",
+      "tipo": "text",
+      "left": "18px",
+      "top": "817px",
+      "width": "",
+      "height": "",
+      "texto": "The bot checks the API every 5 minutes. If it detects a new battle was played, it automatically posts the result in your Telegram group: \"Player [Name] just got an Ace Tanker in the Bourrasque! 5k Damage!\""
+    },
+    {
+      "id": "forma-47",
+      "tipo": "rectangle",
+      "left": "14px",
+      "top": "774px",
+      "width": "",
+      "height": "",
+      "texto": "/battle_watcher"
+    },
+    {
+      "id": "forma-48",
+      "tipo": "rectangle",
+      "left": "14px",
+      "top": "851px",
+      "width": "",
+      "height": "",
+      "texto": "/moe_target"
+    },
+    {
+      "id": "forma-49",
+      "tipo": "text",
+      "left": "18.7656px",
+      "top": "899.109px",
+      "width": "",
+      "height": "",
+      "texto": "Shows the \"Live\" Mark of Excellence percentage. It tells you: \"You are at 84.2%. You need 2,500 damage in the next game to hit 2-Marks.\""
+    }
+  ],
+  "flechas": []
+}
