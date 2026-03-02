@@ -4,7 +4,7 @@ import os
 
 # ---------------- CONFIG ----------------
 API_TOKEN = os.getenv("8340925625:AAFJcl_MmBtRoBitmJfUW_Bcz72Wymq-gm8") or "8340925625:AAFJcl_MmBtRoBitmJfUW_Bcz72Wymq-gm8"
-FILE_NAME = "tanks_cache.json"
+FILE_NAME = "tanks_data.json"
 
 bot = telebot.TeleBot(API_TOKEN)
 

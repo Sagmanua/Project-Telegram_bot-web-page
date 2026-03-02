@@ -5,7 +5,7 @@ from telebot import types
 
 # ================= CONFIG =================
 TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  
-APP_ID = ""
+WG_APP_ID = ""
 REGION = "eu"
 ADMINS = {1083670850}
 
@@ -16,7 +16,7 @@ bot = telebot.TeleBot(TOKEN)
 def get_wot_stats(player_name):
     """Fetch stats and return them as a dictionary."""
     search_url = f"https://api.worldoftanks.{REGION}/wot/account/list/"
-    search_params = {"application_id": APP_ID, "search": player_name}
+    search_params = {"application_id": WG_APP_ID, "search": player_name}
     
     r = requests.get(search_url, params=search_params)
     data = r.json().get("data", [])
@@ -28,7 +28,7 @@ def get_wot_stats(player_name):
     nickname = data[0]["nickname"]
 
     info_url = f"https://api.worldoftanks.{REGION}/wot/account/info/"
-    info_params = {"application_id": APP_ID, "account_id": account_id}
+    info_params = {"application_id": WG_APP_ID, "account_id": account_id}
     
     r = requests.get(info_url, params=info_params)
     player_data = r.json()["data"][str(account_id)]
@@ -55,7 +55,7 @@ def get_wot_stats(player_name):
 def start(message):
     bot.reply_to(message, "Welcome! Use /stats <player_name> to get WoT data.")
 
-@bot.message_handler(commands=['stats'])
+@bot.message_handler(commands=['player_stats'])
 def stats_command(message):
     try:
         args = message.text.split()
