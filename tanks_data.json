@@ -607,7 +607,7 @@
         }
     },
     {
-        "tier": "V",
+        "tier": "X",
         "full_name": "T110E5",
         "Tank DPM": "2727",
         "Dmg": "400",
@@ -8191,74 +8191,7 @@
             ]
         }
     },
-    {
-        "tier": "X",
-        "full_name": "T110E5",
-        "Tank DPM": "2727",
-        "Dmg": "400",
-        "Reload": "8.80s",
-        "Pen": "258",
-        "Velo": "1067",
-        "Acc": "0.35",
-        "Aim": "2.00s",
-        "Dispresion": "0.06 / 0.14 / 0.14",
-        "DeP/Elev": "-8 / +15",
-        "Speed": "37 / 12",
-        "Traverse": "30/s",
-        "Power": "875",
-        "P/W": "16.37",
-        "Weight": "53.5t",
-        "Health": "2200",
-        "VR": "400",
-        "equipment": [
-            "pricel.png",
-            "komandirsky_priboru.png",
-            "privodu.png"
-        ],
-        "crew": {
-            "comander": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/comander/Sound Detection.png",
-                "images_perks/comander/Recon.png",
-                "images_perks/comander/Coordination.png"
-            ],
-            "driver": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/driver/Clutch_Braking.png",
-                "images_perks/driver/Off-Road_Driving.png",
-                "images_perks/driver/Reliable_Placement.png"
-            ],
-            "gunner": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/gunner/Armorer.png",
-                "images_perks/gunner/Concentration.png",
-                "images_perks/gunner/Snap_Shot.png"
-            ],
-            "loader": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/loader/Adrenaline_Rush.png",
-                "images_perks/loader/Intuition.png",
-                "images_perks/loader/Ammo_Tuning.png"
-            ],
-            "radist": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/radist/Communications_Expert.png",
-                "images_perks/radist/Signal_Interception.png",
-                "images_perks/radist/Side_by_Side.png"
-            ]
-        },
-        "tank_id": 10785
-    },
+
     {
         "tier": "X",
         "full_name": "M60",
@@ -25171,74 +25104,7 @@
         },
         "tank_id": 64065
     },
-    {
-        "tier": "X",
-        "full_name": "T110E5",
-        "Tank DPM": "2727",
-        "Dmg": "400",
-        "Reload": "8.80s",
-        "Pen": "258",
-        "Velo": "1067",
-        "Acc": "0.35",
-        "Aim": "2.00s",
-        "Dispresion": "0.06 / 0.14 / 0.14",
-        "DeP/Elev": "-8 / +15",
-        "Speed": "37 / 12",
-        "Traverse": "30/s",
-        "Power": "875",
-        "P/W": "16.37",
-        "Weight": "53.5t",
-        "Health": "2200",
-        "VR": "400",
-        "equipment": [
-            "komandirsky_priboru.png",
-            "t3_pricel.png",
-            "gryntu.png"
-        ],
-        "crew": {
-            "comander": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/comander/Sound Detection.png",
-                "images_perks/comander/Emergency.png",
-                "images_perks/comander/Recon.png"
-            ],
-            "driver": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/driver/Engineer.png",
-                "images_perks/driver/Off-Road_Driving.png",
-                "images_perks/driver/Smooth_Ride.png"
-            ],
-            "gunner": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/gunner/Quick_Aiming.png",
-                "images_perks/gunner/Snap_Shot.png",
-                "images_perks/gunner/Armorer.png"
-            ],
-            "loader": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/loader/Close_Combat.png",
-                "images_perks/loader/Perfect_Charge.png",
-                "images_perks/loader/Safe_Stowage.png"
-            ],
-            "radist": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/radist/Signal_Interception.png",
-                "images_perks/radist/Communications_Expert.png",
-                "images_perks/radist/Firefighting.png"
-            ]
-        },
-        "tank_id": 10785
-    },
+
     {
         "tier": "X",
         "full_name": "Senlac",
@@ -31526,74 +31392,7 @@
         },
         "tank_id": 52561
     },
-    {
-        "tier": "X",
-        "full_name": "T110E5",
-        "Tank DPM": "2727",
-        "Dmg": "400",
-        "Reload": "8.80s",
-        "Pen": "258",
-        "Velo": "1067",
-        "Acc": "0.35",
-        "Aim": "2.00s",
-        "Dispresion": "0.06 / 0.14 / 0.14",
-        "DeP/Elev": "-8 / +15",
-        "Speed": "37 / 12",
-        "Traverse": "30/s",
-        "Power": "875",
-        "P/W": "16.37",
-        "Weight": "53.5t",
-        "Health": "2200",
-        "VR": "400",
-        "equipment": [
-            "dosel.png",
-            "ventil.png",
-            "pricel.png"
-        ],
-        "crew": {
-            "comander": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/comander/Recon.png",
-                "images_perks/comander/mentor.png",
-                "images_perks/comander/Emergency.png"
-            ],
-            "driver": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/driver/Smooth_Ride.png",
-                "images_perks/driver/Clutch_Braking.png",
-                "images_perks/driver/Engineer.png"
-            ],
-            "gunner": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/gunner/Deadeye.png",
-                "images_perks/gunner/Quick_Aiming.png",
-                "images_perks/gunner/Designated_Target.png"
-            ],
-            "loader": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/loader/Ammo_Tuning.png",
-                "images_perks/loader/Adrenaline_Rush.png",
-                "images_perks/loader/Safe_Stowage.png"
-            ],
-            "radist": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/radist/Signal_Interception.png",
-                "images_perks/radist/Jamming.png",
-                "images_perks/radist/Situational_Awareness.png"
-            ]
-        },
-        "tank_id": 10785
-    },
+
     {
         "tier": "II",
         "full_name": "G.Pz. Mk. VI",
@@ -62559,74 +62358,7 @@
             ]
         }
     },
-    {
-        "tier": "X",
-        "full_name": "T110E5",
-        "Tank DPM": "2727",
-        "Dmg": "400",
-        "Reload": "8.80s",
-        "Pen": "258",
-        "Velo": "1067",
-        "Acc": "0.35",
-        "Aim": "2.00s",
-        "Dispresion": "0.06 / 0.14 / 0.14",
-        "DeP/Elev": "-8 / +15",
-        "Speed": "37 / 12",
-        "Traverse": "30/s",
-        "Power": "875",
-        "P/W": "16.37",
-        "Weight": "53.5t",
-        "Health": "2200",
-        "VR": "400",
-        "equipment": [
-            "trybu.png",
-            "komandirsky_priboru.png",
-            "mehanism_povoroto.png"
-        ],
-        "crew": {
-            "comander": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/comander/mentor.png",
-                "images_perks/comander/Practicality.png",
-                "images_perks/comander/Sound Detection.png"
-            ],
-            "driver": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/driver/Off-Road_Driving.png",
-                "images_perks/driver/Reliable_Placement.png",
-                "images_perks/driver/Controlled_Impact.png"
-            ],
-            "gunner": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/gunner/Armorer.png",
-                "images_perks/gunner/Concentration.png",
-                "images_perks/gunner/Deadeye.png"
-            ],
-            "loader": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/loader/Ammo_Tuning.png",
-                "images_perks/loader/Close_Combat.png",
-                "images_perks/loader/Safe_Stowage.png"
-            ],
-            "radist": [
-                "images_perks/all/bratstvo.png",
-                "images_perks/all/maskirovka.png",
-                "images_perks/all/remka.png",
-                "images_perks/radist/Jamming.png",
-                "images_perks/radist/Situational_Awareness.png",
-                "images_perks/radist/Side_by_Side.png"
-            ]
-        },
-        "tank_id": 10785
-    },
+
     {
         "tier": "X",
         "full_name": "T29",
