@@ -368,35 +368,36 @@ def handle_compare(message):
     )
     bot.send_message(message.chat.id, response, parse_mode="Markdown")
 
-@bot.message_handler(commands=['clan'])
-def set_clan(message):
-    parts = message.text.split(maxsplit=1)
-    if len(parts) < 2:
-        bot.reply_to(message, "Usage: /clan <name>")
-        return
-    clan_name = parts[1].lower()
-    add_clan(message.chat.id, clan_name)
-    bot.reply_to(message, f"You have joined the clan: **{clan_name}**", parse_mode="Markdown")
-
 @bot.message_handler(commands=['messagge'])
 def send_clan_message(message):
-    parts = message.text.split(maxsplit=1)
-    if len(parts) < 2:
-        bot.reply_to(message, "Usage: /messagge <your message>")
+
+    if not message.reply_to_message:
+        bot.reply_to(message, "Reply to a message with /messagge")
         return
-    text_to_send = parts[1]
-    members = get_clan_members(message.chat.id)
+
+    members = get_clan_members(message.from_user.id)
+
     if not members:
         bot.reply_to(message, "You aren't in a clan yet! Use /clan first.")
         return
+
     count = 0
+    original = message.reply_to_message
+
     for member_id in members:
-        if member_id != message.chat.id:
+        if member_id != message.from_user.id:
             try:
-                bot.send_message(member_id, f"📢 **Clan Message:**\n{text_to_send}", parse_mode="Markdown")
+                bot.copy_message(
+                    chat_id=member_id,
+                    from_chat_id=original.chat.id,
+                    message_id=original.message_id
+                )
                 count += 1
-            except: continue
-    bot.reply_to(message, f"Message sent to {count} clan members!")
+            except Exception as e:
+                print(e)
+                continue
+
+    bot.reply_to(message, f"✅ Message sent to {count} clan members!")
 
 @bot.message_handler(commands=['equipment', 'crew'])
 def handle_visual_commands(message):

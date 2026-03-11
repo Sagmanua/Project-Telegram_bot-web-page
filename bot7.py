@@ -33,6 +33,17 @@ def setup_database():
             lang TEXT DEFAULT 'en'
         )
         """)
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS player_statistics (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nickname TEXT,
+            battles INTEGER,
+            wins INTEGER,
+            damage INTEGER,
+            frags INTEGER,
+            snapshot_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """)
 
 def add_user(user_id):
     with sqlite3.connect(DATABASE) as conn:
@@ -55,7 +66,25 @@ def get_clan_members(user_id):
         clan_name = result[0]
         cur.execute("SELECT user_id FROM users WHERE clan_name = ?", (clan_name,))
         return [row[0] for row in cur.fetchall()]
-
+def save_player_stats(stats):
+    with sqlite3.connect(DATABASE) as conn:
+        cur = conn.cursor()
+        
+        cur.execute("SELECT 1 FROM player_statistics WHERE nickname = ?", (stats["nickname"],))
+        exists = cur.fetchone()
+        
+        if not exists:
+            cur.execute("""
+            INSERT INTO player_statistics 
+            (nickname, battles, wins, damage, frags)
+            VALUES (?, ?, ?, ?, ?)
+            """, (
+                stats["nickname"],
+                stats["battles"],
+                stats["wins"],
+                stats["avg_damage"] * stats["battles"],
+                stats["frags"]
+            ))
 # --- Tank Data Logic ---
 def load_tanks():
     if not os.path.exists(DATA_FILE):
@@ -103,7 +132,19 @@ def get_tank_image_by_id(tank_id):
         print("WG Image Error:", e)
 
     return None
-
+def escape_md(text):
+    """Escapes characters for Markdown parse_mode."""
+    special_chars = ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']
+    for char in special_chars:
+        text = text.replace(char, f'\\{char}')
+    return text
+def escape_markdown(text):
+    """Escapes characters that interfere with Telegram Markdown formatting."""
+    # List of characters that need to be escaped for Markdown mode
+    to_escape = ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']
+    for char in to_escape:
+        text = text.replace(char, f'\\{char}')
+    return text
 def extract_stats(tank):
     def clean_val(val, take_first=False):
         if not val or not isinstance(val, (str, int, float)): return 0.0
@@ -271,6 +312,20 @@ def get_wot_stats(player_name):
         "avg_damage": avg_dmg,
         "frags": all_stats["frags"]
     }
+def get_stats_from_days_ago(nickname, days):
+    with sqlite3.connect(DATABASE) as conn:
+        cur = conn.cursor()
+
+        cur.execute("""
+        SELECT battles, wins, damage, frags, snapshot_date
+        FROM player_statistics
+        WHERE nickname = ?
+        AND snapshot_date <= datetime('now', ?)
+        ORDER BY snapshot_date DESC
+        LIMIT 1
+        """, (nickname, f"-{days} days"))
+
+        return cur.fetchone()
 # --- Bot Handlers ---
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -286,7 +341,8 @@ def start(message):
         "• `/messagge <text>` - Message your clan\n"
         "• `/exp <skill_num> <%>` - Calculate XP needed\n"
         "• `/clan_online <name_of_clan> ` - Calculate XP neede\n"
-        "• `/player_stats <name_of_player> - you can see statistic of player`"
+        "• `/player_stats <name_of_player> - you can see statistic of player`\n"
+        "• `/progress <name_of_player> <day>- you can see statistic of player in some period but before see you need to use /player_stats to start take datos`"
     )
     bot.reply_to(message, welcome_text, parse_mode="Markdown")
 
@@ -368,35 +424,36 @@ def handle_compare(message):
     )
     bot.send_message(message.chat.id, response, parse_mode="Markdown")
 
-@bot.message_handler(commands=['clan'])
-def set_clan(message):
-    parts = message.text.split(maxsplit=1)
-    if len(parts) < 2:
-        bot.reply_to(message, "Usage: /clan <name>")
-        return
-    clan_name = parts[1].lower()
-    add_clan(message.chat.id, clan_name)
-    bot.reply_to(message, f"You have joined the clan: **{clan_name}**", parse_mode="Markdown")
-
 @bot.message_handler(commands=['messagge'])
 def send_clan_message(message):
-    parts = message.text.split(maxsplit=1)
-    if len(parts) < 2:
-        bot.reply_to(message, "Usage: /messagge <your message>")
+
+    if not message.reply_to_message:
+        bot.reply_to(message, "Reply to a message with /messagge")
         return
-    text_to_send = parts[1]
-    members = get_clan_members(message.chat.id)
+
+    members = get_clan_members(message.from_user.id)
+
     if not members:
         bot.reply_to(message, "You aren't in a clan yet! Use /clan first.")
         return
+
     count = 0
+    original = message.reply_to_message
+
     for member_id in members:
-        if member_id != message.chat.id:
+        if member_id != message.from_user.id:
             try:
-                bot.send_message(member_id, f"📢 **Clan Message:**\n{text_to_send}", parse_mode="Markdown")
+                bot.copy_message(
+                    chat_id=member_id,
+                    from_chat_id=original.chat.id,
+                    message_id=original.message_id
+                )
                 count += 1
-            except: continue
-    bot.reply_to(message, f"Message sent to {count} clan members!")
+            except Exception as e:
+                print(e)
+                continue
+
+    bot.reply_to(message, f"✅ Message sent to {count} clan members!")
 
 @bot.message_handler(commands=['equipment', 'crew'])
 def handle_visual_commands(message):
@@ -464,7 +521,7 @@ def stats_command(message):
     try:
         args = message.text.split()
         if len(args) < 2:
-            bot.reply_to(message, "❌ Usage: /stats <player_name>")
+            bot.reply_to(message, "❌ Usage: /player_stats <player_name>")
             return
 
         player_name = args[1]
@@ -472,21 +529,91 @@ def stats_command(message):
         
         stats = get_wot_stats(player_name)
 
+        save_player_stats(stats)
+
+        safe_nickname = stats['nickname'].replace("_", "\\_")
+
         reply_text = (
-            f"📊 **Stats for {stats['nickname']}**\n"
+            f"📊 **Stats for {safe_nickname}**\n"
             f"━━━━━━━━━━━━━━━\n"
-            f"🕹️ **Battles:** {stats['battles']}\n"
-            f"🏆 **Wins:** {stats['wins']}\n"
-            f"📈 **Winrate:** {stats['winrate']}%\n"
-            f"💥 **Avg Damage:** {stats['avg_damage']}\n"
-            f"💀 **Frags:** {stats['frags']}"
+            f"🕹️ **Battles:** `{stats['battles']}`\n"
+            f"🏆 **Wins:** `{stats['wins']}`\n"
+            f"📈 **Winrate:** `{stats['winrate']}%`\n"
+            f"💥 **Avg Damage:** `{stats['avg_damage']}`\n"
+            f"💀 **Frags:** `{stats['frags']}`"
         )
 
         bot.reply_to(message, reply_text, parse_mode="Markdown")
 
     except Exception as e:
+
+        error_msg = str(e).replace("_", "\\_")
+        bot.reply_to(message, f"⚠️ Error: {error_msg}", parse_mode="Markdown")
+
+    except Exception as e:
         bot.reply_to(message, f"⚠️ Error: {str(e)}")
 
+
+
+@bot.message_handler(commands=['progress'])
+def progress_command(message):
+    try:
+        args = message.text.split()
+        if len(args) < 3:
+            bot.reply_to(message, "❌ Usage: /progress <player_name> <days>")
+            return
+
+        player_name = args[1]
+        days = int(args[2])
+
+        # 1. Get current live stats
+        current = get_wot_stats(player_name)
+        # 2. Get historical stats from DB
+        old = get_stats_from_days_ago(current["nickname"], days)
+
+        if not old:
+            bot.reply_to(message, f"❓ No data found for {escape_markdown(player_name)} from {days} days ago.")
+            return
+
+        # Unpack: old_damage is total damage stored in DB
+        old_battles, old_wins, old_damage, old_frags, old_date = old
+
+        # Calculate Differences (The "Session")
+        diff_battles = current["battles"] - old_battles
+        diff_wins = current["wins"] - old_wins
+        diff_damage = (current["avg_damage"] * current["battles"]) - old_damage
+        diff_frags = current["frags"] - old_frags
+
+        # Calculate Session Performance
+        if diff_battles > 0:
+            session_winrate = round((diff_wins / diff_battles) * 100, 2)
+            session_avg_dmg = round(diff_damage / diff_battles)
+        else:
+            session_winrate = 0
+            session_avg_dmg = 0
+
+        # Sanitize all dynamic data before adding it to the markdown string
+        safe_name = escape_markdown(current['nickname'])
+        safe_date = escape_markdown(str(old_date))
+
+        # Format the response
+        reply = (
+            f"📈 **Progress for {safe_name}**\n"
+            f"🗓️ *Last {days} days (since {safe_date})*\n"
+            f"━━━━━━━━━━━━━━━\n"
+            f"🕹️ **Battles:** +{diff_battles}\n"
+            f"🏆 **Session Winrate:** {session_winrate}%\n"
+            f"💥 **Session Avg Dmg:** {session_avg_dmg}\n"
+            f"💀 **Frags:** +{diff_frags}\n"
+            f"━━━━━━━━━━━━━━━\n"
+            f"✨ *Current Winrate: {current['winrate']}%*"
+        )
+
+        bot.reply_to(message, reply, parse_mode="Markdown")
+
+    except Exception as e:
+        # Sanitize error messages too, in case they contain underscores
+        bot.reply_to(message, f"⚠️ Error: {escape_markdown(str(e))}")
 if __name__ == "__main__":
     setup_database()
     print("Bot started...")
