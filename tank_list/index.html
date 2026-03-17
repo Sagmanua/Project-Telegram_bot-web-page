@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WoT Tier X Tanks</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#1b1b1b;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+input{
+    padding:10px;
+    font-size:16px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    margin-left:10px;
+}
+
+#results{
+    margin-top:30px;
+}
+
+.tank{
+    background:#2b2b2b;
+    padding:10px;
+    margin:5px;
+    border-radius:5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>WoT Tier X Tanks</h1>
+
+<input id="nickname" placeholder="Player nickname">
+<button onclick="search()">Search</button>
+
+<div id="results"></div>
+
+<script>
+
+const API_KEY = "1c67a69b2758f598f6edab23ca7dbb7c";
+const REGION = "eu";
+
+async function search(){
+
+    const nickname = document.getElementById("nickname").value;
+    const results = document.getElementById("results");
+
+    results.innerHTML = "Loading...";
+
+    try{
+
+        // 1️⃣ Get account ID
+        const r1 = await fetch(
+            `https://api.worldoftanks.${REGION}/wot/account/list/?application_id=${API_KEY}&search=${nickname}&limit=1`
+        );
+
+        const account = await r1.json();
+
+        console.log("Account:", account);
+
+        if(account.status !== "ok" || account.data.length === 0){
+            results.innerHTML = "Player not found";
+            return;
+        }
+
+        const account_id = account.data[0].account_id;
+
+        // 2️⃣ Get player tanks
+        const r2 = await fetch(
+            `https://api.worldoftanks.${REGION}/wot/account/tanks/?application_id=${API_KEY}&account_id=${account_id}`
+        );
+
+        const tanks = await r2.json();
+
+        console.log("Tanks:", tanks);
+
+        const ids = tanks.data[account_id].map(t => t.tank_id).join(",");
+
+        // 3️⃣ Get tank info
+        const r3 = await fetch(
+            `https://api.worldoftanks.${REGION}/wot/encyclopedia/vehicles/?application_id=${API_KEY}&tank_id=${ids}`
+        );
+
+        const vehicles = await r3.json();
+
+        console.log("Vehicles:", vehicles);
+
+        if(vehicles.status !== "ok"){
+            results.innerHTML = "Vehicle API error";
+            return;
+        }
+
+        let html = "<h2>Tier X Tanks</h2>";
+
+        Object.values(vehicles.data).forEach(tank => {
+            if(tank.tier === 10){
+                html += `<div class="tank">${tank.name} (${tank.type})</div>`;
+            }
+        });
+
+        results.innerHTML = html;
+
+    }catch(e){
+
+        console.error(e);
+        results.innerHTML = "Error loading data (check console)";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>

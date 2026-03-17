@@ -61,6 +61,6 @@ if __name__ == "__main__":
     all_data = scrape_all_tanks()
 
     if all_data:
-        with open("tanks_data.json", "w", encoding="utf-8") as f:
+        with open("1.json", "w", encoding="utf-8") as f:
             json.dump(all_data, f, indent=4, ensure_ascii=False)
         print(f"✅ Successfully saved {len(all_data)} tanks to tanks_data.json")

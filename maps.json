@@ -1,0 +1,338 @@
+[
+    {
+        "root": "map_images/caucasus.png",
+        "name": [
+            "caucasus",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/el_hallouf.png",
+        "name": [
+            "el_hallouf",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/fishing_bay.png",
+        "name": [
+            "fishing_bay",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/poland.png",
+        "name": [
+            "poland",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/minsk.png",
+        "name": [
+            "minsk",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/dday.png",
+        "name": [
+            "dday",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/frozen_land.png",
+        "name": [
+            "frozen_land",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/himmelsdorf.png",
+        "name": [
+            "himmelsdorf",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/flord.png",
+        "name": [
+            "flord",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/germany.png",
+        "name": [
+            "germany",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/dalny_gg.png",
+        "name": [
+            "dalny_gg",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/murovanka.png",
+        "name": [
+            "murovanka",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/lost_cite_ctf.png",
+        "name": [
+            "lost_cite_ctf",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/lakeville.png",
+        "name": [
+            "lakeville",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/cliff.png",
+        "name": [
+            "cliff",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/westfield.png",
+        "name": [
+            "westfield",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/tundra.png",
+        "name": [
+            "tundra",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/asia_miao.png",
+        "name": [
+            "asia_miao",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/asia_great_wall.png",
+        "name": [
+            "asia_great_wall",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/north_america.png",
+        "name": [
+            "north_america",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/iaport.png",
+        "name": [
+            "iaport",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/erleberg.png",
+        "name": [
+            "erleberg",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/prohorovka.png",
+        "name": [
+            "prohorovka",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/ensk.png",
+        "name": [
+            "ensk",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/canyon_ish copy.png",
+        "name": [
+            "canyon_ish copy",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/mannerheim_line.png",
+        "name": [
+            "mannerheim_line",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/eiffel_tower_ctf.png",
+        "name": [
+            "eiffel_tower_ctf",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/malinovka.png",
+        "name": [
+            "malinovka",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/ensk_big.png",
+        "name": [
+            "ensk_big",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/eiffel_tower_ctf copy.png",
+        "name": [
+            "eiffel_tower_ctf copy",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/kharkiv.png",
+        "name": [
+            "kharkiv",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/hills.png",
+        "name": [
+            "hills",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/campani.png",
+        "name": [
+            "campani",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/steppes.png",
+        "name": [
+            "steppes",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/monastery.png",
+        "name": [
+            "monastery",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/canyon_ish.png",
+        "name": [
+            "canyon_ish",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/asia_ravine.png",
+        "name": [
+            "asia_ravine",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/riunberg.png",
+        "name": [
+            "riunberg",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/redshire.png",
+        "name": [
+            "redshire",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/siengfireid_line.png",
+        "name": [
+            "siengfireid_line",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/muchen.png",
+        "name": [
+            "muchen",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/last_frontier.png",
+        "name": [
+            "last_frontier",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/desert.png",
+        "name": [
+            "desert",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/aiefiled.png",
+        "name": [
+            "aiefiled",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/canada.png",
+        "name": [
+            "canada",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/sweden.png",
+        "name": [
+            "sweden",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/highdround_v.png",
+        "name": [
+            "highdround_v",
+            ""
+        ]
+    },
+    {
+        "root": "map_images/lost_paradise.png",
+        "name": [
+            "lost_paradise",
+            ""
+        ]
+    }
+]
