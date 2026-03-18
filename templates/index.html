@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank Assistant | Project Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<style>
+    
+</style>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-shield-halved me-2"></i>Tank Assistant</a>
+    </div>
+</nav>
+
+<header class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-3 fw-bold text-white">Advanced WoT Assistant</h1>
+        <p class="lead mb-4">A powerful Telegram Bot ecosystem with real-time stats, clan management, and tank analytics.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://t.me/YourBotUsername" class="btn btn-primary btn-lg px-4 gap-3"><i class="fab fa-telegram me-2"></i>Launch Bot</a>
+        </div>
+    </div>
+</header>
+
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-white">Core Capabilities</h2>
+            <p class="text-1" >Built for competitive players and clan commanders.</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Player Intelligence</h3>
+                    <p class="text-1">Real-time player statistics retrieval from Wargaming API, including winrate and WN8 progress tracking.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="icon-box"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3>Clan Management</h3>
+                    <p class="text-1">Track active members and perform mass broadcasts to all clan members via the Telegram interface.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="icon-box"><i class="fa-solid fa-crosshairs"></i></div>
+                    <h3>Tank Analytics</h3>
+                    <p class="text-1">Side-by-side tank comparisons and visual equipment/crew skill recommendations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="icon-box"><i class="fa-solid fa-rss"></i></div>
+                    <h3>News Automator</h3>
+                    <p class="text-1">Background RSS feed monitoring that pushes the latest World of Tanks news directly to subscribers.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="icon-box"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <h3>Tactical Maps</h3>
+                    <p class="text-1" >Instant access to high-resolution map overheads for team strategy and positioning.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card p-4">
+                    <div class="icon-box"><i class="fa-solid fa-language"></i></div>
+                    <h3>Multi-Language</h3>
+                    <p class="text-1" >Full support for English, Russian, and Ukrainian players.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-white fw-bold text-center mb-4">Project Architecture</h2>
+                <div class="row text-center g-4">
+                    <div class="col-md-3">
+                        <i class="fa-brands fa-python fa-2x text-warning mb-2"></i>
+                        <p>Flask Backend</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-database fa-2x text-warning mb-2"></i>
+                        <p>SQLite Database</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-file-code fa-2x text-warning mb-2"></i>
+                        <p>JSON Data Management</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa-solid fa-robot fa-2x text-warning mb-2"></i>
+                        <p>Telebot API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-4 border-top border-secondary mt-5">
+    <p class="text-1" >&copy; 2026 Tank Assistant Project</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

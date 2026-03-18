@@ -1,0 +1,126 @@
+/* Color Palette 
+   Black: #0a0a0a
+   Sea Green: #2E8B57
+   Light Sea Green: #3CB371
+   Dark Slate: #1a1a1a
+*/
+
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: #000 !important;
+    border-bottom: 2px solid #2E8B57;
+}
+
+.navbar-brand {
+    color: #2E8B57 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+                url('https://worldoftanks.eu/MTI0N3Byb2R1Y3Rpb24vc3RvcmFnZS9pbWFnZS81YmQ5Zjk3YTE1ZDMxMWVlODg1ODFlNWE1YmU3ZjkzZi5qcGc=');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    border-bottom: 4px solid #2E8B57;
+}
+
+.hero-section h1 {
+    color: #3CB371;
+    text-shadow: 0 0 15px rgba(46, 139, 87, 0.5);
+}
+
+/* Cards & Features */
+.feature-card {
+    background: #161616;
+    border: 1px solid #333;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    border-color: #2E8B57;
+    box-shadow: 0 10px 20px rgba(46, 139, 87, 0.2);
+}
+
+.icon-box {
+    color: #3CB371;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2E8B57;
+    border: none;
+    font-weight: 600;
+    padding: 12px 30px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3CB371;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(60, 179, 113, 0.4);
+}
+
+.btn-info {
+    background-color: #20B2AA; /* Light Sea Green variant */
+    border: none;
+    color: white;
+}
+
+.panel {
+    background-color: #1a1a1a;
+    border: 1px solid #2E8B57;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.panel-heading {
+    color: #3CB371;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#json_data {
+    background-color: #000 !important;
+    color: #3CB371 !important; /* "Matrix" style coding look */
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#json_data:focus {
+    border-color: #2E8B57;
+    outline: none;
+    box-shadow: 0 0 5px rgba(46, 139, 87, 0.5);
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+.text-warning {
+    color: #3CB371 !important; 
+}
+
+footer {
+    background-color: #000;
+    border-top: 1px solid #2E8B57;
+}
+.text-1{
+    color: #beeeb9; 
+    font-weight: bold;
+}

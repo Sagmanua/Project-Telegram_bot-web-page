@@ -2232,7 +2232,7 @@
     },
     {
         "tier": "VII",
-        "full_name": "\u0160koda T 45",
+        "full_name": "Škoda T 45",
         "Tank DPM": "1714",
         "Dmg": "220",
         "Reload": "7.70s",
@@ -2843,7 +2843,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160elma",
+        "full_name": "Šelma",
         "Tank DPM": "2654",
         "Dmg": "16",
         "Reload": "20.00s",
@@ -5283,7 +5283,7 @@
     },
     {
         "tier": "X",
-        "full_name": "\u0160koda T 40",
+        "full_name": "Škoda T 40",
         "Tank DPM": "1913",
         "Dmg": "220",
         "Reload": "6.90s",
@@ -8191,7 +8191,6 @@
             ]
         }
     },
-
     {
         "tier": "X",
         "full_name": "M60",
@@ -12527,7 +12526,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "Vercing\u00e9torix",
+        "full_name": "Vercingétorix",
         "Tank DPM": "2449",
         "Dmg": "400",
         "Reload": "9.80s",
@@ -14421,7 +14420,7 @@
     },
     {
         "tier": "III",
-        "full_name": "V\u20134/40",
+        "full_name": "V–4/40",
         "Tank DPM": "1000",
         "Dmg": "45",
         "Reload": "2.70s",
@@ -16450,7 +16449,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "M\u00e4uschen",
+        "full_name": "Mäuschen",
         "Tank DPM": "1960",
         "Dmg": "490",
         "Reload": "15.00s",
@@ -17329,7 +17328,7 @@
     },
     {
         "tier": "X",
-        "full_name": "Tes\u00e1k",
+        "full_name": "Tesák",
         "Tank DPM": "3049",
         "Dmg": "16",
         "Reload": "17.00s",
@@ -18815,7 +18814,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",
@@ -22876,7 +22875,7 @@
     },
     {
         "tier": "XI",
-        "full_name": "Hirschk\u00e4fer",
+        "full_name": "Hirschkäfer",
         "Tank DPM": "2791",
         "Dmg": "600",
         "Reload": "12.90s",
@@ -24700,7 +24699,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",
@@ -25104,7 +25103,6 @@
         },
         "tank_id": 64065
     },
-
     {
         "tier": "X",
         "full_name": "Senlac",
@@ -26658,7 +26656,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",
@@ -27337,7 +27335,7 @@
     },
     {
         "tier": "V",
-        "full_name": "Tur\u00e1n III PT",
+        "full_name": "Turán III PT",
         "Tank DPM": "1650",
         "Dmg": "110",
         "Reload": "4.00s",
@@ -28279,7 +28277,7 @@
     },
     {
         "tier": "X",
-        "full_name": "B\u0142yskawica",
+        "full_name": "Błyskawica",
         "Tank DPM": "3504",
         "Dmg": "800",
         "Reload": "13.70s",
@@ -29433,7 +29431,7 @@
     },
     {
         "tier": "VIII",
-        "full_name": "L\u00f6we",
+        "full_name": "Löwe",
         "Tank DPM": "1600",
         "Dmg": "320",
         "Reload": "12.00s",
@@ -30177,7 +30175,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "TIII J\u00e4ger",
+        "full_name": "TIII Jäger",
         "Tank DPM": "2700",
         "Dmg": "450",
         "Reload": "10.00s",
@@ -30919,7 +30917,7 @@
     },
     {
         "tier": "VI",
-        "full_name": "Ph\u00f6nix",
+        "full_name": "Phönix",
         "Tank DPM": "2545",
         "Dmg": "560",
         "Reload": "58.00s",
@@ -31392,7 +31390,6 @@
         },
         "tank_id": 52561
     },
-
     {
         "tier": "II",
         "full_name": "G.Pz. Mk. VI",
@@ -34982,7 +34979,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "1800",
         "Dmg": "180",
         "Reload": "6.00s",
@@ -37486,7 +37483,7 @@
     },
     {
         "tier": "XI",
-        "full_name": "Borkenk\u00e4fer",
+        "full_name": "Borkenkäfer",
         "Tank DPM": "2429",
         "Dmg": "850",
         "Reload": "21.00s",
@@ -41134,7 +41131,7 @@
     },
     {
         "tier": "VI",
-        "full_name": "DS PZIn\u017c",
+        "full_name": "DS PZInż",
         "Tank DPM": "1397",
         "Dmg": "135",
         "Reload": "5.80s",
@@ -41202,7 +41199,7 @@
     },
     {
         "tier": "V",
-        "full_name": "DS PZIn\u017c",
+        "full_name": "DS PZInż",
         "Tank DPM": "2217",
         "Dmg": "85",
         "Reload": "2.30s",
@@ -43709,7 +43706,7 @@
     },
     {
         "tier": "X",
-        "full_name": "Ph\u00f6nix",
+        "full_name": "Phönix",
         "Tank DPM": "2545",
         "Dmg": "560",
         "Reload": "58.00s",
@@ -43776,7 +43773,7 @@
     },
     {
         "tier": "X",
-        "full_name": "Ph\u00f6nix",
+        "full_name": "Phönix",
         "Tank DPM": "2000",
         "Dmg": "110",
         "Reload": "3.30s",
@@ -45125,7 +45122,7 @@
     },
     {
         "tier": "VIII",
-        "full_name": "Fant\u00f4me",
+        "full_name": "Fantôme",
         "Tank DPM": "1899",
         "Dmg": "360",
         "Reload": "35.00s",
@@ -54325,7 +54322,7 @@
     },
     {
         "tier": "VII",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",
@@ -54393,7 +54390,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "1800",
         "Dmg": "420",
         "Reload": "14.00s",
@@ -57362,7 +57359,7 @@
     },
     {
         "tier": "X",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",
@@ -58983,7 +58980,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",
@@ -59051,7 +59048,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "1034",
         "Dmg": "500",
         "Reload": "29.00s",
@@ -62358,7 +62355,6 @@
             ]
         }
     },
-
     {
         "tier": "X",
         "full_name": "T29",
@@ -62497,7 +62493,7 @@
     },
     {
         "tier": "IX",
-        "full_name": "\u0160koda T 50",
+        "full_name": "Škoda T 50",
         "Tank DPM": "2251",
         "Dmg": "320",
         "Reload": "22.00s",

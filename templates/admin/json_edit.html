@@ -1,0 +1,39 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<div class="container">
+    <h2>Editing: {{ filename }} <small>({{ size }} MB)</small></h2>
+    <hr>
+    
+    <div class="panel panel-info">
+        <div class="panel-heading"><strong>Quick Upload (Recommended for large files)</strong></div>
+        <div class="panel-body">S
+            <form method="POST" enctype="multipart/form-data" class="form-inline">
+                <div class="form-group">
+                    <input type="file" name="json_file" class="form-control" accept=".json">
+                </div>
+                <button type="submit" class="btn btn-info">Upload & Replace File</button>
+            </form>
+        </div>
+    </div>
+
+    <br>
+
+    <form method="POST">
+        <div class="form-group">
+            <label for="json_data">Manual Edit (Text Area):</label>
+            <textarea 
+                name="json_data" 
+                id="json_data" 
+                class="form-control" 
+                rows="15" 
+                style="font-family: monospace; background-color: #f8f9fa;"
+                {% if size > 1.0 %}disabled{% endif %}
+            >{{ content }}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" {% if size > 1.0 %}disabled{% endif %}>Save Text Changes</button>
+        <a href="{{ url_for('admin.index') }}" class="btn btn-default">Cancel</a>
+    </form>
+</div>
+{% endblock %}
