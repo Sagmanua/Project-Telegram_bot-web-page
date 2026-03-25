@@ -27,7 +27,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Config
-TOKEN = os.getenv("TELEGRAM_TOKEN") or os.getenv("TELEGRAM_BOT_TOKEN") or "8319508285:AAH-PI3oV971qBAdApCmil_F2m5o8QzxCGE"
+TOKEN = os.getenv("TELEGRAM_TOKEN") or os.getenv("TELEGRAM_BOT_TOKEN") or "8340925625:AAFJcl_MmBtRoBitmJfUW_Bcz72Wymq-gm8"
 WG_APP_ID = os.getenv("WG_APP_ID") or "1c67a69b2758f598f6edab23ca7dbb7c"
 REGION = "eu"
 
@@ -304,7 +304,6 @@ def get_tank_image_by_id(tank_id):
             return data["data"][str(tank_id)]["images"]["big_icon"]
     except Exception as e: print("WG Image Error:", e)
     return None
-
 def get_active_codes():
     codes = {
         "Bonus Codes (Existing Players)": [
@@ -320,7 +319,6 @@ def get_active_codes():
         ]
     }
     return codes
-
 def escape_markdown(text):
     for char in ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']:
         text = text.replace(char, f'\\{char}')
@@ -443,7 +441,6 @@ def process_tank_info(message):
         bot.send_photo(message.chat.id, image_url, caption=response, parse_mode="Markdown", reply_markup=markup)
     else:
         bot.send_message(message.chat.id, response, parse_mode="Markdown", reply_markup=markup)
-
 def process_tank_compare(message):
     parts = message.text.split(",")
     if len(parts) < 2:
@@ -491,7 +488,6 @@ def process_tank_compare(message):
     except Exception as e:
         print(f"Compare formatting error: {e}")
         bot.send_message(message.chat.id, "⚠️ " + response.replace("*", "").replace("`", ""))
-
 def process_player_stats(message):
     player_name = message.text.strip()
     bot.send_chat_action(message.chat.id, 'typing') 
@@ -544,28 +540,13 @@ def process_moe_step(message, category):
 
 def process_map_search(message):
     user_input = message.text.strip().lower()
-    found_entry = None
-
-    for entry in MAPS_DATA:
-        names_list = [n.lower() for n in entry.get("name", []) if n]
-        if user_input in names_list:
-            found_entry = entry
-            break
-
-    if found_entry:
-        image_path = found_entry.get("root")
-        if image_path and os.path.exists(image_path):
-            with open(image_path, 'rb') as photo:
-                bot.send_photo(
-                    message.chat.id, 
-                    photo, 
-                    caption=f"🗺️ <b>Map Found:</b> {user_input.title()}",
-                    parse_mode="HTML"
-                )
-        else:
-            bot.reply_to(message, f"❌ I found the map, but the image file is missing at: <code>{image_path}</code>", parse_mode="HTML")
-    else:
-        bot.reply_to(message, "❌ Map not found. Please check the spelling or try another name!")
+    found_entry = next((e for e in MAPS_DATA if user_input in [n.lower() for n in e.get("name", []) if n]), None)
+    if not found_entry: return bot.reply_to(message, "❌ Map not found. Please check the spelling!")
+    
+    image_path = found_entry.get("root")
+    if image_path and os.path.exists(image_path):
+        with open(image_path, 'rb') as photo: bot.send_photo(message.chat.id, photo, caption=f"🗺️ <b>Map Found:</b> {user_input.title()}", parse_mode="HTML")
+    else: bot.reply_to(message, f"❌ Image missing at: <code>{image_path}</code>", parse_mode="HTML")
 
 # --- WG API & Logic ---
 def calculate_xp(skill_number, current_percentage):
@@ -622,37 +603,18 @@ def get_active_members(clan_tag):
     return header + "\n".join(active_list)
 
 def get_wot_stats(player_name):
-    search_url = f"https://api.worldoftanks.{REGION}/wot/account/list/"
-    search_params = {"application_id": WG_APP_ID, "search": player_name}
-    
-    r = requests.get(search_url, params=search_params)
+    r = requests.get(f"https://api.worldoftanks.{REGION}/wot/account/list/", params={"application_id": WG_APP_ID, "search": player_name})
     data = r.json().get("data", [])
+    if not data: raise Exception(f"Player '{player_name}' not found.")
     
-    if not data:
-        raise Exception(f"Player '{player_name}' not found.")
+    account_id, nickname = data[0]["account_id"], data[0]["nickname"]
+    r = requests.get(f"https://api.worldoftanks.{REGION}/wot/account/info/", params={"application_id": WG_APP_ID, "account_id": account_id})
+    stats = r.json()["data"][str(account_id)]["statistics"]["all"]
     
-    account_id = data[0]["account_id"]
-    nickname = data[0]["nickname"]
-
-    info_url = f"https://api.worldoftanks.{REGION}/wot/account/info/"
-    info_params = {"application_id": WG_APP_ID, "account_id": account_id}
-    
-    r = requests.get(info_url, params=info_params)
-    player_data = r.json()["data"][str(account_id)]
-    
-    all_stats = player_data["statistics"]["all"]
-    
-    battles = all_stats["battles"]
-    winrate = round(all_stats["wins"] / battles * 100, 2) if battles > 0 else 0
-    avg_dmg = round(all_stats["damage_dealt"] / battles) if battles > 0 else 0
-
     return {
-        "nickname": nickname,
-        "battles": battles,
-        "wins": all_stats["wins"],
-        "winrate": winrate,
-        "avg_damage": avg_dmg,
-        "frags": all_stats["frags"]
+        "nickname": nickname, "battles": stats["battles"], "wins": stats["wins"],
+        "winrate": round(stats["wins"] / stats["battles"] * 100, 2) if stats["battles"] > 0 else 0,
+        "avg_damage": round(stats["damage_dealt"] / stats["battles"]) if stats["battles"] > 0 else 0, "frags": stats["frags"]
     }
 
 def get_stats_from_days_ago(nickname, days):
@@ -714,8 +676,10 @@ def start(message):
     markup.row(InlineKeyboardButton(txt['btn_modpack'], callback_data="menu_modpack"), 
                InlineKeyboardButton(txt['btn_settings'], callback_data="menu_settings"))
 
+    # Use send_message here so the menu appears as a fresh message
     bot.send_message(message.chat.id, txt['welcome'], reply_markup=markup, parse_mode="Markdown")
 
+# --- Modpack Command Handler ---
 @bot.message_handler(commands=['modpack'])
 def send_modpack_cmd(message):
     markup = InlineKeyboardMarkup(row_width=1)
@@ -729,7 +693,6 @@ def send_modpack_cmd(message):
         parse_mode='HTML', 
         reply_markup=markup
     )
-
 @bot.callback_query_handler(func=lambda call: call.data.startswith('visual_'))
 def handle_tank_visuals(call):
     parts = call.data.split('_')
@@ -765,48 +728,43 @@ def handle_tank_visuals(call):
         bot.send_message(call.message.chat.id, f"⚠️ Could not generate {visual_type} image. Check server assets.")
 
 # --- Interactive Menu Callbacks ---
+# --- Interactive Menu Callbacks ---
 @bot.callback_query_handler(func=lambda call: call.data.startswith('menu_'))
 def handle_main_menu(call):
-    bot.answer_callback_query(call.id) 
-    
     chat_id = call.message.chat.id
     lang = get_user_language(chat_id)
     txt = STRINGS.get(lang, STRINGS['en'])
-    
     if call.data == "menu_tank":
         msg = bot.send_message(chat_id, "🛡️ *Tank Info*\nType the name of the tank you want to look up (e.g., `IS-7`, `Leopard 1`):", parse_mode="Markdown")
         bot.register_next_step_handler(msg, process_tank_info)
         
+    # 2. COMPARE TANKS HANDLER
     elif call.data == "menu_compare":
         msg = bot.send_message(chat_id, "🆚 *Compare Tanks*\nType two tanks separated by a comma (e.g., `AMX 30, T-34`):", parse_mode="Markdown")
         bot.register_next_step_handler(msg, process_tank_compare)
         
+    # 3. PLAYER STATS HANDLER
     elif call.data == "menu_player":
         msg = bot.send_message(chat_id, "📊 *Player Stats*\nType the exact in-game nickname of the player:", parse_mode="Markdown")
         bot.register_next_step_handler(msg, process_player_stats)
         
+    # 4. CLAN TOOLS SUB-MENU
     elif call.data == "menu_clan":
         markup = InlineKeyboardMarkup()
         markup.add(InlineKeyboardButton("🟢 Check Clan Online", callback_data="clan_online"))
         markup.add(InlineKeyboardButton("📢 Send Message to Clan", callback_data="clan_broadcast"))
         markup.add(InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back"))
         bot.edit_message_text("🏰 *Clan Tools*\nChoose an action:", chat_id, call.message.message_id, reply_markup=markup, parse_mode="Markdown")
-        
-    elif call.data == "menu_calc":
-        msg = bot.send_message(chat_id, "🧮 *XP Calculator*\nType the skill number and your current percentage separated by a space (e.g., `2 50`):", parse_mode="Markdown")
-        bot.register_next_step_handler(msg, process_exp_calc)
-
-    elif call.data == "menu_maps":
-        msg = bot.send_message(chat_id, "🗺️ *Maps*\nType the name of the map you want to find (e.g., `Himmelsdorf`):", parse_mode="Markdown")
-        bot.register_next_step_handler(msg, process_map_search)
-        
+    # 5. MoE / MASTERY SUB-MENU
     elif call.data == "menu_moe":
         markup = InlineKeyboardMarkup(row_width=1)
+        # These callbacks trigger 'handle_moe_category' in your script
         markup.add(
             InlineKeyboardButton("🏆 Mastery Values", callback_data="moe_cat_mastery"),
             InlineKeyboardButton("🎯 Gun Marks (MoE)", callback_data="moe_cat_gunmarks"),
             InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back")
         )
+        
         bot.edit_message_text(
             chat_id=chat_id,
             message_id=call.message.message_id,
@@ -814,7 +772,7 @@ def handle_main_menu(call):
             reply_markup=markup,
             parse_mode="Markdown"
         )
-        
+    # 5. XP CALCULATOR HANDLER
     elif call.data == "menu_news":
         markup = InlineKeyboardMarkup(row_width=2)
         markup.add(
@@ -822,6 +780,7 @@ def handle_main_menu(call):
             InlineKeyboardButton("❌ Unsubscribe", callback_data="news_sub_off")
         )
         markup.add(InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back"))
+        
         bot.edit_message_text(
             chat_id=chat_id,
             message_id=call.message.message_id,
@@ -830,6 +789,7 @@ def handle_main_menu(call):
             parse_mode="Markdown"
         )
 
+    # 6. BONUS CODES HANDLER
     elif call.data == "menu_codes":
         response = (
             "🎁 *Active World of Tanks Codes*\n\n"
@@ -843,70 +803,12 @@ def handle_main_menu(call):
             "🔗 [Redeem Code Here](https://eu.wargaming.net/shop/redeem/)\n"
             "\n_Tip: Tap a code to copy it!_"
         )
+        # Use edit_message_text so the menu updates in place
         markup = InlineKeyboardMarkup()
-        markup.add(InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back"))
+        markup.add(InlineKeyboardButton("⬅️ Back", callback_data="menu_back"))
         bot.edit_message_text(response, chat_id, call.message.message_id, reply_markup=markup, parse_mode="Markdown", disable_web_page_preview=True)
 
-    elif call.data == "menu_modpack":
-        markup = InlineKeyboardMarkup(row_width=1)
-        markup.add(
-            InlineKeyboardButton("📥 Download from Telegram", callback_data="dl_tg"),
-            InlineKeyboardButton("🌐 Go to Website", url=WEBSITE_URL),
-            InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back")
-        )
-        bot.edit_message_text(
-            "📦 *Aslain's WoT Modpack*\n\nChoose your preferred download method:", 
-            chat_id, 
-            call.message.message_id, 
-            reply_markup=markup, 
-            parse_mode="Markdown"
-        )
-
-    elif call.data == "menu_settings":
-        markup = InlineKeyboardMarkup(row_width=1)
-        markup.add(
-            InlineKeyboardButton("🇬🇧 English", callback_data="setlang_en"),
-            InlineKeyboardButton("🇷🇺 Русский", callback_data="setlang_ru"),
-            InlineKeyboardButton("🇺🇦 Українська", callback_data="setlang_ua"),
-            InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back")
-        )
-        bot.edit_message_text(
-            "⚙️ *Settings*\n\nSelect your preferred language:", 
-            chat_id, 
-            call.message.message_id, 
-            reply_markup=markup, 
-            parse_mode='Markdown'
-        )
-        
-    # --- THE FIX: Handle going back to the main menu ---
-    elif call.data == "menu_back":
-        markup = InlineKeyboardMarkup(row_width=2)
-        markup.add(
-            InlineKeyboardButton(txt['btn_tank'], callback_data="menu_tank"),
-            InlineKeyboardButton(txt['btn_compare'], callback_data="menu_compare"),
-            InlineKeyboardButton(txt['btn_player'], callback_data="menu_player"),
-            InlineKeyboardButton(txt['btn_clan'], callback_data="menu_clan"),
-            InlineKeyboardButton(txt['btn_calc'], callback_data="menu_calc"),
-            InlineKeyboardButton(txt['btn_moe'], callback_data="menu_moe"),
-            InlineKeyboardButton(txt['btn_news'], callback_data="menu_news"),
-            InlineKeyboardButton(txt['btn_codes'], callback_data="menu_codes"),
-            InlineKeyboardButton(txt['btn_maps'], callback_data="menu_maps")
-        )
-        markup.row(InlineKeyboardButton(txt['btn_modpack'], callback_data="menu_modpack"), 
-                   InlineKeyboardButton(txt['btn_settings'], callback_data="menu_settings"))
-
-        try:
-            bot.edit_message_text(
-                txt['welcome'], 
-                chat_id, 
-                call.message.message_id, 
-                reply_markup=markup, 
-                parse_mode="Markdown"
-            )
-        except Exception:
-            pass # Failsafe if the message is already the main menu
-
-# --- Sub-Menu & Tool Callbacks ---
+# --- Modpack Download Callback ---
 @bot.callback_query_handler(func=lambda call: call.data == "dl_tg")
 def handle_download(call):
     if "PASTE_YOUR_FILE_ID" in SAVED_FILE_ID:
@@ -914,6 +816,7 @@ def handle_download(call):
         return
 
     bot.answer_callback_query(call.id, "Sending file...")
+    
     try:
         bot.send_document(
             call.message.chat.id, 
@@ -923,7 +826,22 @@ def handle_download(call):
         )
     except Exception as e:
         bot.send_message(call.message.chat.id, f"❌ Failed to send: {e}")
+@bot.callback_query_handler(func=lambda call: call.data.startswith('setlang_'))
+def handle_set_language(call):
+    lang_code = call.data.split('_')[1]
+    set_user_language(call.from_user.id, lang_code)
+    
+    txt = STRINGS.get(lang_code, STRINGS['en'])
+    bot.answer_callback_query(call.id, txt['lang_updated'])
+    
+    # Send user back to main menu automatically to see changes
+    bot.delete_message(call.message.chat.id, call.message.message_id)
+    start(call.message)
 
+@bot.callback_query_handler(func=lambda call: call.data == "dl_tg")
+def handle_download(call):
+    bot.answer_callback_query(call.id, "Sending...")
+    bot.send_document(call.message.chat.id, SAVED_FILE_ID, caption="✅ Modpack Installer")
 @bot.callback_query_handler(func=lambda call: call.data.startswith('news_sub_'))
 def handle_news_subscriptions(call):
     chat_id = call.message.chat.id
@@ -961,68 +879,18 @@ def handle_clan_broadcast_btn(call):
     bot.register_next_step_handler(msg, process_clan_message_logic)
     bot.answer_callback_query(call.id)
 
-@bot.callback_query_handler(func=lambda call: call.data.startswith("setlang_"))
-def handle_set_language(call):
-    lang_code = call.data.split("_")[1]
-    user_id = call.from_user.id
-    
-    set_user_language(user_id, lang_code)
-    
-    lang_names = {'en': 'English 🇬🇧', 'ru': 'Русский 🇷🇺', 'ua': 'Українська 🇺🇦'}
-    selected_lang = lang_names.get(lang_code, "English 🇬🇧")
-    
-    bot.answer_callback_query(call.id, f"Language saved: {selected_lang}")
-    
-    markup = InlineKeyboardMarkup()
-    markup.add(InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back"))
-    
-    bot.edit_message_text(
-        f"✅ Language successfully updated to **{selected_lang}**.\n\n"
-        f"*(Note: You will need to add translations to your bot's text responses to see full changes.)*", 
-        call.message.chat.id, 
-        call.message.message_id, 
-        reply_markup=markup, 
-        parse_mode='Markdown'
-    )
-
-# --- The Fixed Back to Menu Handler ---
+# --- Command Handlers ---
 @bot.callback_query_handler(func=lambda call: call.data == "menu_back")
 def handle_back_to_menu(call):
-    """Gracefully edits the current message to display the main menu without deleting it."""
+    """Handles the 'Back to Main Menu' button by returning to the start screen."""
     bot.answer_callback_query(call.id)
-    chat_id = call.message.chat.id
-    lang = get_user_language(chat_id)
-    txt = STRINGS.get(lang, STRINGS['en'])
     
-    markup = InlineKeyboardMarkup(row_width=2)
-    markup.add(
-        InlineKeyboardButton(txt['btn_tank'], callback_data="menu_tank"),
-        InlineKeyboardButton(txt['btn_compare'], callback_data="menu_compare"),
-        InlineKeyboardButton(txt['btn_player'], callback_data="menu_player"),
-        InlineKeyboardButton(txt['btn_clan'], callback_data="menu_clan"),
-        InlineKeyboardButton(txt['btn_calc'], callback_data="menu_calc"),
-        InlineKeyboardButton(txt['btn_moe'], callback_data="menu_moe"),
-        InlineKeyboardButton(txt['btn_news'], callback_data="menu_news"),
-        InlineKeyboardButton(txt['btn_codes'], callback_data="menu_codes"),
-        InlineKeyboardButton(txt['btn_maps'], callback_data="menu_maps")
-    )
-    markup.row(InlineKeyboardButton(txt['btn_modpack'], callback_data="menu_modpack"), 
-               InlineKeyboardButton(txt['btn_settings'], callback_data="menu_settings"))
-
     try:
-        # Edit the existing message instead of deleting it to create a smooth transition
-        bot.edit_message_text(
-            txt['welcome'], 
-            chat_id, 
-            call.message.message_id, 
-            reply_markup=markup, 
-            parse_mode="Markdown"
-        )
-    except Exception as e:
-        # Failsafe just in case the message cannot be edited 
-        pass 
-
-# --- Command Handlers ---
+        bot.delete_message(call.message.chat.id, call.message.message_id)
+    except Exception:
+        pass
+        
+    start(call.message)
 @bot.message_handler(commands=['news_on'])
 def command_subscribe(message):
     add_subscriber(message.chat.id)
@@ -1060,6 +928,38 @@ def handle_info(message):
         bot.send_photo(message.chat.id, image_url, caption=response, parse_mode="Markdown")
     else:
         bot.send_message(message.chat.id, response, parse_mode="Markdown")
+# --- Map Search Logic ---
+def process_map_search(message):
+    user_input = message.text.strip().lower()
+    found_entry = None
+
+    # Search logic: check every string in the "name" array
+    for entry in MAPS_DATA:
+        names_list = [n.lower() for n in entry.get("name", []) if n]
+        if user_input in names_list:
+            found_entry = entry
+            break
+
+    if found_entry:
+        image_path = found_entry.get("root")
+        
+        # Check if the file actually exists on your server
+        if image_path and os.path.exists(image_path):
+            with open(image_path, 'rb') as photo:
+                bot.send_photo(
+                    message.chat.id, 
+                    photo, 
+                    caption=f"🗺️ <b>Map Found:</b> {user_input.title()}",
+                    parse_mode="HTML" # <-- Changed to HTML
+                )
+        else:
+            bot.reply_to(
+                message, 
+                f"❌ I found the map, but the image file is missing at: <code>{image_path}</code>", 
+                parse_mode="HTML" # <-- Changed to HTML
+            )
+    else:
+        bot.reply_to(message, "❌ Map not found. Please check the spelling or try another name!")
 
 @bot.message_handler(commands=["map", "maps"])
 def handle_map_cmd(message):
@@ -1069,7 +969,6 @@ def handle_map_cmd(message):
         return
     message.text = parts[1]
     process_map_search(message)
-
 @bot.message_handler(commands=["compare"])
 def handle_compare(message):
     parts = message.text.replace("/compare", "").split(",")
@@ -1213,7 +1112,39 @@ def handle_gunmark(message):
         return
     message.text = parts[1]
     process_moe_step(message, "gunmarks")
+def get_wot_stats(player_name):
+    search_url = f"https://api.worldoftanks.{REGION}/wot/account/list/"
+    search_params = {"application_id": WG_APP_ID, "search": player_name}
+    
+    r = requests.get(search_url, params=search_params)
+    data = r.json().get("data", [])
+    
+    if not data:
+        raise Exception(f"Player '{player_name}' not found.")
+    
+    account_id = data[0]["account_id"]
+    nickname = data[0]["nickname"]
 
+    info_url = f"https://api.worldoftanks.{REGION}/wot/account/info/"
+    info_params = {"application_id": WG_APP_ID, "account_id": account_id}
+    
+    r = requests.get(info_url, params=info_params)
+    player_data = r.json()["data"][str(account_id)]
+    
+    all_stats = player_data["statistics"]["all"]
+    
+    battles = all_stats["battles"]
+    winrate = round(all_stats["wins"] / battles * 100, 2) if battles > 0 else 0
+    avg_dmg = round(all_stats["damage_dealt"] / battles) if battles > 0 else 0
+
+    return {
+        "nickname": nickname,
+        "battles": battles,
+        "wins": all_stats["wins"],
+        "winrate": winrate,
+        "avg_damage": avg_dmg,
+        "frags": all_stats["frags"]
+    }
 @bot.message_handler(commands=['progress'])
 def progress_command(message):
     try:
@@ -1263,7 +1194,53 @@ def progress_command(message):
         bot.reply_to(message, reply, parse_mode="Markdown")
     except Exception as e:
         bot.reply_to(message, f"⚠️ Error: {escape_markdown(str(e))}")
+# --- Settings Menu Handler ---
+@bot.callback_query_handler(func=lambda call: call.data == "menu_settings")
+def handle_settings(call):
+    markup = InlineKeyboardMarkup(row_width=1)
+    markup.add(
+        InlineKeyboardButton("🇬🇧 English", callback_data="setlang_en"),
+        InlineKeyboardButton("🇷🇺 Русский", callback_data="setlang_ru"),
+        InlineKeyboardButton("🇺🇦 Українська", callback_data="setlang_ua"),
+        InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back")
+    )
+    
+    bot.edit_message_text(
+        "⚙️ *Settings*\n\nSelect your preferred language:", 
+        call.message.chat.id, 
+        call.message.message_id, 
+        reply_markup=markup, 
+        parse_mode='Markdown'
+    )
 
+# --- Language Selection Handler ---
+@bot.callback_query_handler(func=lambda call: call.data.startswith("setlang_"))
+def handle_set_language(call):
+    lang_code = call.data.split("_")[1] # Extracts 'en', 'ru', or 'ua'
+    user_id = call.from_user.id
+    
+    # Save to database
+    set_user_language(user_id, lang_code)
+    
+    # Map codes to display names
+    lang_names = {'en': 'English 🇬🇧', 'ru': 'Русский 🇷🇺', 'ua': 'Українська 🇺🇦'}
+    selected_lang = lang_names.get(lang_code, "English 🇬🇧")
+    
+    # Quick popup notification
+    bot.answer_callback_query(call.id, f"Language saved: {selected_lang}")
+    
+    # Update the message with a back button
+    markup = InlineKeyboardMarkup()
+    markup.add(InlineKeyboardButton("⬅️ Back to Main Menu", callback_data="menu_back"))
+    
+    bot.edit_message_text(
+        f"✅ Language successfully updated to **{selected_lang}**.\n\n"
+        f"*(Note: You will need to add translations to your bot's text responses to see full changes.)*", 
+        call.message.chat.id, 
+        call.message.message_id, 
+        reply_markup=markup, 
+        parse_mode='Markdown'
+    )
 def run_bot():
     while True:
         try:
@@ -1272,16 +1249,17 @@ def run_bot():
         except Exception as e:
             logging.error(f"Bot polling failed: {e}")
             time.sleep(5) # Wait 5 seconds before trying again to avoid 409 loops
-
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
     import os
     logging.info("Starting combined application...")
     threading.Thread(target=run_bot, daemon=True).start()
-    
     # Start the RSS loop
     threading.Thread(target=check_news_loop, daemon=True).start()
     logging.info("RSS Checker Thread started.")
+
+    # Start the Telegram Bot
+    logging.info("Telegram Bot Thread started.")
 
     # Get the port from Render's environment
     port = int(os.environ.get("PORT", 10000))

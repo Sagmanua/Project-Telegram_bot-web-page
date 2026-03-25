@@ -26,8 +26,6 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-                url('https://worldoftanks.eu/MTI0N3Byb2R1Y3Rpb24vc3RvcmFnZS9pbWFnZS81YmQ5Zjk3YTE1ZDMxMWVlODg1ODFlNWE1YmU3ZjkzZi5qcGc=');
     background-size: cover;
     background-position: center;
     padding: 120px 0;
@@ -76,7 +74,7 @@ body {
 }
 
 .btn-info {
-    background-color: #20B2AA; /* Light Sea Green variant */
+    background-color: #20B2AA; 
     border: none;
     color: white;
 }
@@ -96,7 +94,7 @@ body {
 
 #json_data {
     background-color: #000 !important;
-    color: #3CB371 !important; /* "Matrix" style coding look */
+    color: #3CB371 !important;
     border: 1px solid #333;
     border-radius: 5px;
     padding: 15px;
