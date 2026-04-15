@@ -401,7 +401,7 @@ def process_and_combine_images(image_paths_list):
         print(f"Image Processing Error: {e}")
         return None
 
-# --- Next Step Logic ---
+# --- Logic ---
 def process_tank_info(message):
     name = message.text.strip()
     tank = get_best_match(name)
@@ -878,7 +878,6 @@ def handle_main_menu(call):
             parse_mode='Markdown'
         )
         
-    # --- THE FIX: Handle going back to the main menu ---
     elif call.data == "menu_back":
         markup = InlineKeyboardMarkup(row_width=2)
         markup.add(
@@ -985,7 +984,7 @@ def handle_set_language(call):
         parse_mode='Markdown'
     )
 
-# --- The Fixed Back to Menu Handler ---
+# --- Back to Menu Handler ---
 @bot.callback_query_handler(func=lambda call: call.data == "menu_back")
 def handle_back_to_menu(call):
     """Gracefully edits the current message to display the main menu without deleting it."""
